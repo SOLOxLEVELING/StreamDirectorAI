@@ -1,6 +1,6 @@
 {
-  "createdAt": "2026-11-02T10:06:19.242026+00:00",
-  "purpose": "Exact frozen local release candidate; publication not yet authorized",
+  "createdAt": "2026-11-02T10:34:20.634783+00:00",
+  "purpose": "Frozen submission release with original-code MIT license follow-up; prepared for review, not published",
   "featureFrozenFiles": 63,
   "diagnosticSupplementFiles": 5,
   "frozenMismatches": [],
@@ -8,7 +8,8 @@
   "files": {
     ".env.example": "02d801fe8fcaecc2c7d011570a5969d024142df70798e2a25682660e1a3ca207",
     ".gitignore": "ac0cb0c16199b2723fcb189da93f70bec9cdc5602be633609c45809156a61b5d",
-    "README.md": "c11715e16043bcb5dd142f28d3f93897035479b3738bd575a63e87d7ce8593ad",
+    "LICENSE": "bf5fbb99509ee558b75feda3146d500974f5bc4a57ed065fa690a6e59346fc38",
+    "README.md": "188ed6024cc0a4c05a0f221d6ce16ce7a88f5a679bb3067f8010e4061db3c285",
     "THIRD_PARTY_NOTICES.md": "c65e7f248e64d8fb572418e5f3b76b1dcd700985e521a3312bf19be1de42a550",
     "docs/accepted-plan.txt": "333ad8df5c098ec05bdcfe4f260cc498f40db6425ff6075207c96249bb74f65f",
     "docs/checkpoint-1.md": "15def5d357e0d009bee20b70cf77d9673c321d0b7644d8f378fda818b5944fba",
@@ -225,5 +226,12 @@
     "raw recordings and screen captures",
     "dependencies",
     "generated output"
-  ]
+  ],
+  "licensing": {
+    "spdx": "MIT",
+    "copyrightYear": 2026,
+    "copyrightHolder": "Shaikh Adnan",
+    "scope": "Original project code; third-party notices and license terms preserved",
+    "parentReleaseCommit": "dca6c2ddc046a0fabc5fff3b777848ec8301271a"
+  }
 }

@@ -73,3 +73,7 @@ Main Codex build session: `01a19261-1097-73a2-8036-50df8c51465e`.
 - [Checkpoint1 detector evidence](docs/checkpoint-1.md), [checkpoint2 Twitch/Resolve](docs/checkpoint-2.md), [checkpoint3 UI/live results](docs/checkpoint-3.md)
 
 The release contains selected sanitized evidence. Full raw recordings and private runtime state remain outside the repository. Packaging/clean-checkout checks identify the exact release tree; a review or test pass does not close end-to-end live acceptance.
+
+## License
+
+Original project code is licensed under the [MIT License](LICENSE), copyright (c) 2026 Shaikh Adnan. Third-party components retain their own copyright notices and license terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
