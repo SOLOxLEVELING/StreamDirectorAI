@@ -1,0 +1,13 @@
+
+> streamdirector-ai@0.1.0 build
+> node scripts/build-ui.mjs
+
+
+  output/web/dashboard.js   236.2kb
+  output/web/dashboard.css    8.4kb
+  output/web/overlay.js       2.3kb
+  output/web/overlay.css      963b 
+  output/web/slate.css        569b 
+  output/web/slate.js         522b 
+
+⚡ Done in 36ms

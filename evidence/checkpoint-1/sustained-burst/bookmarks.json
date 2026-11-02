@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "editorCompatibility": "unverified",
+  "session": {
+    "id": "sustained-burst:1793459058392",
+    "mode": "simulated",
+    "streamId": "replay:sustained-burst",
+    "streamStartedAtMs": 0,
+    "startedAtMs": 0,
+    "settings": {
+      "bucketSeconds": 1,
+      "baselineSeconds": 60,
+      "activitySeconds": 5,
+      "warmupSeconds": 60,
+      "multiplier": 3,
+      "minimumRate": 1,
+      "sustainSeconds": 3,
+      "minimumChatters": 3,
+      "cooldownSeconds": 30,
+      "rearmSeconds": 10,
+      "rearmRatio": 0.6,
+      "allowedLatenessSeconds": 2,
+      "cheerThreshold": 100,
+      "cheerWindowSeconds": 10,
+      "correlationSeconds": 10,
+      "leadInSeconds": 15,
+      "alignmentSeconds": 0,
+      "broadcasterId": "broadcaster",
+      "excludedUserIds": [],
+      "rewardId": null,
+      "maxUsersPerBucket": 10000,
+      "dedupLimit": 100000
+    }
+  },
+  "coverageGaps": [],
+  "bookmarks": [
+    {
+      "id": "sustained-burst:1793459058392:1",
+      "sessionId": "sustained-burst:1793459058392",
+      "streamId": "replay:sustained-burst",
+      "signal": "chat",
+      "tier": "corner",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 62000,
+      "onsetMs": 60000,
+      "confirmedAtMs": 65000,
+      "detectedOffsetSeconds": 60,
+      "suggestedOffsetSeconds": 45,
+      "editorOffsetSeconds": 45,
+      "reason": "Consecutive completed chat buckets and rolling rate met threshold",
+      "metrics": {
+        "rate": 1.8,
+        "baseline": 0,
+        "threshold": 1,
+        "distinctChatters": 3,
+        "qualifyingBuckets": 3,
+        "minimumBucketRate": 3,
+        "validationWindowSeconds": 5
+      },
+      "sourceIds": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5",
+        "source-6",
+        "source-7",
+        "source-8",
+        "source-9"
+      ],
+      "chatEvidence": [
+        {
+          "onsetMs": 60000,
+          "confirmedAtMs": 65000,
+          "rate": 1.8,
+          "baseline": 0,
+          "threshold": 1,
+          "distinctChatters": 3,
+          "sourceIds": [
+            "source-1",
+            "source-2",
+            "source-3",
+            "source-4",
+            "source-5",
+            "source-6",
+            "source-7",
+            "source-8",
+            "source-9"
+          ],
+          "qualifyingBuckets": 3,
+          "minimumBucketRate": 3,
+          "validationWindowSeconds": 5
+        }
+      ],
+      "caption": "Chat activity reached 1.8 messages/s",
+      "captionStatus": "disabled"
+    }
+  ]
+}

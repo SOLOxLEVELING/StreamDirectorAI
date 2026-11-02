@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "editorCompatibility": "unverified",
+  "session": {
+    "id": "platform-overlap:1793459057700",
+    "mode": "simulated",
+    "streamId": "replay:platform-overlap",
+    "streamStartedAtMs": 0,
+    "startedAtMs": 0,
+    "settings": {
+      "bucketSeconds": 1,
+      "baselineSeconds": 60,
+      "activitySeconds": 5,
+      "warmupSeconds": 60,
+      "multiplier": 3,
+      "minimumRate": 1,
+      "sustainSeconds": 3,
+      "minimumChatters": 3,
+      "cooldownSeconds": 30,
+      "rearmSeconds": 10,
+      "rearmRatio": 0.6,
+      "allowedLatenessSeconds": 2,
+      "cheerThreshold": 100,
+      "cheerWindowSeconds": 10,
+      "correlationSeconds": 10,
+      "leadInSeconds": 15,
+      "alignmentSeconds": 0,
+      "broadcasterId": "broadcaster",
+      "excludedUserIds": [],
+      "rewardId": "mark",
+      "maxUsersPerBucket": 10000,
+      "dedupLimit": 100000
+    }
+  },
+  "coverageGaps": [],
+  "bookmarks": [
+    {
+      "id": "platform-overlap:1793459057700:1",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "raid",
+      "tier": "banner",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "onsetMs": 60000,
+      "confirmedAtMs": 60000,
+      "detectedOffsetSeconds": 60,
+      "suggestedOffsetSeconds": 45,
+      "editorOffsetSeconds": 45,
+      "reason": "Confirmed raid event",
+      "metrics": {
+        "amount": 25
+      },
+      "sourceIds": [
+        "source-229"
+      ],
+      "chatEvidence": [
+        {
+          "onsetMs": 60000,
+          "confirmedAtMs": 65000,
+          "rate": 1.8,
+          "baseline": 0,
+          "threshold": 1,
+          "distinctChatters": 3,
+          "sourceIds": [
+            "source-239",
+            "source-240",
+            "source-241",
+            "source-242",
+            "source-243",
+            "source-244",
+            "source-245",
+            "source-246",
+            "source-247"
+          ],
+          "qualifyingBuckets": 3,
+          "minimumBucketRate": 3,
+          "validationWindowSeconds": 5
+        }
+      ],
+      "caption": "Raid arrived with 25 viewers",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "platform-overlap:1793459057700:2",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "gift",
+      "tier": "banner",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "onsetMs": 60000,
+      "confirmedAtMs": 60000,
+      "detectedOffsetSeconds": 60,
+      "suggestedOffsetSeconds": 45,
+      "editorOffsetSeconds": 45,
+      "reason": "Confirmed gift event",
+      "metrics": {
+        "amount": 5
+      },
+      "sourceIds": [
+        "source-230"
+      ],
+      "chatEvidence": [],
+      "caption": "5 subscriptions gifted",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "platform-overlap:1793459057700:3",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "subscription",
+      "tier": "banner",
+      "sourceTimeMs": 60200,
+      "receivedAtMs": 60200,
+      "onsetMs": 60200,
+      "confirmedAtMs": 60200,
+      "detectedOffsetSeconds": 60.2,
+      "suggestedOffsetSeconds": 45.2,
+      "editorOffsetSeconds": 45.2,
+      "reason": "Confirmed subscription event",
+      "metrics": {},
+      "sourceIds": [
+        "source-232"
+      ],
+      "chatEvidence": [],
+      "caption": "New subscription",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "platform-overlap:1793459057700:4",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "resubscription",
+      "tier": "banner",
+      "sourceTimeMs": 60300,
+      "receivedAtMs": 60300,
+      "onsetMs": 60300,
+      "confirmedAtMs": 60300,
+      "detectedOffsetSeconds": 60.3,
+      "suggestedOffsetSeconds": 45.3,
+      "editorOffsetSeconds": 45.3,
+      "reason": "Confirmed resubscription event",
+      "metrics": {},
+      "sourceIds": [
+        "source-233"
+      ],
+      "chatEvidence": [],
+      "caption": "Resubscription shared",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "platform-overlap:1793459057700:5",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "redemption",
+      "tier": "banner",
+      "sourceTimeMs": 60400,
+      "receivedAtMs": 60400,
+      "onsetMs": 60400,
+      "confirmedAtMs": 60400,
+      "detectedOffsetSeconds": 60.4,
+      "suggestedOffsetSeconds": 45.4,
+      "editorOffsetSeconds": 45.4,
+      "reason": "Confirmed redemption event",
+      "metrics": {},
+      "sourceIds": [
+        "source-234"
+      ],
+      "chatEvidence": [],
+      "caption": "Mark This reward redeemed",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "platform-overlap:1793459057700:6",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "manual",
+      "tier": "banner",
+      "sourceTimeMs": 60500,
+      "receivedAtMs": 60500,
+      "onsetMs": 60500,
+      "confirmedAtMs": 60500,
+      "detectedOffsetSeconds": 60.5,
+      "suggestedOffsetSeconds": 45.5,
+      "editorOffsetSeconds": 45.5,
+      "reason": "Confirmed manual event",
+      "metrics": {},
+      "sourceIds": [
+        "source-235"
+      ],
+      "chatEvidence": [],
+      "caption": "Streamer marked this moment",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "platform-overlap:1793459057700:7",
+      "sessionId": "platform-overlap:1793459057700",
+      "streamId": "replay:platform-overlap",
+      "signal": "cheer",
+      "tier": "banner",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "onsetMs": 61000,
+      "confirmedAtMs": 62000,
+      "detectedOffsetSeconds": 61,
+      "suggestedOffsetSeconds": 46,
+      "editorOffsetSeconds": 46,
+      "reason": "100 Bits threshold crossed in 10s window",
+      "metrics": {
+        "bits": 110,
+        "threshold": 100,
+        "windowStartedAtMs": 61000
+      },
+      "sourceIds": [
+        "source-236",
+        "source-237",
+        "source-238"
+      ],
+      "chatEvidence": [],
+      "caption": "110 Bits cheered",
+      "captionStatus": "disabled"
+    }
+  ]
+}

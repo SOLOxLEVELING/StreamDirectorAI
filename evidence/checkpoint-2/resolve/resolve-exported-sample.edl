@@ -1,0 +1,9 @@
+TITLE: resolve-exported-sample
+FCM: NON-DROP FRAME
+
+001  001      V     C        01:00:01:00 01:00:01:01 01:00:01:00 01:00:01:01  
+Sample note: known marker |C:ResolveColorBlue |M:Sample Name |D:1
+
+002  001      V     C        01:00:03:01 01:00:03:02 01:00:03:01 01:00:03:02  
+Second note |C:ResolveColorGreen |M:Second Name |D:3
+

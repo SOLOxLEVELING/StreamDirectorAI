@@ -1,0 +1,50 @@
+[
+  {
+    "start": 0,
+    "end": 14.733,
+    "title": "From stream to editing timeline",
+    "label": "STREAMDIRECTOR AI"
+  },
+  {
+    "start": 14.733,
+    "end": 31.0,
+    "title": "Review the moments, keep the context",
+    "label": "PRODUCT WORKSPACE"
+  },
+  {
+    "start": 31.0,
+    "end": 46.8,
+    "title": "Keep a moment while you are live",
+    "label": "ACTUAL TWITCH BROADCAST \u00b7 MANUAL BOOKMARK"
+  },
+  {
+    "start": 46.8,
+    "end": 66.7,
+    "title": "A small corner for chat, a banner for events",
+    "label": "SIMULATED INPUT \u00b7 LOCAL OBS CAPTURE \u00b7 4\u00d7 SLOW, THEN HOLD"
+  },
+  {
+    "start": 66.7,
+    "end": 87.167,
+    "title": "Select. Align. Export.",
+    "label": "EDITOR HANDOFF"
+  },
+  {
+    "start": 87.167,
+    "end": 104.8,
+    "title": "Open the moments in Resolve",
+    "label": "ACTUAL NATIVE RESOLVE RESULTS \u00b7 MANUAL MARKERS"
+  },
+  {
+    "start": 104.8,
+    "end": 128.467,
+    "title": "Built and reviewed with Codex",
+    "label": "ACTUAL CODEX BUILD SESSION"
+  },
+  {
+    "start": 128.467,
+    "end": 153.6,
+    "title": "Stream. Review. Edit.",
+    "label": "AI CAPTIONS OFF \u00b7 LIVE ACCEPTANCE REMAINS OPEN"
+  }
+]

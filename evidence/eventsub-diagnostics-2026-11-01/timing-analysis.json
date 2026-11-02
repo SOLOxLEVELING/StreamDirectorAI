@@ -1,0 +1,324 @@
+{
+  "capturedAt": "2026-11-02T09:03:12.834Z",
+  "actualProbe": [
+    {
+      "phase": "default",
+      "negotiatedTimeoutMs": 10000,
+      "receiptCount": 18,
+      "late": [
+        {
+          "wallMs": 1793558157037,
+          "intervalMs": 10001.246,
+          "lateByMs": 1.245999999999185,
+          "mainDispatchLagMs": 0.193,
+          "mainLoopMaxAtDispatchMs": 11.346,
+          "maxWorkerLoopInAdjacentWindowMs": 31.293,
+          "estimatedServerEmissionIntervalMs": 10001,
+          "apparentServerToWorkerMs": 10
+        },
+        {
+          "wallMs": 1793558177102,
+          "intervalMs": 10067.503,
+          "lateByMs": 67.50300000000061,
+          "mainDispatchLagMs": 0.166,
+          "mainLoopMaxAtDispatchMs": 11.379,
+          "maxWorkerLoopInAdjacentWindowMs": 34.406,
+          "estimatedServerEmissionIntervalMs": 10001,
+          "apparentServerToWorkerMs": 75
+        },
+        {
+          "wallMs": 1793558197068,
+          "intervalMs": 10032.893,
+          "lateByMs": 32.89300000000003,
+          "mainDispatchLagMs": 0.064,
+          "mainLoopMaxAtDispatchMs": 11.715,
+          "maxWorkerLoopInAdjacentWindowMs": 35.422,
+          "estimatedServerEmissionIntervalMs": 10000,
+          "apparentServerToWorkerMs": 42
+        },
+        {
+          "wallMs": 1793558207103,
+          "intervalMs": 10034.691,
+          "lateByMs": 34.69100000000071,
+          "mainDispatchLagMs": 2.07,
+          "mainLoopMaxAtDispatchMs": 12.403,
+          "maxWorkerLoopInAdjacentWindowMs": 25.87,
+          "estimatedServerEmissionIntervalMs": 10000,
+          "apparentServerToWorkerMs": 77
+        },
+        {
+          "wallMs": 1793558227071,
+          "intervalMs": 10020.437,
+          "lateByMs": 20.436999999999898,
+          "mainDispatchLagMs": 0.372,
+          "mainLoopMaxAtDispatchMs": 11.28,
+          "maxWorkerLoopInAdjacentWindowMs": 17.121,
+          "estimatedServerEmissionIntervalMs": 10001,
+          "apparentServerToWorkerMs": 44
+        },
+        {
+          "wallMs": 1793558267039,
+          "intervalMs": 10004.631,
+          "lateByMs": 4.630999999999403,
+          "mainDispatchLagMs": 0.23,
+          "mainLoopMaxAtDispatchMs": 0,
+          "maxWorkerLoopInAdjacentWindowMs": 24.216,
+          "estimatedServerEmissionIntervalMs": 10000,
+          "apparentServerToWorkerMs": 13
+        },
+        {
+          "wallMs": 1793558277043,
+          "intervalMs": 10004.059,
+          "lateByMs": 4.058999999999287,
+          "mainDispatchLagMs": 0.122,
+          "mainLoopMaxAtDispatchMs": 11.387,
+          "maxWorkerLoopInAdjacentWindowMs": 22.856,
+          "estimatedServerEmissionIntervalMs": 10001,
+          "apparentServerToWorkerMs": 16
+        }
+      ],
+      "shadowWatchdogExceedances": 0
+    },
+    {
+      "phase": "requested30",
+      "negotiatedTimeoutMs": 30000,
+      "receiptCount": 4,
+      "late": [
+        {
+          "wallMs": 1793558387073,
+          "intervalMs": 30032.407,
+          "lateByMs": 32.40699999999924,
+          "mainDispatchLagMs": 0.224,
+          "mainLoopMaxAtDispatchMs": 11.477,
+          "maxWorkerLoopInAdjacentWindowMs": 18.514,
+          "estimatedServerEmissionIntervalMs": 30000,
+          "apparentServerToWorkerMs": 45
+        }
+      ],
+      "shadowWatchdogExceedances": 0
+    }
+  ],
+  "simulatedReplay": {
+    "label": "SIMULATED: actual default receipt intervals replayed through unchanged production EventSubClient with altered one-second watchdog phases; not actual live expirations",
+    "phasesTested": 40,
+    "phasesTimingOut": 3,
+    "results": [
+      {
+        "watchdogTickPhaseMs": 0,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 25,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 50,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 75,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 100,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 125,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 150,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 175,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 200,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 225,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 250,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 275,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 300,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 325,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 350,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 375,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 400,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 425,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 450,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 475,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 500,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 525,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 550,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 575,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 600,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 625,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 650,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 675,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 700,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 725,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 750,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 775,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 800,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 825,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 850,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 875,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 900,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "watchdogTickPhaseMs": 925,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 49922,
+            "end": 59925
+          }
+        ]
+      },
+      {
+        "watchdogTickPhaseMs": 950,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 49922,
+            "end": 59950
+          }
+        ]
+      },
+      {
+        "watchdogTickPhaseMs": 975,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 49922,
+            "end": 59975
+          }
+        ]
+      }
+    ]
+  },
+  "conclusion": "Actual inter-receipt windows slightly exceeded negotiated bounds with low main-dispatch delay. This supports a deadline/arrival-phase mechanism but does not identify every historical outage or locate delay within server/network/runtime. Requested30 also had a late interval; increasing it alone is not a demonstrated fix."
+}

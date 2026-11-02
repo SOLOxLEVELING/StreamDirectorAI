@@ -1,0 +1,35 @@
+{
+  "provenance": "actual saved timestamps vs OCR at exact rational decoded marker frames",
+  "mapping": "export-only alignment +139.5335 seconds, zero lead-in; original saved 15-second lead-in remains in reference files",
+  "results": [
+    {
+      "bookmarkId": "twitch:238520082:316456451563:1",
+      "exportedFrame": 6273,
+      "decodedFrame": 6273,
+      "recordedSeconds": 209.1,
+      "onsetMs": 1793480483552,
+      "visibleClockMs": 1793480483549,
+      "visibleClockMinusOnsetMs": -3
+    },
+    {
+      "bookmarkId": "twitch:238520082:316456451563:2",
+      "exportedFrame": 10247,
+      "decodedFrame": 10247,
+      "recordedSeconds": 341.56666666666666,
+      "onsetMs": 1793480616044,
+      "visibleClockMs": 1793480616012,
+      "visibleClockMinusOnsetMs": -32
+    },
+    {
+      "bookmarkId": "twitch:238520082:316456451563:3",
+      "exportedFrame": 16423,
+      "decodedFrame": 16423,
+      "recordedSeconds": 547.4333333333333,
+      "onsetMs": 1793480821906,
+      "visibleClockMs": 1793480821865,
+      "visibleClockMinusOnsetMs": -41
+    }
+  ],
+  "inspectionCorrection": "Earlier third-frame inspection sought one frame early due to floating-point truncation. Exact CMTime rounding is now used and decoded frame indices are asserted. Earlier output is retained under recorded-moments-before-seek-fix.",
+  "limitation": "Residual visible-clock differences are -3, -32 and -41 ms. This is a clock-slate/manual-mark check, not gameplay/action timing accuracy. Native serialization is verified separately."
+}

@@ -1,0 +1,58 @@
+{
+  "durationSeconds" : 2487.3330000000001,
+  "fps" : 30,
+  "frames" : [
+    {
+      "actualSeconds" : 10,
+      "file" : "frame-10.000.png",
+      "ocr" : [
+        "STREAMDIRECTOR AI • LIVE VERIFICATION",
+        "A moment worth",
+        "keeping.",
+        "Recording clock • UTC",
+        "15:10:49.460",
+        "1793545849460",
+        "Deterministic bookmarks • Transparent reactions • Editor markers"
+      ],
+      "recordingOriginEstimateMs" : 1793545839460,
+      "requestedSeconds" : 10,
+      "visibleUnixMs" : 1793545849460
+    },
+    {
+      "actualSeconds" : 120,
+      "file" : "frame-120.000.png",
+      "ocr" : [
+        "STREAMDIRECTOR AI • LIVE VERIFICATION",
+        "A moment worth",
+        "keeping.",
+        "Recording clock • UTC",
+        "15:12:39.450",
+        "1793545959450",
+        "Deterministic bookmarks • Transparent reactions • Editor markers"
+      ],
+      "recordingOriginEstimateMs" : 1793545839450,
+      "requestedSeconds" : 120,
+      "visibleUnixMs" : 1793545959450
+    },
+    {
+      "actualSeconds" : 2220,
+      "file" : "frame-2220.000.png",
+      "ocr" : [
+        "STREAMDIRECTOR AI • LIVE VERIFICATION",
+        "A moment worth",
+        "keeping.",
+        "Recording clock • UTC",
+        "15:47:39.439",
+        "1793548059439",
+        "Deterministic bookmarks • Transparent reactions • Editor markers"
+      ],
+      "recordingOriginEstimateMs" : 1793545839439,
+      "requestedSeconds" : 2220,
+      "visibleUnixMs" : 1793548059439
+    }
+  ],
+  "height" : 1080,
+  "provenance" : "AVFoundation decoding and Vision OCR of actual OBS recording",
+  "recording" : "\/Users\/adnan\/Developer\/Hack\/Projects\/StreamDirectorAI \/output\/checkpoint-3\/independent-rerun-actual-recording.mov",
+  "width" : 1920
+}

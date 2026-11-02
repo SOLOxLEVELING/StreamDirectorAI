@@ -1,0 +1,10 @@
+{
+  "capturedAt": "2026-11-01T18:36:33.071Z",
+  "kind": "Separate diagnostic additions; production source unchanged",
+  "files": {
+    "scripts/eventsub-probe-timing.ts": "064a4659ad74fdca80a183fdee383531e5a76f2d08680c09087f7692b5951302",
+    "scripts/eventsub-probe-worker.ts": "87ea2002bf50163da1bd4b60608c870fc1d28fca000b4d4c05636cea73f890a0",
+    "scripts/eventsub-probe.ts": "c5c0d2519285b37d0c70d748f4a9ea609b937b2cf6f51c5d5dae523d4f82f210",
+    "test/eventsub-probe.test.ts": "9b3714a3d45254a9fc66052195f56ae30810914077723bcd7c991153633213b2"
+  }
+}

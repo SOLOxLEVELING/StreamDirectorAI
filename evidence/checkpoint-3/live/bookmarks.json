@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "editorCompatibility": "verified-for-resolve-marker-edl",
+  "editorVerification": {
+    "application": "DaVinci Resolve",
+    "version": "21.1.1.10",
+    "fps": [
+      30,
+      60
+    ],
+    "timecodeMode": "non-drop-frame",
+    "timelineStarts": [
+      "00:00:00:00",
+      "01:00:00:00"
+    ],
+    "scope": "Known-footage marker import: count, frames, names, notes, colors and durations",
+    "liveStreamAlignment": "unverified",
+    "evidence": "evidence/checkpoint-2/resolve/actual-import-results.txt"
+  },
+  "session": {
+    "id": "twitch:238520082:316456451563",
+    "mode": "live",
+    "streamId": "316456451563",
+    "streamStartedAtMs": 1793480414000,
+    "startedAtMs": 1793480428225,
+    "settings": {
+      "bucketSeconds": 1,
+      "baselineSeconds": 60,
+      "activitySeconds": 5,
+      "warmupSeconds": 60,
+      "multiplier": 3,
+      "minimumRate": 1,
+      "sustainSeconds": 3,
+      "minimumChatters": 3,
+      "cooldownSeconds": 30,
+      "rearmSeconds": 10,
+      "rearmRatio": 0.6,
+      "allowedLatenessSeconds": 2,
+      "cheerThreshold": 100,
+      "cheerWindowSeconds": 10,
+      "correlationSeconds": 10,
+      "leadInSeconds": 15,
+      "alignmentSeconds": 0,
+      "broadcasterId": "238520082",
+      "excludedUserIds": [],
+      "rewardId": null,
+      "maxUsersPerBucket": 10000,
+      "dedupLimit": 100000
+    },
+    "settingsHistory": [
+      {
+        "revision": 0,
+        "effectiveFromMs": 1793480428225,
+        "settings": {
+          "bucketSeconds": 1,
+          "baselineSeconds": 60,
+          "activitySeconds": 5,
+          "warmupSeconds": 60,
+          "multiplier": 3,
+          "minimumRate": 1,
+          "sustainSeconds": 3,
+          "minimumChatters": 3,
+          "cooldownSeconds": 30,
+          "rearmSeconds": 10,
+          "rearmRatio": 0.6,
+          "allowedLatenessSeconds": 2,
+          "cheerThreshold": 100,
+          "cheerWindowSeconds": 10,
+          "correlationSeconds": 10,
+          "leadInSeconds": 15,
+          "alignmentSeconds": 0,
+          "broadcasterId": "238520082",
+          "excludedUserIds": [],
+          "rewardId": null,
+          "maxUsersPerBucket": 10000,
+          "dedupLimit": 100000
+        }
+      }
+    ]
+  },
+  "coverageGaps": [
+    {
+      "startMs": 1793480574634,
+      "endMs": 1793480581551,
+      "reason": "controlled verification interruption; coverage incomplete"
+    },
+    {
+      "startMs": 1793480574634,
+      "endMs": 1793480591018,
+      "reason": "unexpected EventSub gap; missed events are not replayed"
+    },
+    {
+      "startMs": 1793480693867,
+      "endMs": 1793480699820,
+      "reason": "process restart; coverage unverified"
+    },
+    {
+      "startMs": 1793480896784,
+      "endMs": 1793480906837,
+      "reason": "EventSub keepalive/welcome timeout; coverage incomplete"
+    },
+    {
+      "startMs": 1793480896784,
+      "endMs": 1793480914484,
+      "reason": "unexpected EventSub gap; missed events are not replayed"
+    },
+    {
+      "startMs": 1793480910721,
+      "endMs": 1793480920834,
+      "reason": "EventSub keepalive/welcome timeout; coverage incomplete"
+    },
+    {
+      "startMs": 1793480910721,
+      "endMs": 1793480927129,
+      "reason": "unexpected EventSub gap; missed events are not replayed"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "twitch:238520082:316456451563:1",
+      "sessionId": "twitch:238520082:316456451563",
+      "settingsRevision": 0,
+      "streamId": "316456451563",
+      "signal": "manual",
+      "tier": "banner",
+      "sourceTimeMs": null,
+      "receivedAtMs": 1793480483552,
+      "onsetMs": 1793480483552,
+      "confirmedAtMs": 1793480483552,
+      "detectedOffsetSeconds": 69.552,
+      "suggestedOffsetSeconds": 54.55200000000001,
+      "editorOffsetSeconds": 54.55200000000001,
+      "reason": "Confirmed manual event",
+      "metrics": {},
+      "sourceIds": [
+        "bb59662b-0d15-4745-8709-6f7f2ae7d0db"
+      ],
+      "chatEvidence": [],
+      "caption": "Streamer marked this moment",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "twitch:238520082:316456451563:2",
+      "sessionId": "twitch:238520082:316456451563",
+      "settingsRevision": 0,
+      "streamId": "316456451563",
+      "signal": "manual",
+      "tier": "banner",
+      "sourceTimeMs": null,
+      "receivedAtMs": 1793480616044,
+      "onsetMs": 1793480616044,
+      "confirmedAtMs": 1793480616044,
+      "detectedOffsetSeconds": 202.044,
+      "suggestedOffsetSeconds": 187.044,
+      "editorOffsetSeconds": 187.044,
+      "reason": "Confirmed manual event",
+      "metrics": {},
+      "sourceIds": [
+        "06ffdb72-c9d9-4a5f-b0d0-89e6cb6c42cb"
+      ],
+      "chatEvidence": [],
+      "caption": "Streamer marked this moment",
+      "captionStatus": "disabled"
+    },
+    {
+      "id": "twitch:238520082:316456451563:3",
+      "sessionId": "twitch:238520082:316456451563",
+      "settingsRevision": 0,
+      "streamId": "316456451563",
+      "signal": "manual",
+      "tier": "banner",
+      "sourceTimeMs": null,
+      "receivedAtMs": 1793480821906,
+      "onsetMs": 1793480821906,
+      "confirmedAtMs": 1793480821906,
+      "detectedOffsetSeconds": 407.906,
+      "suggestedOffsetSeconds": 392.906,
+      "editorOffsetSeconds": 392.906,
+      "reason": "Confirmed manual event",
+      "metrics": {},
+      "sourceIds": [
+        "c089eb90-deea-45af-9737-009fd1eacc79"
+      ],
+      "chatEvidence": [],
+      "caption": "Streamer marked this moment",
+      "captionStatus": "disabled"
+    }
+  ]
+}

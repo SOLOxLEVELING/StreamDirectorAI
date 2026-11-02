@@ -1,0 +1,20 @@
+22:24:24.448: 	limit_bitrate:         off
+22:24:24.448: 	rc_max_bitrate:        6000 (kbps)
+22:24:24.487: 	bitrate:       160
+22:24:24.487: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmp://ingest.global-contribute.live-video.net/app...
+22:24:25.056: 	rate_control:          CRF
+22:24:25.056: 	bitrate:               6000 (kbps)
+22:24:25.056: 	limit_bitrate:         off
+22:24:25.056: 	rc_max_bitrate:        6000 (kbps)
+22:24:25.067: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+22:24:25.071: [FFmpeg aac encoder: 'Track2'] bitrate: 160, channels: 2, channel_layout: stereo, track: 2
+22:24:25.088: [mov output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/Users/adnan/Movies/2026-11-01 22-24-25.mov'...
+22:24:25.847: ==== Streaming Start ===============================================
+22:33:39.606: Output 'adv_stream': Total frames output: 16582 (16598 attempted)
+22:33:39.606: Output 'adv_stream': Total drawn frames: 16654
+22:33:39.607: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 16 (0.1%)
+22:33:39.614: ==== Streaming Stop ================================================
+22:33:46.067: Output 'adv_file_output': Total frames output: 16813
+22:33:46.067: Output 'adv_file_output': Total drawn frames: 16829
+22:33:46.067: Video stopped, number of skipped frames due to encoding lag: 21/16828 (0.1%)
+22:33:46.068: ==== Recording Stop ================================================

@@ -1,0 +1,317 @@
+{
+  "capturedAt": "2026-11-02T09:11:36.995Z",
+  "recordCount": 2719,
+  "phases": [
+    {
+      "phase": "default",
+      "spanMs": 179805.75599956512,
+      "negotiatedTimeoutMs": 10000,
+      "receiptCount": 18,
+      "late": [
+        {
+          "wallMs": 1793610354278,
+          "receiptIntervalMs": 10007.255,
+          "lateByMs": 7.2549999999992,
+          "mainDispatchLagMs": 0.085,
+          "mainLoopMaxAtDispatchMs": 11.19,
+          "maxAdjacentWorkerLoopMs": 15.606
+        },
+        {
+          "wallMs": 1793610374295,
+          "receiptIntervalMs": 10022.39,
+          "lateByMs": 22.389999999999418,
+          "mainDispatchLagMs": 0.195,
+          "mainLoopMaxAtDispatchMs": 11.846,
+          "maxAdjacentWorkerLoopMs": 15.114
+        },
+        {
+          "wallMs": 1793610384370,
+          "receiptIntervalMs": 10074.819,
+          "lateByMs": 74.8189999999995,
+          "mainDispatchLagMs": 0.174,
+          "mainLoopMaxAtDispatchMs": 11.592,
+          "maxAdjacentWorkerLoopMs": 17.187
+        },
+        {
+          "wallMs": 1793610414350,
+          "receiptIntervalMs": 10077.064,
+          "lateByMs": 77.0640000000003,
+          "mainDispatchLagMs": 0.107,
+          "mainLoopMaxAtDispatchMs": 11.067,
+          "maxAdjacentWorkerLoopMs": 14.778
+        },
+        {
+          "wallMs": 1793610434342,
+          "receiptIntervalMs": 10017.344,
+          "lateByMs": 17.34399999999914,
+          "mainDispatchLagMs": 0.325,
+          "mainLoopMaxAtDispatchMs": 11.043,
+          "maxAdjacentWorkerLoopMs": 12.943
+        },
+        {
+          "wallMs": 1793610464325,
+          "receiptIntervalMs": 10052.097,
+          "lateByMs": 52.09699999999975,
+          "mainDispatchLagMs": 0.299,
+          "mainLoopMaxAtDispatchMs": 11.174,
+          "maxAdjacentWorkerLoopMs": 53.051
+        },
+        {
+          "wallMs": 1793610474386,
+          "receiptIntervalMs": 10060.536,
+          "lateByMs": 60.53600000000006,
+          "mainDispatchLagMs": 0.102,
+          "mainLoopMaxAtDispatchMs": 11.289,
+          "maxAdjacentWorkerLoopMs": 11.96
+        }
+      ],
+      "shadowWatchdogExceedances": 0,
+      "maxMainDispatchLagMs": 18.361,
+      "maxWorkerLoopMs": 59.146
+    },
+    {
+      "phase": "requested30",
+      "spanMs": 119795.88000011444,
+      "negotiatedTimeoutMs": 30000,
+      "receiptCount": 4,
+      "late": [],
+      "shadowWatchdogExceedances": 0,
+      "maxMainDispatchLagMs": 3.993,
+      "maxWorkerLoopMs": 59.539
+    }
+  ],
+  "simulatedReplay": {
+    "label": "SIMULATED watchdog phase sweep using observed intervals; not actual disconnects",
+    "phasesTested": 40,
+    "phasesTimingOut": 4,
+    "results": [
+      {
+        "tickPhaseMs": 0,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 25,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 50,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 75,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 100,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 125,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 150,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 175,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 200,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 225,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 250,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 275,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 300,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 325,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 350,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 375,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 400,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 425,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 450,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 475,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 500,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 525,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 550,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 575,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 600,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 625,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 650,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 675,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 700,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 725,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 750,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 775,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 40755,
+            "end": 50775
+          }
+        ]
+      },
+      {
+        "tickPhaseMs": 800,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 50777,
+            "end": 60800
+          }
+        ]
+      },
+      {
+        "tickPhaseMs": 825,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 50777,
+            "end": 60825
+          }
+        ]
+      },
+      {
+        "tickPhaseMs": 850,
+        "timedOut": true,
+        "gaps": [
+          {
+            "start": 50777,
+            "end": 60850
+          }
+        ]
+      },
+      {
+        "tickPhaseMs": 875,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 900,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 925,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 950,
+        "timedOut": false,
+        "gaps": []
+      },
+      {
+        "tickPhaseMs": 975,
+        "timedOut": false,
+        "gaps": []
+      }
+    ]
+  },
+  "limitations": [
+    "Shadow watchdog does not close socket",
+    "Receipt timestamp is worker application callback, not packet arrival",
+    "No contemporaneous production-process event-loop trace",
+    "Server-to-worker wall age includes clock skew",
+    "No causal attribution to server, network or lower runtime layers"
+  ]
+}

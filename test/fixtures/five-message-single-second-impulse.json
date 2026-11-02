@@ -1,0 +1,49 @@
+{
+  "name": "five-message-single-second-impulse",
+  "streamStartedAtMs": 0,
+  "startedAtMs": 0,
+  "endAtMs": 90000,
+  "events": [
+    {
+      "transportId": "transport-199",
+      "sourceId": "source-199",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-200",
+      "sourceId": "source-200",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-201",
+      "sourceId": "source-201",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-202",
+      "sourceId": "source-202",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-3"
+    },
+    {
+      "transportId": "transport-203",
+      "sourceId": "source-203",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-4"
+    }
+  ],
+  "expected": []
+}

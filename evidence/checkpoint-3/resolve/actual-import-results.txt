@@ -1,0 +1,13 @@
+Actual Resolve console readback, independently inspected by the assistant after the user performed UI marker import.
+Project: StreamDirector Checkpoint 2 Markers.
+Import command: Media Pool timeline item > Timelines > Import > Timeline Markers from EDL.
+File: evidence/checkpoint-3/resolve/actual-broadcast-30-one-hour.edl.
+Inspection script only reads markers; it does not add markers.
+
+ACTUAL LIVE-RECORDING IMPORT | Resolve 21.1.1.10
+SD Actual Broadcast Final 30 NDF | fps=30 | start=01:00:00:00 | markers=3
+footage=/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-3/actual-obs-recording.mov
+frame=6273 | name=Streamer marked this moment | note=manual: Confirmed manual event [twitch:238520082:316456451563:1] | duration=1 | color=Green | PASS
+frame=10247 | name=Streamer marked this moment | note=manual: Confirmed manual event [twitch:238520082:316456451563:2] | duration=1 | color=Green | PASS
+frame=16423 | name=Streamer marked this moment | note=manual: Confirmed manual event [twitch:238520082:316456451563:3] | duration=1 | color=Green | PASS
+ACTUAL LIVE-RECORDING IMPORT PASS

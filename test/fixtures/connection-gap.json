@@ -1,0 +1,580 @@
+{
+  "name": "connection-gap",
+  "streamStartedAtMs": 0,
+  "startedAtMs": 0,
+  "endAtMs": 90000,
+  "events": [
+    {
+      "transportId": "transport-272",
+      "sourceId": "source-272",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-273",
+      "sourceId": "source-273",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-274",
+      "sourceId": "source-274",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-275",
+      "sourceId": "source-275",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-276",
+      "sourceId": "source-276",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-277",
+      "sourceId": "source-277",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "type": "gap",
+      "startMs": 63000,
+      "receivedAtMs": 64000
+    },
+    {
+      "transportId": "transport-284",
+      "sourceId": "source-284",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-285",
+      "sourceId": "source-285",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-286",
+      "sourceId": "source-286",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-287",
+      "sourceId": "source-287",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-288",
+      "sourceId": "source-288",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-289",
+      "sourceId": "source-289",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-290",
+      "sourceId": "source-290",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-291",
+      "sourceId": "source-291",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-292",
+      "sourceId": "source-292",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-293",
+      "sourceId": "source-293",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-294",
+      "sourceId": "source-294",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-295",
+      "sourceId": "source-295",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-296",
+      "sourceId": "source-296",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-297",
+      "sourceId": "source-297",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-298",
+      "sourceId": "source-298",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-299",
+      "sourceId": "source-299",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-300",
+      "sourceId": "source-300",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-301",
+      "sourceId": "source-301",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-302",
+      "sourceId": "source-302",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-303",
+      "sourceId": "source-303",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-304",
+      "sourceId": "source-304",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-305",
+      "sourceId": "source-305",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-306",
+      "sourceId": "source-306",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-307",
+      "sourceId": "source-307",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-308",
+      "sourceId": "source-308",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-309",
+      "sourceId": "source-309",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-310",
+      "sourceId": "source-310",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-311",
+      "sourceId": "source-311",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-312",
+      "sourceId": "source-312",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-313",
+      "sourceId": "source-313",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-314",
+      "sourceId": "source-314",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-315",
+      "sourceId": "source-315",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-316",
+      "sourceId": "source-316",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-317",
+      "sourceId": "source-317",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-318",
+      "sourceId": "source-318",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-319",
+      "sourceId": "source-319",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-320",
+      "sourceId": "source-320",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-321",
+      "sourceId": "source-321",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-322",
+      "sourceId": "source-322",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-323",
+      "sourceId": "source-323",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-324",
+      "sourceId": "source-324",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-325",
+      "sourceId": "source-325",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-326",
+      "sourceId": "source-326",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-327",
+      "sourceId": "source-327",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-328",
+      "sourceId": "source-328",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-329",
+      "sourceId": "source-329",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-330",
+      "sourceId": "source-330",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-331",
+      "sourceId": "source-331",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-332",
+      "sourceId": "source-332",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-333",
+      "sourceId": "source-333",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-334",
+      "sourceId": "source-334",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-335",
+      "sourceId": "source-335",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-336",
+      "sourceId": "source-336",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-337",
+      "sourceId": "source-337",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-338",
+      "sourceId": "source-338",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-339",
+      "sourceId": "source-339",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-340",
+      "sourceId": "source-340",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-341",
+      "sourceId": "source-341",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-342",
+      "sourceId": "source-342",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-343",
+      "sourceId": "source-343",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-344",
+      "sourceId": "source-344",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "type": "chat",
+      "userId": "viewer-0"
+    },
+    {
+      "transportId": "transport-345",
+      "sourceId": "source-345",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "type": "chat",
+      "userId": "viewer-1"
+    },
+    {
+      "transportId": "transport-346",
+      "sourceId": "source-346",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "type": "chat",
+      "userId": "viewer-2"
+    },
+    {
+      "transportId": "transport-347",
+      "sourceId": "source-347",
+      "sourceTimeMs": 86000,
+      "receivedAtMs": 86000,
+      "type": "manual"
+    }
+  ],
+  "expected": [
+    {
+      "signal": "manual",
+      "onsetMs": 86000,
+      "confirmedAtMs": 86000,
+      "tier": "banner"
+    }
+  ]
+}

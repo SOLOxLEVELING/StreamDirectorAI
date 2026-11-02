@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "editorCompatibility": "unverified",
+  "session": {
+    "id": "transport-and-source-duplicates:1793459058469",
+    "mode": "simulated",
+    "streamId": "replay:transport-and-source-duplicates",
+    "streamStartedAtMs": 0,
+    "startedAtMs": 0,
+    "settings": {
+      "bucketSeconds": 1,
+      "baselineSeconds": 60,
+      "activitySeconds": 5,
+      "warmupSeconds": 60,
+      "multiplier": 3,
+      "minimumRate": 1,
+      "sustainSeconds": 3,
+      "minimumChatters": 3,
+      "cooldownSeconds": 30,
+      "rearmSeconds": 10,
+      "rearmRatio": 0.6,
+      "allowedLatenessSeconds": 2,
+      "cheerThreshold": 100,
+      "cheerWindowSeconds": 10,
+      "correlationSeconds": 10,
+      "leadInSeconds": 15,
+      "alignmentSeconds": 0,
+      "broadcasterId": "broadcaster",
+      "excludedUserIds": [],
+      "rewardId": null,
+      "maxUsersPerBucket": 10000,
+      "dedupLimit": 100000
+    }
+  },
+  "coverageGaps": [],
+  "bookmarks": [
+    {
+      "id": "transport-and-source-duplicates:1793459058469:1",
+      "sessionId": "transport-and-source-duplicates:1793459058469",
+      "streamId": "replay:transport-and-source-duplicates",
+      "signal": "raid",
+      "tier": "banner",
+      "sourceTimeMs": 1000,
+      "receivedAtMs": 1000,
+      "onsetMs": 1000,
+      "confirmedAtMs": 1000,
+      "detectedOffsetSeconds": 1,
+      "suggestedOffsetSeconds": 0,
+      "editorOffsetSeconds": 0,
+      "reason": "Confirmed raid event",
+      "metrics": {
+        "amount": 10
+      },
+      "sourceIds": [
+        "raid"
+      ],
+      "chatEvidence": [],
+      "caption": "Raid arrived with 10 viewers",
+      "captionStatus": "disabled"
+    }
+  ]
+}

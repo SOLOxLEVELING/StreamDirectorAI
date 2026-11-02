@@ -1,0 +1,14 @@
+30-message-impulse-with-baseline: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+5-message-impulse-with-baseline: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+connection-gap: CSV/JSON parsed; 1 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+expired-candidate-third-chatter: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+five-message-single-second-impulse: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+idle-chat: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+large-single-second-impulse: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+one-second-noise: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+platform-overlap: CSV/JSON parsed; 7 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+steady-traffic: CSV/JSON parsed; 0 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+surge-after-candidate-expiry: CSV/JSON parsed; 1 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+sustained-burst-with-baseline: CSV/JSON parsed; 1 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+sustained-burst: CSV/JSON parsed; 1 records; explicit outputs, IDs, offsets and evidence safeguards passed.
+transport-and-source-duplicates: CSV/JSON parsed; 1 records; explicit outputs, IDs, offsets and evidence safeguards passed.

@@ -1,0 +1,42 @@
+{
+  "capturedAt": "2026-11-01T18:28:36.533Z",
+  "preflight": {
+    "preparedAtMs": 1793557564285,
+    "stream": "offline",
+    "connection": "connected",
+    "plannedCue": "3, 2, 1, SEND",
+    "abortCue": "ABORT CHAT NOW",
+    "plannedMessages": [
+      "rehearsal a",
+      "rehearsal b",
+      "rehearsal c"
+    ],
+    "outputs": "remain stopped",
+    "purpose": "Coordination only, no acceptance or broadcast"
+  },
+  "receiptMetadata": [
+    {
+      "timeMs": 1793557585462,
+      "sourceTimeMs": 1793557585324,
+      "type": "channel.chat.message",
+      "recordedAgainstLiveStream": false
+    },
+    {
+      "timeMs": 1793557591007,
+      "sourceTimeMs": 1793557590875,
+      "type": "channel.chat.message",
+      "recordedAgainstLiveStream": false
+    },
+    {
+      "timeMs": 1793557596217,
+      "sourceTimeMs": 1793557595814,
+      "type": "channel.chat.message",
+      "recordedAgainstLiveStream": false
+    }
+  ],
+  "abortResult": "not passed",
+  "operatorCorrection": "Operator reports sending rehearsal a before abort, then b and c for remaining accounts after seeing abort",
+  "originalAcknowledgment": "stopped; superseded by operator correction",
+  "nextGate": "No-post abort check required before any future live attempt",
+  "broadcastScheduled": false
+}

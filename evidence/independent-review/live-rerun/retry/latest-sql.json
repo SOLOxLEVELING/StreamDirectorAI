@@ -1,0 +1,79 @@
+{
+  "at": 1793552492113,
+  "nextEnd": 1793552490,
+  "warmFromMs": 1793552400925,
+  "candidate": null,
+  "buckets": [
+    {
+      "second": 1793552448,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552450,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552452,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552453,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552455,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552457,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552458,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552459,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552461,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552463,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552466,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552471,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552475,
+      "count": 1,
+      "sourceCount": 1
+    },
+    {
+      "second": 1793552483,
+      "count": 1,
+      "sourceCount": 1
+    }
+  ],
+  "bookmarks": []
+}

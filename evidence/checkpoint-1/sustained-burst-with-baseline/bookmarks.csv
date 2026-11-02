@@ -1,0 +1,2 @@
+"id","signal","tier","source_timestamp","received_at","burst_onset","confirmed_at","detected_seconds","suggested_seconds","editor_seconds","caption","reason","caption_status"
+"sustained-burst-with-baseline:1793459058161:1","chat","corner","1970-01-01T00:01:40.000Z","1970-01-01T00:01:42.000Z","1970-01-01T00:01:40.000Z","1970-01-01T00:01:45.000Z","100","85","85","Chat activity reached 6.8 messages/s","Consecutive completed chat buckets and rolling rate met threshold","disabled"

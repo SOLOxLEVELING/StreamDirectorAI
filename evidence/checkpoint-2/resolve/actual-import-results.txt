@@ -1,0 +1,38 @@
+Actual Resolve console readback, 2026-10-31.
+User performed the UI marker imports and ran the inspection script. The assistant
+independently read this output from the actual Resolve console accessibility tree.
+Project: StreamDirector Checkpoint 2 Markers.
+Command: sd_action='verify'; dofile([[/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /scripts/resolve-import-check.lua]])
+Import: Media Pool timeline item > Timelines > Import > Timeline Markers from EDL.
+The script uses GetMarkers; it does not create markers during verification.
+
+ACTUAL RESOLVE API INSPECTION after UI marker import | Version: 21.1.1.10
+SD Import 30 zero | fps=30 | start=00:00:00:00 | markers=4
+footage=/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-30.mov
+frame=0 | name=First Frame | note=chat: Known fixture 1 [native-test-0] | duration=1 | color=Blue | PASS
+frame=15 | name=Half Second | note=manual: Known fixture 2 [native-test-1] | duration=1 | color=Green | PASS
+frame=91 | name=Frame Boundary | note=manual: Known fixture 3 [native-test-2] | duration=1 | color=Green | PASS
+frame=300 | name=Final Marker | note=manual: Known fixture 4 [native-test-3] | duration=1 | color=Green | PASS
+CASE PASS
+SD Import 30 one-hour | fps=30 | start=01:00:00:00 | markers=4
+footage=/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-30.mov
+frame=0 | name=First Frame | note=chat: Known fixture 1 [native-test-0] | duration=1 | color=Blue | PASS
+frame=15 | name=Half Second | note=manual: Known fixture 2 [native-test-1] | duration=1 | color=Green | PASS
+frame=91 | name=Frame Boundary | note=manual: Known fixture 3 [native-test-2] | duration=1 | color=Green | PASS
+frame=300 | name=Final Marker | note=manual: Known fixture 4 [native-test-3] | duration=1 | color=Green | PASS
+CASE PASS
+SD Import 60 zero | fps=60 | start=00:00:00:00 | markers=4
+footage=/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-60.mov
+frame=0 | name=First Frame | note=chat: Known fixture 1 [native-test-0] | duration=1 | color=Blue | PASS
+frame=30 | name=Half Second | note=manual: Known fixture 2 [native-test-1] | duration=1 | color=Green | PASS
+frame=181 | name=Frame Boundary | note=manual: Known fixture 3 [native-test-2] | duration=1 | color=Green | PASS
+frame=600 | name=Final Marker | note=manual: Known fixture 4 [native-test-3] | duration=1 | color=Green | PASS
+CASE PASS
+SD Import 60 one-hour | fps=60 | start=01:00:00:00 | markers=4
+footage=/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-60.mov
+frame=0 | name=First Frame | note=chat: Known fixture 1 [native-test-0] | duration=1 | color=Blue | PASS
+frame=30 | name=Half Second | note=manual: Known fixture 2 [native-test-1] | duration=1 | color=Green | PASS
+frame=181 | name=Frame Boundary | note=manual: Known fixture 3 [native-test-2] | duration=1 | color=Green | PASS
+frame=600 | name=Final Marker | note=manual: Known fixture 4 [native-test-3] | duration=1 | color=Green | PASS
+CASE PASS
+ACTUAL IMPORT CHECK: failed cases0

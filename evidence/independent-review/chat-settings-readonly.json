@@ -1,0 +1,10 @@
+{
+  "capturedAt": "2026-11-01T13:53:33.373Z",
+  "httpStatus": 200,
+  "slow_mode": false,
+  "slow_mode_wait_time": null,
+  "follower_mode": false,
+  "subscriber_mode": false,
+  "emote_mode": false,
+  "unique_chat_mode": false
+}

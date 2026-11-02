@@ -1,0 +1,83 @@
+{
+  "status": "Draft claims; end-to-end acceptance open",
+  "claims": [
+    {
+      "claim": "Deterministic detection and persistence safeguards",
+      "evidenceType": "automated and independently inspected",
+      "evidence": "evidence/independent-review/test-results.txt",
+      "limit": "Does not prove editorial relevance or live positive chat acceptance"
+    },
+    {
+      "claim": "Independent code review accepted; four findings fixed",
+      "evidenceType": "independent direct inspection and reproduction",
+      "evidence": "docs/independent-review.md",
+      "limit": "Not a blanket production or security certification"
+    },
+    {
+      "claim": "154 tests, strict typecheck and production build pass",
+      "evidenceType": "actual command results; independent diagnostic follow-up14 tests/typecheck",
+      "evidence": "evidence/eventsub-diagnostics-2026-11-01/",
+      "limit": "Original63 feature files unchanged; five diagnostic files separately reviewed. Does not prove live acceptance."
+    },
+    {
+      "claim": "Real Twitch chat received; actual manual bookmarks and banners",
+      "evidenceType": "actual Twitch/OBS recording and SQLite",
+      "evidence": "evidence/checkpoint-3/live/",
+      "limit": "Manual marks do not verify automated chat triggers"
+    },
+    {
+      "claim": "Resolve marker import works in the tested scopes",
+      "evidenceType": "actual native import/readback, independently corroborated",
+      "evidence": "evidence/checkpoint-2/resolve/actual-import-results.txt; evidence/checkpoint-3/resolve/actual-import-results.txt",
+      "limit": "30/60fps NDF known footage; actual manual recording30fps one-hour start; no new chat-marker import"
+    },
+    {
+      "claim": "Chat corner rendered in local OBS",
+      "evidenceType": "SIMULATED input, actual local recording",
+      "evidence": "evidence/checkpoint-3/simulated/recorded-corner-fixed/",
+      "limit": "Keep SIMULATED label visible; not real Twitch surge proof"
+    },
+    {
+      "claim": "All signal overlay routes exercised",
+      "evidenceType": "SIMULATED events, real local backend/SSE/browser",
+      "evidence": "docs/independent-review.md",
+      "limit": "Real paid/redemption deliveries unverified"
+    },
+    {
+      "claim": "Optional captions have bounds and caption-only writes",
+      "evidenceType": "fake-provider tests and source inspection",
+      "evidence": "test/captions.test.ts",
+      "limit": "AI off; no real provider/quality claim"
+    },
+    {
+      "claim": "Improved OBS network-drop observations",
+      "evidenceType": "actual source logs and native status",
+      "evidence": "evidence/independent-review/live-rerun/",
+      "limit": "0% and0.1% runs each had a recovered EventSub timeout; historical24.5% failure retained"
+    },
+    {
+      "claim": "Successful real chat-to-recording-to-Resolve chain",
+      "evidenceType": "UNVERIFIED",
+      "evidence": "docs/live-acceptance-plan.md",
+      "limit": "Cannot be claimed until all three linked outcomes pass"
+    },
+    {
+      "claim": "Clean sustained integration continuity",
+      "evidenceType": "UNVERIFIED",
+      "evidence": "docs/eventsub-timeout-investigation.md",
+      "limit": "Recurrent timeouts unresolved; historical generic error unexplained"
+    },
+    {
+      "claim": "Dashboard captured-state visual recheck",
+      "evidenceType": "Actual user-provided local screen recordings inspected",
+      "evidence": "evidence/submission-delivery-2026-11-02/dashboard-capture-review.json",
+      "limit": "Authorized in chat November2; saved browser-origin gate still blocked direct automation. Captured offline/simulated states reviewed; no new automated interaction pass."
+    },
+    {
+      "claim": "Two bounded offline EventSub timing probes completed",
+      "evidenceType": "actual isolated Twitch worker timing; simulated production-watchdog replay separately labelled",
+      "evidence": "docs/eventsub-timeout-investigation.md",
+      "limit": "No definitive historical root cause, production fix or continuity pass"
+    }
+  ]
+}

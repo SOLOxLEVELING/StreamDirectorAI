@@ -1,0 +1,16 @@
+-- Run inside Resolve's Lua console. Creates only a dedicated checkpoint timeline.
+local root = "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /evidence/checkpoint-2/resolve/"
+local project = resolve:GetProjectManager():GetCurrentProject()
+assert(project:GetName() == "StreamDirector Checkpoint 2 Markers", "Use the isolated test project")
+assert(project:SetSettings({timelineFrameRate = "30"}))
+local pool = project:GetMediaPool()
+local media = pool:ImportMedia({"/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-30.mov"})
+assert(media and media[1], "Generate test-30.mov first")
+local timeline = pool:CreateTimelineFromClips("Format Sample With Footage 30 NDF", media)
+assert(timeline)
+assert(timeline:SetStartTimecode("01:00:00:00"))
+assert(timeline:AddMarker(30, "Blue", "Sample Name", "Sample note: known marker", 1))
+assert(timeline:AddMarker(91, "Green", "Second Name", "Second note", 3))
+print("SAMPLE_EXPORT", timeline:Export(root .. "resolve-exported-sample.edl", resolve.EXPORT_EDL, resolve.EXPORT_NONE))
+print("VERSION", resolve:GetVersionString(), "START", timeline:GetStartTimecode())
+dump(timeline:GetMarkers())

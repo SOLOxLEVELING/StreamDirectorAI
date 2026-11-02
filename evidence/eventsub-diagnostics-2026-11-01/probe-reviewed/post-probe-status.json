@@ -1,0 +1,76 @@
+{
+  "capturedAt": "2026-11-02T09:11:36.968Z",
+  "connection": "connected",
+  "stream": "offline",
+  "authenticated": true,
+  "validationRequired": false,
+  "subscriptions": {
+    "channel.subscription.gift": {
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    "channel.cheer": {
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    "channel.chat.message": {
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    "channel.raid": {
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    "channel.subscription.message": {
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    "channel.subscribe": {
+      "state": "enabled",
+      "httpStatus": 202
+    }
+  },
+  "activeSessionId": null,
+  "diagnosticWriteFailures": 0,
+  "coveragePersistencePending": false,
+  "settings": {
+    "bucketSeconds": 1,
+    "baselineSeconds": 60,
+    "activitySeconds": 5,
+    "warmupSeconds": 60,
+    "multiplier": 3,
+    "minimumRate": 1,
+    "sustainSeconds": 3,
+    "minimumChatters": 3,
+    "cooldownSeconds": 30,
+    "rearmSeconds": 10,
+    "rearmRatio": 0.6,
+    "allowedLatenessSeconds": 2,
+    "cheerThreshold": 100,
+    "cheerWindowSeconds": 10,
+    "correlationSeconds": 10,
+    "leadInSeconds": 15,
+    "alignmentSeconds": 0,
+    "broadcasterId": "238520082",
+    "excludedUserIds": [],
+    "rewardId": null,
+    "maxUsersPerBucket": 10000,
+    "dedupLimit": 100000
+  },
+  "captions": {
+    "enabled": false,
+    "budget": 10,
+    "retainedChatSamples": 0,
+    "used": 0,
+    "note": "Deterministic labels active. Enable optional captions with backend credentials, model and an explicit session budget."
+  },
+  "obsNativeReadback": {
+    "streamTimer": "00:00:00",
+    "recordTimer": "00:00:00",
+    "buttons": [
+      "Start Streaming",
+      "Start Recording"
+    ]
+  },
+  "dashboardVisualRecheck": "pending authorization; no browser accessed"
+}

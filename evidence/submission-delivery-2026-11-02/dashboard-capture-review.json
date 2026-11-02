@@ -1,0 +1,27 @@
+{
+  "capturedAt": "2026-11-02T10:02:59.662526+00:00",
+  "directBrowserAccess": "User authorized; saved origin policy continued to block direct automation. No workaround used.",
+  "method": "Visual inspection of user-provided local screen recordings, extracted frames and final edited segment",
+  "sources": {
+    "output/submission/Screen Recording 2026-11-02 at 15.06.57.mov": "35632c34cae5e0a9fc22aa2bf044247b4d50d264f9befc8a395a93b0984983f1",
+    "output/submission/Screen Recording 2026-11-02 at 15.22.05.mov": "91a492ee51b6476e0164627f01defc4c2e12e1a56f1eef069e06e687a251be60"
+  },
+  "observed": [
+    "Offline top-level workspace, monitor and Twitch state",
+    "Default settings: minimumRate1, minimumChatters3, warmup60",
+    "AI captions OFF",
+    "Judge replay labelled SIMULATED",
+    "Populated Simulated session; one chat bookmark with reason/offset",
+    "CSV/JSON/Resolve EDL controls and30fps/one-hour start mapping fields",
+    "Read-only overlay URL and corner/banner tier key",
+    "No visible clipping/overlap in captured states"
+  ],
+  "result": "Captured-state visual review passed; not an automated interaction pass",
+  "interactionLimits": [
+    "No new direct browser control or export click from recording",
+    "Out-of-order responses remain verified by controlled regression tests, not this clip",
+    "Does not establish successful live chat acceptance"
+  ],
+  "privateContentTreatment": "Browser chrome and unrelated Codex sidebar cropped out of delivered footage; no credentials observed",
+  "obsOutputs": "Stopped; native Start Streaming / Start Recording controls and00:00:00 timers read back"
+}

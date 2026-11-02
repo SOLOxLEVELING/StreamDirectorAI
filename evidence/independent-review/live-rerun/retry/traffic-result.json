@@ -1,0 +1,146 @@
+{
+  "provenance": "Actual persisted chat buckets observed during the retry, not simulated input",
+  "sessionId": "twitch:238520082:316460892267",
+  "buckets": [
+    {
+      "second": 1793552448,
+      "count": 1
+    },
+    {
+      "second": 1793552450,
+      "count": 1
+    },
+    {
+      "second": 1793552452,
+      "count": 1
+    },
+    {
+      "second": 1793552453,
+      "count": 1
+    },
+    {
+      "second": 1793552455,
+      "count": 1
+    },
+    {
+      "second": 1793552457,
+      "count": 1
+    },
+    {
+      "second": 1793552458,
+      "count": 1
+    },
+    {
+      "second": 1793552459,
+      "count": 1
+    },
+    {
+      "second": 1793552461,
+      "count": 1
+    },
+    {
+      "second": 1793552463,
+      "count": 1
+    },
+    {
+      "second": 1793552466,
+      "count": 1
+    },
+    {
+      "second": 1793552471,
+      "count": 1
+    },
+    {
+      "second": 1793552475,
+      "count": 1
+    },
+    {
+      "second": 1793552483,
+      "count": 1
+    }
+  ],
+  "observedMessages": 14,
+  "firstSourceSecond": 1793552448,
+  "lastSourceSecond": 1793552483,
+  "spanSeconds": 35,
+  "longestConsecutiveOccupiedSeconds": 3,
+  "maximumFiveSecondRate": 0.8,
+  "requiredRate": 1,
+  "minimumChatters": 1,
+  "bookmarks": 0,
+  "gaps": [
+    {
+      "startMs": 1793552388287,
+      "endMs": 1793552398439,
+      "reason": "EventSub keepalive/welcome timeout; coverage incomplete"
+    },
+    {
+      "startMs": 1793552388287,
+      "endMs": 1793552400925,
+      "reason": "unexpected EventSub gap; missed events are not replayed"
+    }
+  ],
+  "newIntegrationErrors": [],
+  "chatNotifications": [
+    {
+      "receivedAtMs": 1793552088286,
+      "sourceTimeMs": 1793552088119
+    },
+    {
+      "receivedAtMs": 1793552449221,
+      "sourceTimeMs": 1793552448976
+    },
+    {
+      "receivedAtMs": 1793552450841,
+      "sourceTimeMs": 1793552450683
+    },
+    {
+      "receivedAtMs": 1793552452233,
+      "sourceTimeMs": 1793552452079
+    },
+    {
+      "receivedAtMs": 1793552453744,
+      "sourceTimeMs": 1793552453587
+    },
+    {
+      "receivedAtMs": 1793552455234,
+      "sourceTimeMs": 1793552455012
+    },
+    {
+      "receivedAtMs": 1793552457252,
+      "sourceTimeMs": 1793552457093
+    },
+    {
+      "receivedAtMs": 1793552458489,
+      "sourceTimeMs": 1793552458326
+    },
+    {
+      "receivedAtMs": 1793552459750,
+      "sourceTimeMs": 1793552459560
+    },
+    {
+      "receivedAtMs": 1793552461498,
+      "sourceTimeMs": 1793552461340
+    },
+    {
+      "receivedAtMs": 1793552463376,
+      "sourceTimeMs": 1793552463194
+    },
+    {
+      "receivedAtMs": 1793552467052,
+      "sourceTimeMs": 1793552466869
+    },
+    {
+      "receivedAtMs": 1793552471251,
+      "sourceTimeMs": 1793552471029
+    },
+    {
+      "receivedAtMs": 1793552475553,
+      "sourceTimeMs": 1793552475342
+    },
+    {
+      "receivedAtMs": 1793552483440,
+      "sourceTimeMs": 1793552483272
+    }
+  ]
+}

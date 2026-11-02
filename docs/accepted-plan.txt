@@ -1,0 +1,218 @@
+Plan and build StreamDirector AI for the Codex x TwitchCon Hackathon.
+
+Follow the phases below in order once implementation is authorized. Prioritize a working editor workflow over visual polish. Keep most implementation in one Codex chat and preserve its session ID for submission.
+
+1. Product boundary and scope
+
+Build a standalone, local-first web app for one broadcaster, with an OBS Browser Source overlay.
+
+The code decides when to create a suggested-highlight bookmark. The LLM only captions a bookmark already confirmed by deterministic rules.
+
+Never use an LLM, sentiment analysis, emote lists, or “CLIP IT” keyword matching to decide detection, significance, timing, ranking, merging, or overlay tier. Do not claim that deterministic rules guarantee editorial relevance.
+
+MVP includes Twitch authentication, live chat and platform-event ingestion, deterministic detection, persistent bookmarks, CSV and JSON reference exports, Resolve marker-EDL export, tiered overlays, and optional AI captions.
+
+Exclude Twitch Extensions, automatic video clipping, video analysis, social publishing, multiple channels, billing, and Premiere integration.
+
+2. Architecture and initial feasibility checks
+
+Use TypeScript, a Node backend, a small React dashboard, and SQLite persistence. Use one outgoing Twitch EventSub WebSocket connection. Push backend updates to the dashboard and overlay using server-sent events.
+
+Keep Twitch and OpenAI credentials on the backend. Use broadcaster OAuth, a documented authorization flow, and only necessary scopes. The OBS overlay must have read-only access and must never receive Twitch or OpenAI credentials.
+
+Before building the UI, confirm:
+- A real broadcaster account can authenticate and receive chat.
+- The account has the desired subscription, Bits, and Channel Points capabilities.
+- OBS can load the local overlay URL.
+- Resolve is available for a later import test.
+
+Check account capabilities directly. Do not assume older Affiliate-only restrictions still describe current access; Twitch announced broader monetization-tool availability in 2026.
+https://blog.twitch.tv/en/2026/05/13/monetization-for-all
+
+If credentials or desktop applications require user action, continue independent work and clearly identify the remaining external checks. Never represent simulated events as live Twitch evidence.
+
+3. Deterministic engine and tests before UI
+
+Separate the detector from Twitch, storage, and presentation. Give it an injectable clock so tests can replay identical inputs.
+
+Proposed chat defaults:
+- One-second counting buckets, including zero-message buckets.
+- Sixty seconds of baseline history, excluding the latest five-second activity window.
+- Sixty-second warm-up before chat-only detection.
+- Trigger threshold: the larger of 3× baseline or 1 counted message per second.
+- Require the threshold for three consecutive evaluations and at least three distinct chatters in the activity window.
+- Cap each chatter’s contribution at one counted message per second in both baseline and activity calculations.
+- Exclude the broadcaster and explicitly configured bot accounts.
+- Freeze the candidate threshold while evaluating an active burst.
+- Emit one bookmark per burst. Require a 30-second cooldown and ten seconds below 60% of the trigger threshold before rearming.
+- Keep all settings configurable and save the settings used with each session.
+
+These are starting settings. Tune them using replay data and a real stream. Do not invent precision or recall results.
+
+Record the start of the qualifying burst separately from its later confirmation time.
+
+Platform events bypass chat warm-up and chat cooldown. A chat cooldown must never discard a raid, qualifying cheer, subscription, or manual mark.
+
+Deduplicate transport messages and chat message IDs. Handle malformed payloads, anonymous users, delayed delivery, and out-of-order input without crashing. After a connection gap, mark coverage as incomplete and warm up chat detection again.
+
+Test steady traffic, idle chat, zero baseline, one-second noise, sustained bursts, one-person spam, cooldown/rearming, duplicates, connection gaps, overlapping events, and restart recovery. Use replay fixtures and explicit expected bookmark outputs.
+
+4. Twitch integration
+
+Verify subscription versions, conditions, scopes, and payload fields against current official documentation before implementing adapters. Record the verified details and documentation links. Flag uncertainty instead of inventing plausible schemas.
+
+Planned subscriptions, all currently documented as version 1:
+
+| Event | Permission | Intended behavior |
+|---|---|---|
+| channel.chat.message | user:read:chat | Feed rate detector; broadcaster and authorized reader conditions |
+| channel.raid | No event-specific scope | Incoming raids, using to_broadcaster_user_id |
+| channel.subscribe | channel:read:subscriptions | New subscriptions; handle gifted subscriptions separately |
+| channel.subscription.gift | channel:read:subscriptions | Gift batch |
+| channel.subscription.message | channel:read:subscriptions | Shared resubscription messages |
+| channel.cheer | bits:read | Feed deterministic Bits aggregation |
+| channel.channel_points_custom_reward_redemption.add | channel:read:redemptions | Only the configured “Mark This” reward ID |
+
+“No event-specific scope” does not remove the authenticated subscription-creation requirements for WebSocket transport.
+
+Official subscription documentation:
+https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/
+
+Use the gift event’s total for the current batch, not cumulative_total. Avoid creating a second bookmark from each gifted recipient’s subscription event. Filter the custom redemption by reward ID rather than its display title.
+
+Payload reference:
+https://dev.twitch.tv/docs/eventsub/eventsub-reference/
+
+For cheers, propose a configurable initial threshold of 100 Bits within ten seconds. Emit once when the window crosses the threshold; attach further contributions to that aggregate rather than repeatedly triggering it.
+
+Keep independent platform events distinct. Attach nearby chat-spike evidence to a platform bookmark within a configurable ten-second correlation window where appropriate; do not blindly merge unrelated events.
+
+Handle welcome/session IDs, subscription creation, keepalives, token refresh/revocation, requested reconnects, and unexpected disconnects. Display data-coverage gaps. Twitch does not replay events missed during an unexpected disconnection.
+https://dev.twitch.tv/docs/eventsub/handling-websocket-events/
+
+Use Twitch CLI fixtures for supported event simulations, alongside actual live-chat testing:
+https://dev.twitch.tv/docs/cli/
+
+5. Persistence, timestamps, and exports
+
+Persist each confirmed bookmark immediately with a deterministic fallback label. Caption generation must not delay saving.
+
+Store session and stream identity, available source timestamp, receipt time, burst onset, confirmation time, detected stream offset, editor bookmark offset, signal type, reason, metrics, tier, caption status, and relevant source IDs.
+
+Derive elapsed stream time from the Twitch stream’s start, including when the app joins midstream. Do not use “time since app opened” as stream time.
+
+Keep timeline alignment and context lead-in separate:
+- Alignment maps the stream to the editor’s media.
+- Context lead-in moves the suggested bookmark earlier to help find the action.
+- Neither changes the original evidence timestamps.
+
+Provide a configurable initial 15-second lead-in and preserve both detected and suggested offsets. Explain that chat reaction delay varies; do not promise frame-accurate action detection.
+
+Export:
+- CSV: readable timestamps, captions, signal types, reasons, and offsets.
+- JSON: complete structured bookmark records and settings.
+- Resolve marker EDL: editor integration for the MVP.
+
+Resolve’s documented integration workflow includes importing timeline markers from EDL:
+https://www.simonsaysai.com/blog/export-for-blackmagic-davinci-resolve-timeline-markers-bc6678d323ac
+
+Before finalizing the EDL writer, inspect a real Resolve-exported marker sample or equivalent authoritative format documentation. Do not invent an EDL dialect.
+
+Initially support explicitly selected 30 or 60 fps non-drop-frame timelines. Reject unsupported rates clearly. Account for timeline start timecode. Preserve full captions in CSV/JSON if the EDL format requires shorter text.
+
+Escape CSV correctly and prevent captions from becoming spreadsheet formulas.
+
+Required verification: import generated markers into Resolve on known test footage. Check marker count, positions, names, notes, and nonzero timeline start behavior. Record the Resolve version, settings, exact import steps, and evidence. Serialization should place known test markers within one frame at supported rates; that does not establish live detection accuracy.
+
+Until this test passes, label editor compatibility unverified. CSV remains useful as a manual reference, but does not satisfy the native-import acceptance criterion.
+
+Optional later enhancement: native Twitch Stream Markers. Twitch exposes stream/VOD-relative marker positions, but this adds permission and live/VOD requirements. Do not make it an MVP dependency.
+https://dev.twitch.tv/docs/api/markers/
+
+6. Dashboard and OBS overlay
+
+Only begin substantial UI work after detector tests and headless export checks pass.
+
+Dashboard:
+- Twitch connection, channel, and stream status.
+- Warm-up and missing-permission states.
+- Current rate, baseline, and threshold.
+- Chronological bookmarks with an explanation of each trigger.
+- Sensitivity, alignment, lead-in, and export controls.
+- A streamer-operated “Mark now” fallback.
+- Clear distinction between live and simulated sessions.
+
+Overlay:
+- Chat-only bookmark: small corner indicator.
+- Raid, subscription/gift/resubscription, qualifying cheer, configured redemption, or streamer manual mark: brief full banner.
+- Nearby chat evidence must not downgrade a platform-event banner.
+- Rate-limit animations independently of bookmark persistence.
+- Never discard a bookmark because an animation is queued or suppressed.
+
+Keep the background transparent and prevent stale alerts from replaying when OBS reloads the source.
+
+7. Optional AI captions
+
+Add AI only after detection, exports, and overlay routing work.
+
+The caption worker receives an immutable confirmed-bookmark record, structured evidence, and a bounded surrounding chat sample. Limit input size and send only necessary information.
+
+Treat chat as untrusted content. Give the model no tools and request only a short plain-text caption, with an 80-character output limit enforced in code.
+
+Allow the worker to update only caption text and caption status. It must not create/delete bookmarks or change detection, timestamps, reasons, metrics, or tiers.
+
+Use at most one caption job per finalized bookmark. Apply a timeout and session budget. On missing credentials, failure, or insufficient context, retain the deterministic label.
+
+Describe observable evidence. Do not assert gameplay events that the system cannot see. Examples:
+- “Chat activity rose 4.2×”
+- “Raid arrived with 25 viewers”
+- “Chat discusses a close finish”
+
+The app must remain useful with AI disabled.
+
+8. Final verification and independent review
+
+Run an actual Twitch/OBS session and compare bookmarks with the recorded stream. Check timing, noise, platform-event routing, coverage gaps, restart persistence, and bounded memory use. Report observations honestly; synthetic replay proves rule behavior, not real-world usefulness.
+
+After implementation, conduct a genuinely fresh review using GPT-6.1 Sol with high reasoning effort. Official model documentation supports high reasoning effort:
+https://developers.openai.com/api/docs/models/gpt-6.1-sol
+
+Use a fresh-context reviewer where supported. Provide the brief, acceptance criteria, repository location, and launch instructions. Require direct inspection of files, tests, generated exports, and application behavior. Do not rely on the executing model’s completion summary.
+
+If the requested model or fresh-context mechanism is unavailable, report the limitation rather than silently substituting or claiming independent review.
+
+The reviewer must:
+- Trace every LLM call and prove it cannot decide detection or tier.
+- Exercise each event type and verify actual overlay behavior.
+- Check deduplication, gift aggregation, cheer thresholds, and timing.
+- Inspect and test real exported files.
+- Verify the Resolve import evidence; syntax checks alone are insufficient.
+- Separate verified, simulated, and untested claims.
+- Report actionable defects with file references and reproduction steps.
+
+Fix material defects and rerun affected checks before submission.
+
+9. Remaining-time schedule and submission
+
+October 31: confirm live Twitch access; implement detector, tests, persistence, and headless exports.
+
+November 1: prove Resolve import; finish live ingestion, dashboard, OBS overlay, and optional captions.
+
+November 2: perform live verification, independent review, fixes, demo recording, and submission preparation. Target submission by 8:00 PM IST.
+
+Cut decorative animation, customization, and optional integrations first. Preserve detection correctness, timestamps, useful exports, and a working Twitch demonstration.
+
+Prepare a public YouTube video under three minutes:
+- Briefly show the editor’s problem.
+- Demonstrate real Twitch activity producing bookmarks.
+- Show the different overlay tiers.
+- Import the exported markers into Resolve.
+- Include footage of implementation with Codex.
+
+Provide reproducible setup instructions, a clearly labeled replay mode for judges, the repository URL, limitations, and the session ID from the main build chat. Keep secrets out of source and recordings.
+
+Official requirements:
+https://twitchcon-codex.devpost.com/
+https://twitchcon-codex.devpost.com/rules
+
+Do not claim measured time savings, detection accuracy, successful editor compatibility, or independent review until supported by actual evidence.

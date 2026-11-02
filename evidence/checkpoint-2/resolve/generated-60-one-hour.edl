@@ -1,0 +1,15 @@
+TITLE: StreamDirector native test 60 one-hour
+FCM: NON-DROP FRAME
+
+001  001      V     C        01:00:00:00 01:00:00:01 01:00:00:00 01:00:00:01  
+chat: Known fixture 1 [native-test-0] |C:ResolveColorBlue |M:First Frame |D:1
+
+002  001      V     C        01:00:00:30 01:00:00:31 01:00:00:30 01:00:00:31  
+manual: Known fixture 2 [native-test-1] |C:ResolveColorGreen |M:Half Second |D:1
+
+003  001      V     C        01:00:03:01 01:00:03:02 01:00:03:01 01:00:03:02  
+manual: Known fixture 3 [native-test-2] |C:ResolveColorGreen |M:Frame Boundary |D:1
+
+004  001      V     C        01:00:10:00 01:00:10:01 01:00:10:00 01:00:10:01  
+manual: Known fixture 4 [native-test-3] |C:ResolveColorGreen |M:Final Marker |D:1
+

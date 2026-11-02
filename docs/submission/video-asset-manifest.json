@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-02T10:02:59.699769+00:00",
+  "title": "StreamDirector AI \u2014 streamer workflow walkthrough",
+  "durationSeconds": 153.6,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "narration": "Local macOS Samantha voice; English; no provider API; app AI captions off",
+  "captions": "31 sentence cues; burned-in captions and .en.srt sidecar",
+  "files": {
+    "output/submission/streamdirector-demo.mp4": "a17026f2158b1b2f9767353bdc087bb1a08e9de03f01604172a6c49790aed713",
+    "output/checkpoint-3/actual-obs-recording.mov": "1586016c4b7e28b16459a656cde0a9db22b3188a119db509c3f525791d0381de",
+    "output/checkpoint-3/simulated-corner-fixed.mov": "8f409f26430e589d54dc637532476468da629cd59bd57ceb14ea6bec8b82f79c",
+    "output/submission/Screen Recording 2026-11-02 at 15.22.05.mov": "91a492ee51b6476e0164627f01defc4c2e12e1a56f1eef069e06e687a251be60",
+    "evidence/checkpoint-3/screenshots/resolve-live-markers.png": "8903c8cb8ab146ced71d41e4b22d9b8b7cdaf42d027339d95f5ddecc05a52b2a",
+    "evidence/checkpoint-3/resolve/actual-import-results.txt": "dc446a59e2c9197d2ce8812f732fca1ddf4ccbac3ba09762f20e768e395f7d99",
+    "output/submission/captions/streamdirector-demo.en.srt": "a86aa206087421ac4e4c9e9709e4c8afcf7cf73aaf2eaa484d03847d14f5ebe7"
+  },
+  "edits": {
+    "manual": "Actual broadcast source206s onward, normal speed, audio replaced with narration",
+    "simulatedCorner": "Actual local OBS SIMULATED source64.8\u201367s; crop,4\u00d7slow then held, persistent label",
+    "dashboard": "User local recording6.4\u20137.9s; crop,3\u00d7slow then held, persistent SIMULATED SESSION label",
+    "codex": "User recording9\u201314.2s shows actual build-chat/edit summary, cropped; then actual release source/test excerpt. Not reconstructed typing footage.",
+    "resolve": "Historical actual native Resolve still and retained actual console readback; no new import"
+  },
+  "openAcceptance": [
+    "Positive real chat-triggered bookmarking",
+    "Sustained continuity; historical recurrent timeouts/drops retained"
+  ],
+  "fullVisualSequenceReview": "All8contact sheets at1fps covering0\u2013153s inspected, plus full-size critical frames; complete native playback separately tracked",
+  "newBroadcast": false,
+  "published": false
+}

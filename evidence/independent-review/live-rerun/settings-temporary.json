@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-11-01T15:09:39.622Z",
+  "httpStatus": 200,
+  "settings": {
+    "bucketSeconds": 1,
+    "baselineSeconds": 60,
+    "activitySeconds": 5,
+    "warmupSeconds": 60,
+    "multiplier": 3,
+    "minimumRate": 1,
+    "sustainSeconds": 3,
+    "minimumChatters": 1,
+    "cooldownSeconds": 30,
+    "rearmSeconds": 10,
+    "rearmRatio": 0.6,
+    "allowedLatenessSeconds": 2,
+    "cheerThreshold": 100,
+    "cheerWindowSeconds": 10,
+    "correlationSeconds": 10,
+    "leadInSeconds": 15,
+    "alignmentSeconds": 0,
+    "broadcasterId": "238520082",
+    "excludedUserIds": [],
+    "rewardId": null,
+    "maxUsersPerBucket": 10000,
+    "dedupLimit": 100000
+  }
+}

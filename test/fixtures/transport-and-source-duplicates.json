@@ -1,0 +1,40 @@
+{
+  "name": "transport-and-source-duplicates",
+  "streamStartedAtMs": 0,
+  "startedAtMs": 0,
+  "endAtMs": 90000,
+  "events": [
+    {
+      "transportId": "same",
+      "sourceId": "raid",
+      "sourceTimeMs": 1000,
+      "receivedAtMs": 1000,
+      "type": "raid",
+      "amount": 10
+    },
+    {
+      "transportId": "same",
+      "sourceId": "raid",
+      "sourceTimeMs": 2000,
+      "receivedAtMs": 2000,
+      "type": "raid",
+      "amount": 10
+    },
+    {
+      "transportId": "new",
+      "sourceId": "raid",
+      "sourceTimeMs": 3000,
+      "receivedAtMs": 3000,
+      "type": "raid",
+      "amount": 10
+    }
+  ],
+  "expected": [
+    {
+      "signal": "raid",
+      "onsetMs": 1000,
+      "confirmedAtMs": 1000,
+      "tier": "banner"
+    }
+  ]
+}

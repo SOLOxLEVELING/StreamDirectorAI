@@ -1,0 +1,369 @@
+{
+  "capturedAt": "2026-11-02T09:10:24.702Z",
+  "purpose": "Offline timing probe only; no OBS output or bookmarks",
+  "productionPolicyChanged": false,
+  "restoreRequested": true,
+  "failed": false,
+  "aborted": false,
+  "abortCategory": null,
+  "streamChecks": [
+    {
+      "atMs": 1793610320173,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610320456,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610326020,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610331762,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610337758,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610343768,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610349809,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610355790,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610361790,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610367814,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610373869,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610379872,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610385793,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610391822,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610397930,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610403857,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610409825,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610415869,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610421910,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610427859,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610434342,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610439933,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610445919,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610451847,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610457864,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610463840,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610469920,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610475992,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610481892,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610487885,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610493886,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610499901,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610505871,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610511917,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610518061,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610523950,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610529913,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610535942,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610541957,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610547957,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610553941,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610560095,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610565935,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610571960,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610577929,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610583911,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610589938,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610595898,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610601902,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610607923,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610613932,
+      "result": "offline"
+    },
+    {
+      "atMs": 1793610619987,
+      "result": "offline"
+    }
+  ],
+  "streamGuardCacheMs": 5000,
+  "phases": [
+    {
+      "phase": "default",
+      "negotiated": [
+        {
+          "kind": "negotiated",
+          "phase": "default",
+          "wallMs": 1793610324325,
+          "monoMs": 4298721905.99,
+          "timeoutMs": 10000,
+          "mainDispatchLagMs": 0.528,
+          "mainLoopMaxMs": 11.035,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "subscription": [
+        {
+          "kind": "subscription",
+          "phase": "default",
+          "wallMs": 1793610324856,
+          "monoMs": 4298722437.336,
+          "httpStatus": 202,
+          "mainDispatchLagMs": 0.137,
+          "mainLoopMaxMs": 11.198,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "watchdogExceedances": [],
+      "lateReceiptIntervals": [
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610354278,
+          "monoMs": 4298751859.07,
+          "receiptIntervalMs": 10007.255,
+          "serverToWorkerMs": 89,
+          "mainDispatchLagMs": 0.085,
+          "mainLoopMaxMs": 11.19,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610374295,
+          "monoMs": 4298771875.807,
+          "receiptIntervalMs": 10022.39,
+          "serverToWorkerMs": 107,
+          "mainDispatchLagMs": 0.195,
+          "mainLoopMaxMs": 11.846,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610384370,
+          "monoMs": 4298781950.742,
+          "receiptIntervalMs": 10074.819,
+          "serverToWorkerMs": 182,
+          "mainDispatchLagMs": 0.174,
+          "mainLoopMaxMs": 11.592,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610414350,
+          "monoMs": 4298811930.242,
+          "receiptIntervalMs": 10077.064,
+          "serverToWorkerMs": 162,
+          "mainDispatchLagMs": 0.107,
+          "mainLoopMaxMs": 11.067,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610434342,
+          "monoMs": 4298831922.055,
+          "receiptIntervalMs": 10017.344,
+          "serverToWorkerMs": 153,
+          "mainDispatchLagMs": 0.325,
+          "mainLoopMaxMs": 11.043,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610464325,
+          "monoMs": 4298861905.016,
+          "receiptIntervalMs": 10052.097,
+          "serverToWorkerMs": 137,
+          "mainDispatchLagMs": 0.299,
+          "mainLoopMaxMs": 11.174,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793610474386,
+          "monoMs": 4298871965.617,
+          "receiptIntervalMs": 10060.536,
+          "serverToWorkerMs": 197,
+          "mainDispatchLagMs": 0.102,
+          "mainLoopMaxMs": 11.289,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        }
+      ],
+      "maxMainDispatchLagMs": 18.361,
+      "maxWorkerLoopMs": 59.146
+    },
+    {
+      "phase": "requested30",
+      "negotiated": [
+        {
+          "kind": "negotiated",
+          "phase": "requested30",
+          "wallMs": 1793610504192,
+          "monoMs": 4298901771.843,
+          "timeoutMs": 30000,
+          "mainDispatchLagMs": 0.64,
+          "mainLoopMaxMs": 15.917,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "subscription": [
+        {
+          "kind": "subscription",
+          "phase": "requested30",
+          "wallMs": 1793610504584,
+          "monoMs": 4298902163.092,
+          "httpStatus": 202,
+          "mainDispatchLagMs": 0.106,
+          "mainLoopMaxMs": 11.043,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "watchdogExceedances": [],
+      "lateReceiptIntervals": [],
+      "maxMainDispatchLagMs": 3.993,
+      "maxWorkerLoopMs": 59.539
+    }
+  ]
+}

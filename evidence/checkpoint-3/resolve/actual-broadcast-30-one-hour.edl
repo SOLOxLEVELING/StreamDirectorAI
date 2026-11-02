@@ -1,0 +1,12 @@
+TITLE: StreamDirector align 139.5335s lead 0s
+FCM: NON-DROP FRAME
+
+001  001      V     C        01:03:29:03 01:03:29:04 01:03:29:03 01:03:29:04  
+manual: Confirmed manual event [twitch:238520082:316456451563:1] |C:ResolveColorGreen |M:Streamer marked this moment |D:1
+
+002  001      V     C        01:05:41:17 01:05:41:18 01:05:41:17 01:05:41:18  
+manual: Confirmed manual event [twitch:238520082:316456451563:2] |C:ResolveColorGreen |M:Streamer marked this moment |D:1
+
+003  001      V     C        01:09:07:13 01:09:07:14 01:09:07:13 01:09:07:14  
+manual: Confirmed manual event [twitch:238520082:316456451563:3] |C:ResolveColorGreen |M:Streamer marked this moment |D:1
+

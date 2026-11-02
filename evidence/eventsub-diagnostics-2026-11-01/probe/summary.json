@@ -1,0 +1,169 @@
+{
+  "capturedAt": "2026-11-01T18:40:17.319Z",
+  "purpose": "Offline timing probe only; no OBS output or bookmarks",
+  "productionPolicyChanged": false,
+  "restored": true,
+  "aborted": false,
+  "phases": [
+    {
+      "phase": "default",
+      "negotiated": [
+        {
+          "kind": "negotiated",
+          "phase": "default",
+          "wallMs": 1793558117113,
+          "monoMs": 4246514692.866,
+          "timeoutMs": 10000,
+          "mainDispatchLagMs": 0.478,
+          "mainLoopMaxMs": 11.051,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "subscription": [
+        {
+          "kind": "subscription",
+          "phase": "default",
+          "wallMs": 1793558117509,
+          "monoMs": 4246515089.751,
+          "httpStatus": 202,
+          "mainDispatchLagMs": 1.68,
+          "mainLoopMaxMs": 11.829,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "watchdogExceedances": [],
+      "lateReceiptIntervals": [
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558157037,
+          "monoMs": 4246554617.086,
+          "receiptIntervalMs": 10001.246,
+          "serverToWorkerMs": 10,
+          "mainDispatchLagMs": 0.193,
+          "mainLoopMaxMs": 11.346,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558177102,
+          "monoMs": 4246574682.13,
+          "receiptIntervalMs": 10067.503,
+          "serverToWorkerMs": 75,
+          "mainDispatchLagMs": 0.166,
+          "mainLoopMaxMs": 11.379,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558197068,
+          "monoMs": 4246594649.076,
+          "receiptIntervalMs": 10032.893,
+          "serverToWorkerMs": 42,
+          "mainDispatchLagMs": 0.064,
+          "mainLoopMaxMs": 11.715,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558207103,
+          "monoMs": 4246604683.869,
+          "receiptIntervalMs": 10034.691,
+          "serverToWorkerMs": 77,
+          "mainDispatchLagMs": 2.07,
+          "mainLoopMaxMs": 12.403,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558227071,
+          "monoMs": 4246624651.26,
+          "receiptIntervalMs": 10020.437,
+          "serverToWorkerMs": 44,
+          "mainDispatchLagMs": 0.372,
+          "mainLoopMaxMs": 11.28,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558267039,
+          "monoMs": 4246664619.451,
+          "receiptIntervalMs": 10004.631,
+          "serverToWorkerMs": 13,
+          "mainDispatchLagMs": 0.23,
+          "mainLoopMaxMs": 0,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        },
+        {
+          "kind": "receipt",
+          "phase": "default",
+          "wallMs": 1793558277043,
+          "monoMs": 4246674623.64,
+          "receiptIntervalMs": 10004.059,
+          "serverToWorkerMs": 16,
+          "mainDispatchLagMs": 0.122,
+          "mainLoopMaxMs": 11.387,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        }
+      ],
+      "maxMainDispatchLagMs": 29.135,
+      "maxWorkerLoopMs": 83.296
+    },
+    {
+      "phase": "requested30",
+      "negotiated": [
+        {
+          "kind": "negotiated",
+          "phase": "requested30",
+          "wallMs": 1793558297122,
+          "monoMs": 4246694702.749,
+          "timeoutMs": 30000,
+          "mainDispatchLagMs": 0.209,
+          "mainLoopMaxMs": 11.051,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "subscription": [
+        {
+          "kind": "subscription",
+          "phase": "requested30",
+          "wallMs": 1793558297654,
+          "monoMs": 4246695234.603,
+          "httpStatus": 202,
+          "mainDispatchLagMs": 0.2,
+          "mainLoopMaxMs": 11.321,
+          "classification": "within_observed_budget"
+        }
+      ],
+      "watchdogExceedances": [],
+      "lateReceiptIntervals": [
+        {
+          "kind": "receipt",
+          "phase": "requested30",
+          "wallMs": 1793558387073,
+          "monoMs": 4246784654.287,
+          "receiptIntervalMs": 30032.407,
+          "serverToWorkerMs": 45,
+          "mainDispatchLagMs": 0.224,
+          "mainLoopMaxMs": 11.477,
+          "messageType": "session_keepalive",
+          "classification": "within_observed_budget"
+        }
+      ],
+      "maxMainDispatchLagMs": 4.631,
+      "maxWorkerLoopMs": 38.928
+    }
+  ]
+}

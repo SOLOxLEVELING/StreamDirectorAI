@@ -1,0 +1,2 @@
+"id","signal","tier","source_timestamp","received_at","burst_onset","confirmed_at","detected_seconds","suggested_seconds","editor_seconds","caption","reason","caption_status"
+"connection-gap:1793459057154:1","manual","banner","1970-01-01T00:01:26.000Z","1970-01-01T00:01:26.000Z","1970-01-01T00:01:26.000Z","1970-01-01T00:01:26.000Z","86","71","71","Streamer marked this moment","Confirmed manual event","disabled"

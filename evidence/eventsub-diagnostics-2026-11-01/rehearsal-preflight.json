@@ -1,0 +1,14 @@
+{
+  "preparedAtMs": 1793557564285,
+  "stream": "offline",
+  "connection": "connected",
+  "plannedCue": "3, 2, 1, SEND",
+  "abortCue": "ABORT CHAT NOW",
+  "plannedMessages": [
+    "rehearsal a",
+    "rehearsal b",
+    "rehearsal c"
+  ],
+  "outputs": "remain stopped",
+  "purpose": "Coordination only, no acceptance or broadcast"
+}

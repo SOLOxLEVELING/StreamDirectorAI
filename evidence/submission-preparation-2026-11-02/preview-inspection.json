@@ -1,0 +1,127 @@
+{
+  "durationSeconds": 24,
+  "fps": 10,
+  "frames": [
+    {
+      "actualSeconds": 1,
+      "file": "frame-1.000.png",
+      "ocr": [
+        "STREAMDIRECTOR AI \u2014 EVIDENCE PREVIEW",
+        "LOCAL EDIT ONLY \u2022 NOT A COMPLETED SUBMISSION",
+        "StreamDirector Al",
+        "Deterministic suggestions. Persisted reasons. Editor markers.",
+        "Verified scopes: real manual marks, labelled replay, native import.",
+        "Al disabled. No new broadcast or screen capture for this preview.",
+        "ACCEPTANCE OPEN \u2022 derived edit; consult source evidence and claim ledger"
+      ],
+      "requestedSeconds": 1
+    },
+    {
+      "actualSeconds": 7,
+      "file": "frame-7.000.png",
+      "ocr": [
+        "ACTUAL TWITCH BROADCAST \u2022 MANUAL BOOKMARK",
+        "Decoded still at 210.500s \u2022 manual fallback, not an automatic chat trigger",
+        "MANUAL",
+        "Streamer marked this moment",
+        "STREAMDIRECTOR AI \u2022 LIVE VER",
+        "A moment worth",
+        "keeping.",
+        "Recording clock \u2022 UTC",
+        "21:01:24.936",
+        "1793480484936",
+        "Deterministic bookmarks \u2022 Transparent reactions \u2022 Editor markers",
+        "ACCEPTANCE OPEN \u2022 derived edit; consult source evidence and claim ledger"
+      ],
+      "requestedSeconds": 7,
+      "sourceStillVisibleUnixMs": 1793480484936
+    },
+    {
+      "actualSeconds": 11,
+      "file": "frame-11.000.png",
+      "ocr": [
+        "SIMULATED INPUT \u2022 ACTUAL LOCAL OBS RENDERING",
+        "Decoded still at 66.300s \u2022 does not prove real chat acceptance",
+        "STREAMDIRECTOR AI \u2022 LIVE VERIFICATION",
+        "A moment worth",
+        "keeping.",
+        "Recording clock \u2022 UTC",
+        "21:28:31.140",
+        "1793482111140",
+        "Deterministic bookmarks \u2022 Transparent reactions \u2022 Editor markers",
+        "Chat activity reached 1.8",
+        "messages/s",
+        "ACCEPTANCE OPEN \u2022 derived edit; consult source evidence and claim ledger"
+      ],
+      "requestedSeconds": 11,
+      "sourceStillVisibleUnixMs": 1793482111140
+    },
+    {
+      "actualSeconds": 16,
+      "file": "frame-16.000.png",
+      "ocr": [
+        "ACTUAL RESOLVE IMPORT \u2022 MANUAL MARKERS",
+        "Historical still \u2022 native readback passed at frames 6273 / 10247 / 16423",
+        "StreamDirector Checkpoint 2 Markers",
+        "M...",
+        "I= V",
+        "32%",
+        "Master",
+        "00:1241:09",
+        "SD Actual Broadcast Final 30 NDF v",
+        "Master",
+        "Format Sample 30 NDF",
+        "geneated-so-ont-hour",
+        "generated-30-zero",
+        "generated-60-zero",
+        "FG SD Actual Broadcast 30 NDF",
+        "l6 SD Actual Broadcast Final...",
+        "Ho SD Import 30 one-hour",
+        "Ho SD Import 30 zero",
+        "Hro SD Import 60 one-hour",
+        "H6 SD Import 60 zero",
+        "=test-30.mov",
+        "test-60.mov",
+        "A moment worth",
+        "keeping.",
+        "21:10:35.739",
+        "\u2022 ~",
+        "<\u2022>",
+        "01:12:41:09",
+        "Video 1",
+        "1 Clp",
+        "@ atualobs-recordngmov 1241.09",
+        "Keywords",
+        "Collections",
+        "@sctual-obs-recording.mov 1241.09",
+        "2 DaVinci Resolve 21",
+        "ACCEPTANCE OPEN \u2022 derived edit; consult source evidence and claim ledger",
+        "01:1241:09",
+        "Nothing to inspect",
+        "RVM",
+        "*a-",
+        "01:01:16:00"
+      ],
+      "requestedSeconds": 16
+    },
+    {
+      "actualSeconds": 22,
+      "file": "frame-22.000.png",
+      "ocr": [
+        "END-TO-END ACCEPTANCE REMAINS OPEN",
+        "NO NEW BROADCAST SCHEDULED \u2022 AI OFF",
+        "Still required",
+        "Qualifying real chat \u2192 saved bookmark \u2192 recorded corner \u2192 native marker",
+        "EventSub continuity unresolved; historical drops and failures retained.",
+        "Codex build footage, final edit and publication remain pending.",
+        "ACCEPTANCE OPEN \u2022 derived edit; consult source evidence and claim ledger"
+      ],
+      "requestedSeconds": 22
+    }
+  ],
+  "height": 720,
+  "provenance": "AVFoundation decode and Vision OCR of an OFFLINE DERIVED EVIDENCE-STILL PREVIEW; not a new OBS recording",
+  "recording": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/submission/evidence-preview.mov",
+  "width": 1280,
+  "timingWarning": "Visible clock text belongs to frozen source stills, not this edited timeline. Do not infer stream/recording origin from it."
+}

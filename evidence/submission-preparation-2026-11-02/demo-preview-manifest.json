@@ -1,0 +1,60 @@
+{
+  "createdAt": "2026-11-02T09:16:48.570143+00:00",
+  "purpose": "Local24-second evidence-still review preview; not final demo or new acceptance evidence",
+  "properties": {
+    "durationSeconds": 24,
+    "fps": 10,
+    "width": 1280,
+    "height": 720,
+    "audio": false
+  },
+  "segments": [
+    {
+      "previewSeconds": [
+        0,
+        6
+      ],
+      "label": "EVIDENCE PREVIEW; not completed submission"
+    },
+    {
+      "previewSeconds": [
+        6,
+        10
+      ],
+      "label": "ACTUAL TWITCH BROADCAST / MANUAL BOOKMARK",
+      "sourceStillSeconds": 210.5
+    },
+    {
+      "previewSeconds": [
+        10,
+        14
+      ],
+      "label": "SIMULATED INPUT / ACTUAL LOCAL OBS RENDERING",
+      "sourceStillSeconds": 66.3
+    },
+    {
+      "previewSeconds": [
+        14,
+        20
+      ],
+      "label": "ACTUAL RESOLVE IMPORT / MANUAL MARKERS / historical still"
+    },
+    {
+      "previewSeconds": [
+        20,
+        24
+      ],
+      "label": "END-TO-END ACCEPTANCE REMAINS OPEN"
+    }
+  ],
+  "persistentFooter": "ACCEPTANCE OPEN / derived edit; consult source evidence and claim ledger",
+  "files": {
+    "output/submission/evidence-preview.mov": "7bc2ff7e1a2b96f4432763800695b5e1e1f020f6b753985849bbdd715d9970e7",
+    "output/submission/make-evidence-preview.swift": "0204ec28c3479090df489d727b1d112104c57d69bb0fbdc7df89c645c4c51e3c",
+    "evidence/checkpoint-3/live/recorded-followups/frame-210.500.png": "01a88f1717ef19a8257be486f520cce7a5accb03b033a921a0596892f0d86228",
+    "evidence/checkpoint-3/simulated/recorded-corner-fixed/frame-66.300.png": "54ef9d10809630ec05daa637706c10b73d22b1eeb48c124be2225af7f569caf2",
+    "evidence/checkpoint-3/screenshots/resolve-live-markers.png": "8903c8cb8ab146ced71d41e4b22d9b8b7cdaf42d027339d95f5ddecc05a52b2a"
+  },
+  "verification": "Decoded5 representative frames; OCR and direct simulated-frame visual inspection; labels drawn outside source still on every rendered frame",
+  "limitation": "Initial moving-clip derivative failed source AVFoundation decode (-11821); retained separately as failed-video-decode.partial.mov and .txt, excluded from deliverable. Verified decoded source stills used instead. No new live or build footage."
+}

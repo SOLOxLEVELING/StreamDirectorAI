@@ -1,0 +1,293 @@
+Fixture: 30-message-impulse-with-baseline.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "30-message-impulse-with-baseline",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/30-message-impulse-with-baseline",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 1.6,
+    "threshold": 4.800000000000001,
+    "warm": true,
+    "nextEvaluationSecond": 169,
+    "bucketCount": 48,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: 5-message-impulse-with-baseline.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "5-message-impulse-with-baseline",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/5-message-impulse-with-baseline",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 1.6,
+    "threshold": 4.800000000000001,
+    "warm": true,
+    "nextEvaluationSecond": 169,
+    "bucketCount": 48,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: connection-gap.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "connection-gap",
+  "bookmarks": 1,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/connection-gap",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 1.8,
+    "baseline": 0.9,
+    "threshold": 2.7,
+    "warm": false,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 21,
+    "dedupCount": 0,
+    "recentCount": 1,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: expired-candidate-third-chatter.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "expired-candidate-third-chatter",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/expired-candidate-third-chatter",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 1.95,
+    "threshold": 5.85,
+    "warm": true,
+    "nextEvaluationSecond": 199,
+    "bucketCount": 58,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: five-message-single-second-impulse.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "five-message-single-second-impulse",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/five-message-single-second-impulse",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0.08333333333333333,
+    "threshold": 1,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 1,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: idle-chat.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "idle-chat",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/idle-chat",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0,
+    "threshold": 1,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 0,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: large-single-second-impulse.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "large-single-second-impulse",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/large-single-second-impulse",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0.5,
+    "threshold": 1.5,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 1,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: one-second-noise.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "one-second-noise",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/one-second-noise",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0.05,
+    "threshold": 1,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 1,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: platform-overlap.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "platform-overlap",
+  "bookmarks": 7,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/platform-overlap",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0.55,
+    "threshold": 1,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 11,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: steady-traffic.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "steady-traffic",
+  "bookmarks": 0,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/steady-traffic",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 1.9333333333333333,
+    "threshold": 5.8,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 58,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: surge-after-candidate-expiry.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "surge-after-candidate-expiry",
+  "bookmarks": 1,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/surge-after-candidate-expiry",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 5.75,
+    "threshold": 17.25,
+    "warm": true,
+    "nextEvaluationSecond": 239,
+    "bucketCount": 48,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: sustained-burst-with-baseline.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "sustained-burst-with-baseline",
+  "bookmarks": 1,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/sustained-burst-with-baseline",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 5.333333333333333,
+    "threshold": 16,
+    "warm": true,
+    "nextEvaluationSecond": 169,
+    "bucketCount": 48,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: sustained-burst.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "sustained-burst",
+  "bookmarks": 1,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/sustained-burst",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0.55,
+    "threshold": 1,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 11,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}
+
+Fixture: transport-and-source-duplicates.json
+Exit: 0
+{
+  "mode": "SIMULATED",
+  "fixture": "transport-and-source-duplicates",
+  "bookmarks": 1,
+  "output": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-1/transport-and-source-duplicates",
+  "editorCompatibility": "unverified",
+  "status": {
+    "rate": 0,
+    "baseline": 0,
+    "threshold": 1,
+    "warm": true,
+    "nextEvaluationSecond": 89,
+    "bucketCount": 0,
+    "dedupCount": 0,
+    "recentCount": 0,
+    "candidateValidationSeconds": 5
+  }
+}

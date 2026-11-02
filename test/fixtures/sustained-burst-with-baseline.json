@@ -1,0 +1,4416 @@
+{
+  "name": "sustained-burst-with-baseline",
+  "streamStartedAtMs": 0,
+  "startedAtMs": 0,
+  "endAtMs": 170000,
+  "events": [
+    {
+      "type": "chat",
+      "transportId": "regression-636",
+      "sourceId": "regression-636",
+      "sourceTimeMs": 0,
+      "receivedAtMs": 0,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-637",
+      "sourceId": "regression-637",
+      "sourceTimeMs": 0,
+      "receivedAtMs": 0,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-638",
+      "sourceId": "regression-638",
+      "sourceTimeMs": 1000,
+      "receivedAtMs": 1000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-639",
+      "sourceId": "regression-639",
+      "sourceTimeMs": 1000,
+      "receivedAtMs": 1000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-640",
+      "sourceId": "regression-640",
+      "sourceTimeMs": 2000,
+      "receivedAtMs": 2000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-641",
+      "sourceId": "regression-641",
+      "sourceTimeMs": 2000,
+      "receivedAtMs": 2000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-642",
+      "sourceId": "regression-642",
+      "sourceTimeMs": 3000,
+      "receivedAtMs": 3000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-643",
+      "sourceId": "regression-643",
+      "sourceTimeMs": 3000,
+      "receivedAtMs": 3000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-644",
+      "sourceId": "regression-644",
+      "sourceTimeMs": 4000,
+      "receivedAtMs": 4000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-645",
+      "sourceId": "regression-645",
+      "sourceTimeMs": 4000,
+      "receivedAtMs": 4000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-646",
+      "sourceId": "regression-646",
+      "sourceTimeMs": 5000,
+      "receivedAtMs": 5000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-647",
+      "sourceId": "regression-647",
+      "sourceTimeMs": 5000,
+      "receivedAtMs": 5000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-648",
+      "sourceId": "regression-648",
+      "sourceTimeMs": 6000,
+      "receivedAtMs": 6000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-649",
+      "sourceId": "regression-649",
+      "sourceTimeMs": 6000,
+      "receivedAtMs": 6000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-650",
+      "sourceId": "regression-650",
+      "sourceTimeMs": 7000,
+      "receivedAtMs": 7000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-651",
+      "sourceId": "regression-651",
+      "sourceTimeMs": 7000,
+      "receivedAtMs": 7000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-652",
+      "sourceId": "regression-652",
+      "sourceTimeMs": 8000,
+      "receivedAtMs": 8000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-653",
+      "sourceId": "regression-653",
+      "sourceTimeMs": 8000,
+      "receivedAtMs": 8000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-654",
+      "sourceId": "regression-654",
+      "sourceTimeMs": 9000,
+      "receivedAtMs": 9000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-655",
+      "sourceId": "regression-655",
+      "sourceTimeMs": 9000,
+      "receivedAtMs": 9000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-656",
+      "sourceId": "regression-656",
+      "sourceTimeMs": 10000,
+      "receivedAtMs": 10000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-657",
+      "sourceId": "regression-657",
+      "sourceTimeMs": 10000,
+      "receivedAtMs": 10000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-658",
+      "sourceId": "regression-658",
+      "sourceTimeMs": 11000,
+      "receivedAtMs": 11000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-659",
+      "sourceId": "regression-659",
+      "sourceTimeMs": 11000,
+      "receivedAtMs": 11000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-660",
+      "sourceId": "regression-660",
+      "sourceTimeMs": 12000,
+      "receivedAtMs": 12000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-661",
+      "sourceId": "regression-661",
+      "sourceTimeMs": 12000,
+      "receivedAtMs": 12000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-662",
+      "sourceId": "regression-662",
+      "sourceTimeMs": 13000,
+      "receivedAtMs": 13000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-663",
+      "sourceId": "regression-663",
+      "sourceTimeMs": 13000,
+      "receivedAtMs": 13000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-664",
+      "sourceId": "regression-664",
+      "sourceTimeMs": 14000,
+      "receivedAtMs": 14000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-665",
+      "sourceId": "regression-665",
+      "sourceTimeMs": 14000,
+      "receivedAtMs": 14000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-666",
+      "sourceId": "regression-666",
+      "sourceTimeMs": 15000,
+      "receivedAtMs": 15000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-667",
+      "sourceId": "regression-667",
+      "sourceTimeMs": 15000,
+      "receivedAtMs": 15000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-668",
+      "sourceId": "regression-668",
+      "sourceTimeMs": 16000,
+      "receivedAtMs": 16000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-669",
+      "sourceId": "regression-669",
+      "sourceTimeMs": 16000,
+      "receivedAtMs": 16000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-670",
+      "sourceId": "regression-670",
+      "sourceTimeMs": 17000,
+      "receivedAtMs": 17000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-671",
+      "sourceId": "regression-671",
+      "sourceTimeMs": 17000,
+      "receivedAtMs": 17000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-672",
+      "sourceId": "regression-672",
+      "sourceTimeMs": 18000,
+      "receivedAtMs": 18000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-673",
+      "sourceId": "regression-673",
+      "sourceTimeMs": 18000,
+      "receivedAtMs": 18000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-674",
+      "sourceId": "regression-674",
+      "sourceTimeMs": 19000,
+      "receivedAtMs": 19000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-675",
+      "sourceId": "regression-675",
+      "sourceTimeMs": 19000,
+      "receivedAtMs": 19000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-676",
+      "sourceId": "regression-676",
+      "sourceTimeMs": 20000,
+      "receivedAtMs": 20000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-677",
+      "sourceId": "regression-677",
+      "sourceTimeMs": 20000,
+      "receivedAtMs": 20000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-678",
+      "sourceId": "regression-678",
+      "sourceTimeMs": 21000,
+      "receivedAtMs": 21000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-679",
+      "sourceId": "regression-679",
+      "sourceTimeMs": 21000,
+      "receivedAtMs": 21000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-680",
+      "sourceId": "regression-680",
+      "sourceTimeMs": 22000,
+      "receivedAtMs": 22000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-681",
+      "sourceId": "regression-681",
+      "sourceTimeMs": 22000,
+      "receivedAtMs": 22000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-682",
+      "sourceId": "regression-682",
+      "sourceTimeMs": 23000,
+      "receivedAtMs": 23000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-683",
+      "sourceId": "regression-683",
+      "sourceTimeMs": 23000,
+      "receivedAtMs": 23000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-684",
+      "sourceId": "regression-684",
+      "sourceTimeMs": 24000,
+      "receivedAtMs": 24000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-685",
+      "sourceId": "regression-685",
+      "sourceTimeMs": 24000,
+      "receivedAtMs": 24000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-686",
+      "sourceId": "regression-686",
+      "sourceTimeMs": 25000,
+      "receivedAtMs": 25000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-687",
+      "sourceId": "regression-687",
+      "sourceTimeMs": 25000,
+      "receivedAtMs": 25000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-688",
+      "sourceId": "regression-688",
+      "sourceTimeMs": 26000,
+      "receivedAtMs": 26000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-689",
+      "sourceId": "regression-689",
+      "sourceTimeMs": 26000,
+      "receivedAtMs": 26000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-690",
+      "sourceId": "regression-690",
+      "sourceTimeMs": 27000,
+      "receivedAtMs": 27000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-691",
+      "sourceId": "regression-691",
+      "sourceTimeMs": 27000,
+      "receivedAtMs": 27000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-692",
+      "sourceId": "regression-692",
+      "sourceTimeMs": 28000,
+      "receivedAtMs": 28000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-693",
+      "sourceId": "regression-693",
+      "sourceTimeMs": 28000,
+      "receivedAtMs": 28000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-694",
+      "sourceId": "regression-694",
+      "sourceTimeMs": 29000,
+      "receivedAtMs": 29000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-695",
+      "sourceId": "regression-695",
+      "sourceTimeMs": 29000,
+      "receivedAtMs": 29000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-696",
+      "sourceId": "regression-696",
+      "sourceTimeMs": 30000,
+      "receivedAtMs": 30000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-697",
+      "sourceId": "regression-697",
+      "sourceTimeMs": 30000,
+      "receivedAtMs": 30000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-698",
+      "sourceId": "regression-698",
+      "sourceTimeMs": 31000,
+      "receivedAtMs": 31000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-699",
+      "sourceId": "regression-699",
+      "sourceTimeMs": 31000,
+      "receivedAtMs": 31000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-700",
+      "sourceId": "regression-700",
+      "sourceTimeMs": 32000,
+      "receivedAtMs": 32000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-701",
+      "sourceId": "regression-701",
+      "sourceTimeMs": 32000,
+      "receivedAtMs": 32000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-702",
+      "sourceId": "regression-702",
+      "sourceTimeMs": 33000,
+      "receivedAtMs": 33000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-703",
+      "sourceId": "regression-703",
+      "sourceTimeMs": 33000,
+      "receivedAtMs": 33000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-704",
+      "sourceId": "regression-704",
+      "sourceTimeMs": 34000,
+      "receivedAtMs": 34000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-705",
+      "sourceId": "regression-705",
+      "sourceTimeMs": 34000,
+      "receivedAtMs": 34000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-706",
+      "sourceId": "regression-706",
+      "sourceTimeMs": 35000,
+      "receivedAtMs": 35000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-707",
+      "sourceId": "regression-707",
+      "sourceTimeMs": 35000,
+      "receivedAtMs": 35000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-708",
+      "sourceId": "regression-708",
+      "sourceTimeMs": 36000,
+      "receivedAtMs": 36000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-709",
+      "sourceId": "regression-709",
+      "sourceTimeMs": 36000,
+      "receivedAtMs": 36000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-710",
+      "sourceId": "regression-710",
+      "sourceTimeMs": 37000,
+      "receivedAtMs": 37000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-711",
+      "sourceId": "regression-711",
+      "sourceTimeMs": 37000,
+      "receivedAtMs": 37000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-712",
+      "sourceId": "regression-712",
+      "sourceTimeMs": 38000,
+      "receivedAtMs": 38000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-713",
+      "sourceId": "regression-713",
+      "sourceTimeMs": 38000,
+      "receivedAtMs": 38000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-714",
+      "sourceId": "regression-714",
+      "sourceTimeMs": 39000,
+      "receivedAtMs": 39000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-715",
+      "sourceId": "regression-715",
+      "sourceTimeMs": 39000,
+      "receivedAtMs": 39000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-716",
+      "sourceId": "regression-716",
+      "sourceTimeMs": 40000,
+      "receivedAtMs": 40000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-717",
+      "sourceId": "regression-717",
+      "sourceTimeMs": 40000,
+      "receivedAtMs": 40000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-718",
+      "sourceId": "regression-718",
+      "sourceTimeMs": 41000,
+      "receivedAtMs": 41000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-719",
+      "sourceId": "regression-719",
+      "sourceTimeMs": 41000,
+      "receivedAtMs": 41000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-720",
+      "sourceId": "regression-720",
+      "sourceTimeMs": 42000,
+      "receivedAtMs": 42000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-721",
+      "sourceId": "regression-721",
+      "sourceTimeMs": 42000,
+      "receivedAtMs": 42000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-722",
+      "sourceId": "regression-722",
+      "sourceTimeMs": 43000,
+      "receivedAtMs": 43000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-723",
+      "sourceId": "regression-723",
+      "sourceTimeMs": 43000,
+      "receivedAtMs": 43000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-724",
+      "sourceId": "regression-724",
+      "sourceTimeMs": 44000,
+      "receivedAtMs": 44000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-725",
+      "sourceId": "regression-725",
+      "sourceTimeMs": 44000,
+      "receivedAtMs": 44000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-726",
+      "sourceId": "regression-726",
+      "sourceTimeMs": 45000,
+      "receivedAtMs": 45000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-727",
+      "sourceId": "regression-727",
+      "sourceTimeMs": 45000,
+      "receivedAtMs": 45000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-728",
+      "sourceId": "regression-728",
+      "sourceTimeMs": 46000,
+      "receivedAtMs": 46000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-729",
+      "sourceId": "regression-729",
+      "sourceTimeMs": 46000,
+      "receivedAtMs": 46000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-730",
+      "sourceId": "regression-730",
+      "sourceTimeMs": 47000,
+      "receivedAtMs": 47000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-731",
+      "sourceId": "regression-731",
+      "sourceTimeMs": 47000,
+      "receivedAtMs": 47000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-732",
+      "sourceId": "regression-732",
+      "sourceTimeMs": 48000,
+      "receivedAtMs": 48000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-733",
+      "sourceId": "regression-733",
+      "sourceTimeMs": 48000,
+      "receivedAtMs": 48000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-734",
+      "sourceId": "regression-734",
+      "sourceTimeMs": 49000,
+      "receivedAtMs": 49000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-735",
+      "sourceId": "regression-735",
+      "sourceTimeMs": 49000,
+      "receivedAtMs": 49000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-736",
+      "sourceId": "regression-736",
+      "sourceTimeMs": 50000,
+      "receivedAtMs": 50000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-737",
+      "sourceId": "regression-737",
+      "sourceTimeMs": 50000,
+      "receivedAtMs": 50000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-738",
+      "sourceId": "regression-738",
+      "sourceTimeMs": 51000,
+      "receivedAtMs": 51000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-739",
+      "sourceId": "regression-739",
+      "sourceTimeMs": 51000,
+      "receivedAtMs": 51000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-740",
+      "sourceId": "regression-740",
+      "sourceTimeMs": 52000,
+      "receivedAtMs": 52000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-741",
+      "sourceId": "regression-741",
+      "sourceTimeMs": 52000,
+      "receivedAtMs": 52000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-742",
+      "sourceId": "regression-742",
+      "sourceTimeMs": 53000,
+      "receivedAtMs": 53000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-743",
+      "sourceId": "regression-743",
+      "sourceTimeMs": 53000,
+      "receivedAtMs": 53000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-744",
+      "sourceId": "regression-744",
+      "sourceTimeMs": 54000,
+      "receivedAtMs": 54000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-745",
+      "sourceId": "regression-745",
+      "sourceTimeMs": 54000,
+      "receivedAtMs": 54000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-746",
+      "sourceId": "regression-746",
+      "sourceTimeMs": 55000,
+      "receivedAtMs": 55000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-747",
+      "sourceId": "regression-747",
+      "sourceTimeMs": 55000,
+      "receivedAtMs": 55000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-748",
+      "sourceId": "regression-748",
+      "sourceTimeMs": 56000,
+      "receivedAtMs": 56000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-749",
+      "sourceId": "regression-749",
+      "sourceTimeMs": 56000,
+      "receivedAtMs": 56000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-750",
+      "sourceId": "regression-750",
+      "sourceTimeMs": 57000,
+      "receivedAtMs": 57000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-751",
+      "sourceId": "regression-751",
+      "sourceTimeMs": 57000,
+      "receivedAtMs": 57000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-752",
+      "sourceId": "regression-752",
+      "sourceTimeMs": 58000,
+      "receivedAtMs": 58000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-753",
+      "sourceId": "regression-753",
+      "sourceTimeMs": 58000,
+      "receivedAtMs": 58000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-754",
+      "sourceId": "regression-754",
+      "sourceTimeMs": 59000,
+      "receivedAtMs": 59000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-755",
+      "sourceId": "regression-755",
+      "sourceTimeMs": 59000,
+      "receivedAtMs": 59000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-756",
+      "sourceId": "regression-756",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-757",
+      "sourceId": "regression-757",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-758",
+      "sourceId": "regression-758",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-759",
+      "sourceId": "regression-759",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-760",
+      "sourceId": "regression-760",
+      "sourceTimeMs": 62000,
+      "receivedAtMs": 62000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-761",
+      "sourceId": "regression-761",
+      "sourceTimeMs": 62000,
+      "receivedAtMs": 62000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-762",
+      "sourceId": "regression-762",
+      "sourceTimeMs": 63000,
+      "receivedAtMs": 63000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-763",
+      "sourceId": "regression-763",
+      "sourceTimeMs": 63000,
+      "receivedAtMs": 63000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-764",
+      "sourceId": "regression-764",
+      "sourceTimeMs": 64000,
+      "receivedAtMs": 64000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-765",
+      "sourceId": "regression-765",
+      "sourceTimeMs": 64000,
+      "receivedAtMs": 64000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-766",
+      "sourceId": "regression-766",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-767",
+      "sourceId": "regression-767",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-768",
+      "sourceId": "regression-768",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-769",
+      "sourceId": "regression-769",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-770",
+      "sourceId": "regression-770",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-771",
+      "sourceId": "regression-771",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-772",
+      "sourceId": "regression-772",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-773",
+      "sourceId": "regression-773",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-774",
+      "sourceId": "regression-774",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-775",
+      "sourceId": "regression-775",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-776",
+      "sourceId": "regression-776",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-777",
+      "sourceId": "regression-777",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-778",
+      "sourceId": "regression-778",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-779",
+      "sourceId": "regression-779",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-780",
+      "sourceId": "regression-780",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-781",
+      "sourceId": "regression-781",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-782",
+      "sourceId": "regression-782",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-783",
+      "sourceId": "regression-783",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-784",
+      "sourceId": "regression-784",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-785",
+      "sourceId": "regression-785",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-786",
+      "sourceId": "regression-786",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-787",
+      "sourceId": "regression-787",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-788",
+      "sourceId": "regression-788",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-789",
+      "sourceId": "regression-789",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-790",
+      "sourceId": "regression-790",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-791",
+      "sourceId": "regression-791",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-792",
+      "sourceId": "regression-792",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-793",
+      "sourceId": "regression-793",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-794",
+      "sourceId": "regression-794",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-795",
+      "sourceId": "regression-795",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-796",
+      "sourceId": "regression-796",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-797",
+      "sourceId": "regression-797",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-798",
+      "sourceId": "regression-798",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-799",
+      "sourceId": "regression-799",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-800",
+      "sourceId": "regression-800",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-801",
+      "sourceId": "regression-801",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-802",
+      "sourceId": "regression-802",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-803",
+      "sourceId": "regression-803",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-804",
+      "sourceId": "regression-804",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-805",
+      "sourceId": "regression-805",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-806",
+      "sourceId": "regression-806",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-807",
+      "sourceId": "regression-807",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-808",
+      "sourceId": "regression-808",
+      "sourceTimeMs": 86000,
+      "receivedAtMs": 86000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-809",
+      "sourceId": "regression-809",
+      "sourceTimeMs": 86000,
+      "receivedAtMs": 86000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-810",
+      "sourceId": "regression-810",
+      "sourceTimeMs": 87000,
+      "receivedAtMs": 87000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-811",
+      "sourceId": "regression-811",
+      "sourceTimeMs": 87000,
+      "receivedAtMs": 87000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-812",
+      "sourceId": "regression-812",
+      "sourceTimeMs": 88000,
+      "receivedAtMs": 88000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-813",
+      "sourceId": "regression-813",
+      "sourceTimeMs": 88000,
+      "receivedAtMs": 88000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-814",
+      "sourceId": "regression-814",
+      "sourceTimeMs": 89000,
+      "receivedAtMs": 89000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-815",
+      "sourceId": "regression-815",
+      "sourceTimeMs": 89000,
+      "receivedAtMs": 89000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-816",
+      "sourceId": "regression-816",
+      "sourceTimeMs": 90000,
+      "receivedAtMs": 90000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-817",
+      "sourceId": "regression-817",
+      "sourceTimeMs": 90000,
+      "receivedAtMs": 90000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-818",
+      "sourceId": "regression-818",
+      "sourceTimeMs": 91000,
+      "receivedAtMs": 91000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-819",
+      "sourceId": "regression-819",
+      "sourceTimeMs": 91000,
+      "receivedAtMs": 91000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-820",
+      "sourceId": "regression-820",
+      "sourceTimeMs": 92000,
+      "receivedAtMs": 92000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-821",
+      "sourceId": "regression-821",
+      "sourceTimeMs": 92000,
+      "receivedAtMs": 92000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-822",
+      "sourceId": "regression-822",
+      "sourceTimeMs": 93000,
+      "receivedAtMs": 93000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-823",
+      "sourceId": "regression-823",
+      "sourceTimeMs": 93000,
+      "receivedAtMs": 93000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-824",
+      "sourceId": "regression-824",
+      "sourceTimeMs": 94000,
+      "receivedAtMs": 94000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-825",
+      "sourceId": "regression-825",
+      "sourceTimeMs": 94000,
+      "receivedAtMs": 94000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-826",
+      "sourceId": "regression-826",
+      "sourceTimeMs": 95000,
+      "receivedAtMs": 95000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-827",
+      "sourceId": "regression-827",
+      "sourceTimeMs": 95000,
+      "receivedAtMs": 95000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-828",
+      "sourceId": "regression-828",
+      "sourceTimeMs": 96000,
+      "receivedAtMs": 96000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-829",
+      "sourceId": "regression-829",
+      "sourceTimeMs": 96000,
+      "receivedAtMs": 96000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-830",
+      "sourceId": "regression-830",
+      "sourceTimeMs": 97000,
+      "receivedAtMs": 97000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-831",
+      "sourceId": "regression-831",
+      "sourceTimeMs": 97000,
+      "receivedAtMs": 97000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-832",
+      "sourceId": "regression-832",
+      "sourceTimeMs": 98000,
+      "receivedAtMs": 98000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-833",
+      "sourceId": "regression-833",
+      "sourceTimeMs": 98000,
+      "receivedAtMs": 98000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-834",
+      "sourceId": "regression-834",
+      "sourceTimeMs": 99000,
+      "receivedAtMs": 99000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-835",
+      "sourceId": "regression-835",
+      "sourceTimeMs": 99000,
+      "receivedAtMs": 99000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-836",
+      "sourceId": "regression-836",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-837",
+      "sourceId": "regression-837",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-838",
+      "sourceId": "regression-838",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-839",
+      "sourceId": "regression-839",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-840",
+      "sourceId": "regression-840",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-841",
+      "sourceId": "regression-841",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-842",
+      "sourceId": "regression-842",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-843",
+      "sourceId": "regression-843",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-844",
+      "sourceId": "regression-844",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-845",
+      "sourceId": "regression-845",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-846",
+      "sourceId": "regression-846",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-847",
+      "sourceId": "regression-847",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-848",
+      "sourceId": "regression-848",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-849",
+      "sourceId": "regression-849",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-850",
+      "sourceId": "regression-850",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-851",
+      "sourceId": "regression-851",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-852",
+      "sourceId": "regression-852",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-853",
+      "sourceId": "regression-853",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-854",
+      "sourceId": "regression-854",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-855",
+      "sourceId": "regression-855",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-856",
+      "sourceId": "regression-856",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-857",
+      "sourceId": "regression-857",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-858",
+      "sourceId": "regression-858",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-859",
+      "sourceId": "regression-859",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-860",
+      "sourceId": "regression-860",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-861",
+      "sourceId": "regression-861",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-862",
+      "sourceId": "regression-862",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-863",
+      "sourceId": "regression-863",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-864",
+      "sourceId": "regression-864",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-865",
+      "sourceId": "regression-865",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-866",
+      "sourceId": "regression-866",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-867",
+      "sourceId": "regression-867",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-868",
+      "sourceId": "regression-868",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-869",
+      "sourceId": "regression-869",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-870",
+      "sourceId": "regression-870",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-871",
+      "sourceId": "regression-871",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-872",
+      "sourceId": "regression-872",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-873",
+      "sourceId": "regression-873",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-874",
+      "sourceId": "regression-874",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-875",
+      "sourceId": "regression-875",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-876",
+      "sourceId": "regression-876",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-877",
+      "sourceId": "regression-877",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-878",
+      "sourceId": "regression-878",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-879",
+      "sourceId": "regression-879",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-880",
+      "sourceId": "regression-880",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-881",
+      "sourceId": "regression-881",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-882",
+      "sourceId": "regression-882",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-883",
+      "sourceId": "regression-883",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-884",
+      "sourceId": "regression-884",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-885",
+      "sourceId": "regression-885",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-886",
+      "sourceId": "regression-886",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-887",
+      "sourceId": "regression-887",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-888",
+      "sourceId": "regression-888",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-889",
+      "sourceId": "regression-889",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-890",
+      "sourceId": "regression-890",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-891",
+      "sourceId": "regression-891",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-892",
+      "sourceId": "regression-892",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-893",
+      "sourceId": "regression-893",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-894",
+      "sourceId": "regression-894",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-895",
+      "sourceId": "regression-895",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-896",
+      "sourceId": "regression-896",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-897",
+      "sourceId": "regression-897",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-898",
+      "sourceId": "regression-898",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-899",
+      "sourceId": "regression-899",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-900",
+      "sourceId": "regression-900",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-901",
+      "sourceId": "regression-901",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-902",
+      "sourceId": "regression-902",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-903",
+      "sourceId": "regression-903",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-904",
+      "sourceId": "regression-904",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-905",
+      "sourceId": "regression-905",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-906",
+      "sourceId": "regression-906",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-907",
+      "sourceId": "regression-907",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-908",
+      "sourceId": "regression-908",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-909",
+      "sourceId": "regression-909",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-910",
+      "sourceId": "regression-910",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-911",
+      "sourceId": "regression-911",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-912",
+      "sourceId": "regression-912",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-913",
+      "sourceId": "regression-913",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-914",
+      "sourceId": "regression-914",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-915",
+      "sourceId": "regression-915",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-916",
+      "sourceId": "regression-916",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-917",
+      "sourceId": "regression-917",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-918",
+      "sourceId": "regression-918",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-919",
+      "sourceId": "regression-919",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-920",
+      "sourceId": "regression-920",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-921",
+      "sourceId": "regression-921",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-922",
+      "sourceId": "regression-922",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-923",
+      "sourceId": "regression-923",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-924",
+      "sourceId": "regression-924",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-925",
+      "sourceId": "regression-925",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-926",
+      "sourceId": "regression-926",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-927",
+      "sourceId": "regression-927",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-928",
+      "sourceId": "regression-928",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-929",
+      "sourceId": "regression-929",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-930",
+      "sourceId": "regression-930",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-931",
+      "sourceId": "regression-931",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-932",
+      "sourceId": "regression-932",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-933",
+      "sourceId": "regression-933",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-934",
+      "sourceId": "regression-934",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-935",
+      "sourceId": "regression-935",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-936",
+      "sourceId": "regression-936",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-937",
+      "sourceId": "regression-937",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-938",
+      "sourceId": "regression-938",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-939",
+      "sourceId": "regression-939",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-940",
+      "sourceId": "regression-940",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-941",
+      "sourceId": "regression-941",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-942",
+      "sourceId": "regression-942",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-943",
+      "sourceId": "regression-943",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-944",
+      "sourceId": "regression-944",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-945",
+      "sourceId": "regression-945",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-946",
+      "sourceId": "regression-946",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-947",
+      "sourceId": "regression-947",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-948",
+      "sourceId": "regression-948",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-949",
+      "sourceId": "regression-949",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-950",
+      "sourceId": "regression-950",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-951",
+      "sourceId": "regression-951",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-952",
+      "sourceId": "regression-952",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-953",
+      "sourceId": "regression-953",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-954",
+      "sourceId": "regression-954",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-955",
+      "sourceId": "regression-955",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-956",
+      "sourceId": "regression-956",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-957",
+      "sourceId": "regression-957",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-958",
+      "sourceId": "regression-958",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-959",
+      "sourceId": "regression-959",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-960",
+      "sourceId": "regression-960",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-961",
+      "sourceId": "regression-961",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-962",
+      "sourceId": "regression-962",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-963",
+      "sourceId": "regression-963",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-964",
+      "sourceId": "regression-964",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-965",
+      "sourceId": "regression-965",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-966",
+      "sourceId": "regression-966",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-967",
+      "sourceId": "regression-967",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-968",
+      "sourceId": "regression-968",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-969",
+      "sourceId": "regression-969",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-970",
+      "sourceId": "regression-970",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-971",
+      "sourceId": "regression-971",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-972",
+      "sourceId": "regression-972",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-973",
+      "sourceId": "regression-973",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-974",
+      "sourceId": "regression-974",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-975",
+      "sourceId": "regression-975",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-976",
+      "sourceId": "regression-976",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-977",
+      "sourceId": "regression-977",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-978",
+      "sourceId": "regression-978",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-979",
+      "sourceId": "regression-979",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-980",
+      "sourceId": "regression-980",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-981",
+      "sourceId": "regression-981",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-982",
+      "sourceId": "regression-982",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-983",
+      "sourceId": "regression-983",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-984",
+      "sourceId": "regression-984",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-985",
+      "sourceId": "regression-985",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-986",
+      "sourceId": "regression-986",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-987",
+      "sourceId": "regression-987",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-988",
+      "sourceId": "regression-988",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-989",
+      "sourceId": "regression-989",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-990",
+      "sourceId": "regression-990",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-991",
+      "sourceId": "regression-991",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-992",
+      "sourceId": "regression-992",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-993",
+      "sourceId": "regression-993",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-994",
+      "sourceId": "regression-994",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-995",
+      "sourceId": "regression-995",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-996",
+      "sourceId": "regression-996",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-997",
+      "sourceId": "regression-997",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-998",
+      "sourceId": "regression-998",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-999",
+      "sourceId": "regression-999",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1000",
+      "sourceId": "regression-1000",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1001",
+      "sourceId": "regression-1001",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1002",
+      "sourceId": "regression-1002",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1003",
+      "sourceId": "regression-1003",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1004",
+      "sourceId": "regression-1004",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1005",
+      "sourceId": "regression-1005",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1006",
+      "sourceId": "regression-1006",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1007",
+      "sourceId": "regression-1007",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1008",
+      "sourceId": "regression-1008",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1009",
+      "sourceId": "regression-1009",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1010",
+      "sourceId": "regression-1010",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1011",
+      "sourceId": "regression-1011",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1012",
+      "sourceId": "regression-1012",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1013",
+      "sourceId": "regression-1013",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1014",
+      "sourceId": "regression-1014",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1015",
+      "sourceId": "regression-1015",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1016",
+      "sourceId": "regression-1016",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1017",
+      "sourceId": "regression-1017",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1018",
+      "sourceId": "regression-1018",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1019",
+      "sourceId": "regression-1019",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1020",
+      "sourceId": "regression-1020",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1021",
+      "sourceId": "regression-1021",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1022",
+      "sourceId": "regression-1022",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1023",
+      "sourceId": "regression-1023",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1024",
+      "sourceId": "regression-1024",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1025",
+      "sourceId": "regression-1025",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1026",
+      "sourceId": "regression-1026",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1027",
+      "sourceId": "regression-1027",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1028",
+      "sourceId": "regression-1028",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1029",
+      "sourceId": "regression-1029",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1030",
+      "sourceId": "regression-1030",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1031",
+      "sourceId": "regression-1031",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1032",
+      "sourceId": "regression-1032",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1033",
+      "sourceId": "regression-1033",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1034",
+      "sourceId": "regression-1034",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1035",
+      "sourceId": "regression-1035",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1036",
+      "sourceId": "regression-1036",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1037",
+      "sourceId": "regression-1037",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1038",
+      "sourceId": "regression-1038",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1039",
+      "sourceId": "regression-1039",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1040",
+      "sourceId": "regression-1040",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1041",
+      "sourceId": "regression-1041",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1042",
+      "sourceId": "regression-1042",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1043",
+      "sourceId": "regression-1043",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1044",
+      "sourceId": "regression-1044",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1045",
+      "sourceId": "regression-1045",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1046",
+      "sourceId": "regression-1046",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1047",
+      "sourceId": "regression-1047",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1048",
+      "sourceId": "regression-1048",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1049",
+      "sourceId": "regression-1049",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1050",
+      "sourceId": "regression-1050",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1051",
+      "sourceId": "regression-1051",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1052",
+      "sourceId": "regression-1052",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1053",
+      "sourceId": "regression-1053",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1054",
+      "sourceId": "regression-1054",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1055",
+      "sourceId": "regression-1055",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1056",
+      "sourceId": "regression-1056",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1057",
+      "sourceId": "regression-1057",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1058",
+      "sourceId": "regression-1058",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1059",
+      "sourceId": "regression-1059",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1060",
+      "sourceId": "regression-1060",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1061",
+      "sourceId": "regression-1061",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1062",
+      "sourceId": "regression-1062",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1063",
+      "sourceId": "regression-1063",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1064",
+      "sourceId": "regression-1064",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1065",
+      "sourceId": "regression-1065",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1066",
+      "sourceId": "regression-1066",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1067",
+      "sourceId": "regression-1067",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1068",
+      "sourceId": "regression-1068",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1069",
+      "sourceId": "regression-1069",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1070",
+      "sourceId": "regression-1070",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1071",
+      "sourceId": "regression-1071",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1072",
+      "sourceId": "regression-1072",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1073",
+      "sourceId": "regression-1073",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1074",
+      "sourceId": "regression-1074",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1075",
+      "sourceId": "regression-1075",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1076",
+      "sourceId": "regression-1076",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1077",
+      "sourceId": "regression-1077",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1078",
+      "sourceId": "regression-1078",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1079",
+      "sourceId": "regression-1079",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1080",
+      "sourceId": "regression-1080",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1081",
+      "sourceId": "regression-1081",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1082",
+      "sourceId": "regression-1082",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1083",
+      "sourceId": "regression-1083",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1084",
+      "sourceId": "regression-1084",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1085",
+      "sourceId": "regression-1085",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1086",
+      "sourceId": "regression-1086",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1087",
+      "sourceId": "regression-1087",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1088",
+      "sourceId": "regression-1088",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1089",
+      "sourceId": "regression-1089",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1090",
+      "sourceId": "regression-1090",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1091",
+      "sourceId": "regression-1091",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1092",
+      "sourceId": "regression-1092",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1093",
+      "sourceId": "regression-1093",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1094",
+      "sourceId": "regression-1094",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1095",
+      "sourceId": "regression-1095",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1096",
+      "sourceId": "regression-1096",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1097",
+      "sourceId": "regression-1097",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1098",
+      "sourceId": "regression-1098",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1099",
+      "sourceId": "regression-1099",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1100",
+      "sourceId": "regression-1100",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1101",
+      "sourceId": "regression-1101",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1102",
+      "sourceId": "regression-1102",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1103",
+      "sourceId": "regression-1103",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1104",
+      "sourceId": "regression-1104",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1105",
+      "sourceId": "regression-1105",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1106",
+      "sourceId": "regression-1106",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1107",
+      "sourceId": "regression-1107",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1108",
+      "sourceId": "regression-1108",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1109",
+      "sourceId": "regression-1109",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1110",
+      "sourceId": "regression-1110",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1111",
+      "sourceId": "regression-1111",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1112",
+      "sourceId": "regression-1112",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1113",
+      "sourceId": "regression-1113",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1114",
+      "sourceId": "regression-1114",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1115",
+      "sourceId": "regression-1115",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1116",
+      "sourceId": "regression-1116",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1117",
+      "sourceId": "regression-1117",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1118",
+      "sourceId": "regression-1118",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1119",
+      "sourceId": "regression-1119",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1120",
+      "sourceId": "regression-1120",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1121",
+      "sourceId": "regression-1121",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1122",
+      "sourceId": "regression-1122",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1123",
+      "sourceId": "regression-1123",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1124",
+      "sourceId": "regression-1124",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1125",
+      "sourceId": "regression-1125",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1126",
+      "sourceId": "regression-1126",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1127",
+      "sourceId": "regression-1127",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1128",
+      "sourceId": "regression-1128",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1129",
+      "sourceId": "regression-1129",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1130",
+      "sourceId": "regression-1130",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1131",
+      "sourceId": "regression-1131",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1132",
+      "sourceId": "regression-1132",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1133",
+      "sourceId": "regression-1133",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1134",
+      "sourceId": "regression-1134",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1135",
+      "sourceId": "regression-1135",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1136",
+      "sourceId": "regression-1136",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1137",
+      "sourceId": "regression-1137",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1138",
+      "sourceId": "regression-1138",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-2"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1139",
+      "sourceId": "regression-1139",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-3"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1140",
+      "sourceId": "regression-1140",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-4"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1141",
+      "sourceId": "regression-1141",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-5"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1142",
+      "sourceId": "regression-1142",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-6"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1143",
+      "sourceId": "regression-1143",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-7"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1144",
+      "sourceId": "regression-1144",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-8"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1145",
+      "sourceId": "regression-1145",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-9"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1146",
+      "sourceId": "regression-1146",
+      "sourceTimeMs": 131000,
+      "receivedAtMs": 131000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1147",
+      "sourceId": "regression-1147",
+      "sourceTimeMs": 131000,
+      "receivedAtMs": 131000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1148",
+      "sourceId": "regression-1148",
+      "sourceTimeMs": 132000,
+      "receivedAtMs": 132000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1149",
+      "sourceId": "regression-1149",
+      "sourceTimeMs": 132000,
+      "receivedAtMs": 132000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1150",
+      "sourceId": "regression-1150",
+      "sourceTimeMs": 133000,
+      "receivedAtMs": 133000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1151",
+      "sourceId": "regression-1151",
+      "sourceTimeMs": 133000,
+      "receivedAtMs": 133000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1152",
+      "sourceId": "regression-1152",
+      "sourceTimeMs": 134000,
+      "receivedAtMs": 134000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1153",
+      "sourceId": "regression-1153",
+      "sourceTimeMs": 134000,
+      "receivedAtMs": 134000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1154",
+      "sourceId": "regression-1154",
+      "sourceTimeMs": 135000,
+      "receivedAtMs": 135000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1155",
+      "sourceId": "regression-1155",
+      "sourceTimeMs": 135000,
+      "receivedAtMs": 135000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1156",
+      "sourceId": "regression-1156",
+      "sourceTimeMs": 136000,
+      "receivedAtMs": 136000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1157",
+      "sourceId": "regression-1157",
+      "sourceTimeMs": 136000,
+      "receivedAtMs": 136000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1158",
+      "sourceId": "regression-1158",
+      "sourceTimeMs": 137000,
+      "receivedAtMs": 137000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1159",
+      "sourceId": "regression-1159",
+      "sourceTimeMs": 137000,
+      "receivedAtMs": 137000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1160",
+      "sourceId": "regression-1160",
+      "sourceTimeMs": 138000,
+      "receivedAtMs": 138000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1161",
+      "sourceId": "regression-1161",
+      "sourceTimeMs": 138000,
+      "receivedAtMs": 138000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1162",
+      "sourceId": "regression-1162",
+      "sourceTimeMs": 139000,
+      "receivedAtMs": 139000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1163",
+      "sourceId": "regression-1163",
+      "sourceTimeMs": 139000,
+      "receivedAtMs": 139000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1164",
+      "sourceId": "regression-1164",
+      "sourceTimeMs": 140000,
+      "receivedAtMs": 140000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1165",
+      "sourceId": "regression-1165",
+      "sourceTimeMs": 140000,
+      "receivedAtMs": 140000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1166",
+      "sourceId": "regression-1166",
+      "sourceTimeMs": 141000,
+      "receivedAtMs": 141000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1167",
+      "sourceId": "regression-1167",
+      "sourceTimeMs": 141000,
+      "receivedAtMs": 141000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1168",
+      "sourceId": "regression-1168",
+      "sourceTimeMs": 142000,
+      "receivedAtMs": 142000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1169",
+      "sourceId": "regression-1169",
+      "sourceTimeMs": 142000,
+      "receivedAtMs": 142000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1170",
+      "sourceId": "regression-1170",
+      "sourceTimeMs": 143000,
+      "receivedAtMs": 143000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1171",
+      "sourceId": "regression-1171",
+      "sourceTimeMs": 143000,
+      "receivedAtMs": 143000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1172",
+      "sourceId": "regression-1172",
+      "sourceTimeMs": 144000,
+      "receivedAtMs": 144000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1173",
+      "sourceId": "regression-1173",
+      "sourceTimeMs": 144000,
+      "receivedAtMs": 144000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1174",
+      "sourceId": "regression-1174",
+      "sourceTimeMs": 145000,
+      "receivedAtMs": 145000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1175",
+      "sourceId": "regression-1175",
+      "sourceTimeMs": 145000,
+      "receivedAtMs": 145000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1176",
+      "sourceId": "regression-1176",
+      "sourceTimeMs": 146000,
+      "receivedAtMs": 146000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1177",
+      "sourceId": "regression-1177",
+      "sourceTimeMs": 146000,
+      "receivedAtMs": 146000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1178",
+      "sourceId": "regression-1178",
+      "sourceTimeMs": 147000,
+      "receivedAtMs": 147000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1179",
+      "sourceId": "regression-1179",
+      "sourceTimeMs": 147000,
+      "receivedAtMs": 147000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1180",
+      "sourceId": "regression-1180",
+      "sourceTimeMs": 148000,
+      "receivedAtMs": 148000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1181",
+      "sourceId": "regression-1181",
+      "sourceTimeMs": 148000,
+      "receivedAtMs": 148000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1182",
+      "sourceId": "regression-1182",
+      "sourceTimeMs": 149000,
+      "receivedAtMs": 149000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1183",
+      "sourceId": "regression-1183",
+      "sourceTimeMs": 149000,
+      "receivedAtMs": 149000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1184",
+      "sourceId": "regression-1184",
+      "sourceTimeMs": 150000,
+      "receivedAtMs": 150000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "regression-1185",
+      "sourceId": "regression-1185",
+      "sourceTimeMs": 150000,
+      "receivedAtMs": 150000,
+      "userId": "viewer-1"
+    }
+  ],
+  "expected": [
+    {
+      "signal": "chat",
+      "onsetMs": 100000,
+      "confirmedAtMs": 105000,
+      "tier": "corner"
+    }
+  ]
+}

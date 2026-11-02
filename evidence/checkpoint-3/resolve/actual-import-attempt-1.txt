@@ -1,0 +1,6 @@
+Observed actual Resolve 21.1.1.10 readback after assisted import.
+Timeline: SD Actual Broadcast 30 NDF; actual footage present; 30 fps; start 01:00:00:00.
+Expected three markers at 6273, 10247, 16423; actual count four and none at expected frames.
+Read-only diagnostic returned old fixture markers: 0 First Frame; 15 Half Second; 91 Frame Boundary; 300 Final Marker.
+This identifies the earlier generated fixture file being imported. The failed-attempt timeline is retained.
+A clean final timeline will be used with the exact three-marker actual-broadcast file.

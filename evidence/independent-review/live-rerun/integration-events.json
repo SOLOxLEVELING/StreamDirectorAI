@@ -1,0 +1,113 @@
+[
+  {
+    "timeMs": 1793548054888,
+    "provenance": "live",
+    "kind": "notification_received",
+    "type": "channel.chat.message",
+    "transportId": "G7r-KfGw7XWQzVSSmLpcHgpiHypQCm4_WGTPYXVtRwY=",
+    "sourceId": "e4dab780-dcfe-40b3-a350-f996c2179699",
+    "sourceTimeMs": 1793548054613,
+    "recordedAgainstLiveStream": true
+  },
+  {
+    "timeMs": 1793548054621,
+    "provenance": "live",
+    "kind": "notification_received",
+    "type": "channel.chat.message",
+    "transportId": "RJW83q3ZmZoCFUFXGoqulp2ct6L6_5Eh0xhBI_BlRWU=",
+    "sourceId": "ca727dad-41b7-414f-b821-ef03fbc69560",
+    "sourceTimeMs": 1793548054392,
+    "recordedAgainstLiveStream": true
+  },
+  {
+    "timeMs": 1793547771376,
+    "provenance": "live",
+    "kind": "connection_status",
+    "connection": "connected"
+  },
+  {
+    "timeMs": 1793547771375,
+    "provenance": "live",
+    "kind": "coverage_gap",
+    "startMs": 1793547758943,
+    "endMs": 1793547771375,
+    "reason": "unexpected EventSub gap; missed events are not replayed"
+  },
+  {
+    "timeMs": 1793547771374,
+    "provenance": "live",
+    "kind": "subscription_result",
+    "type": "channel.subscription.message",
+    "state": "enabled",
+    "httpStatus": 202
+  },
+  {
+    "timeMs": 1793547771199,
+    "provenance": "live",
+    "kind": "subscription_result",
+    "type": "channel.chat.message",
+    "state": "enabled",
+    "httpStatus": 202
+  },
+  {
+    "timeMs": 1793547770895,
+    "provenance": "live",
+    "kind": "subscription_result",
+    "type": "channel.cheer",
+    "state": "enabled",
+    "httpStatus": 202
+  },
+  {
+    "timeMs": 1793547770894,
+    "provenance": "live",
+    "kind": "subscription_result",
+    "type": "channel.subscribe",
+    "state": "enabled",
+    "httpStatus": 202
+  },
+  {
+    "timeMs": 1793547770872,
+    "provenance": "live",
+    "kind": "subscription_result",
+    "type": "channel.subscription.gift",
+    "state": "enabled",
+    "httpStatus": 202
+  },
+  {
+    "timeMs": 1793547770866,
+    "provenance": "live",
+    "kind": "subscription_result",
+    "type": "channel.raid",
+    "state": "enabled",
+    "httpStatus": 202
+  },
+  {
+    "timeMs": 1793547769954,
+    "provenance": "live",
+    "kind": "connection_status",
+    "connection": "connecting"
+  },
+  {
+    "timeMs": 1793547768951,
+    "provenance": "live",
+    "kind": "connection_status",
+    "connection": "EventSub keepalive/welcome timeout"
+  },
+  {
+    "timeMs": 1793547768946,
+    "provenance": "live",
+    "kind": "coverage_gap",
+    "startMs": 1793547758943,
+    "endMs": 1793547768946,
+    "reason": "EventSub keepalive/welcome timeout; coverage incomplete"
+  },
+  {
+    "timeMs": 1793545864466,
+    "provenance": "live",
+    "kind": "live_stream_origin",
+    "streamId": "316496783341",
+    "startedAtMs": 1793545841000,
+    "sessionId": "twitch:238520082:316496783341",
+    "recovered": false
+  }
+]

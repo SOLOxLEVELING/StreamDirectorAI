@@ -1,0 +1,29 @@
+# Actual live verification after independent code fixes
+
+## First attempt — blocked by channel moderation
+
+Actual Twitch stream `316496783341`, session `twitch:238520082:316496783341`. Twitch origin `2026-11-01T15:10:41Z` (20:40:41 Asia/Kolkata); app origin receipt `15:11:04.464Z`. The user started local recording and broadcasting. OBS used the existing verification slate and live overlay at 1920×1080/30fps, 6000kbps. AI was explicitly disabled. Only `minimumChatters` temporarily changed from 3 to 1; rate=1/s, sustain=3 completed elevated buckets, activity=5s, warmup=60s and all other safeguards stayed unchanged.
+
+The intended short check lasted **41m19.085s** (OBS streaming20:40:40.477–21:21:59.562 local) while native input control was resolved; it is not represented as a ninety-second sample. The assistant stopped both outputs through OBS and verified restoration to the exact detector defaults. No OBS bitrate or channel-moderation settings changed.
+
+The viewer account `solo_leveliing` was verified through its actual account menu. Full-screen native controls initially left text/focus stale; exiting full screen and targeting the fresh accessible composer enabled entry. Only `SD-VERIFY 01` and `SD-VERIFY 02` were confirmed published, several minutes apart. The initially batched attempts did not publish messages03–16. After message02 the UI reported a ten-minute timeout with reason **stop spamming caps**. No timeout/moderation restriction was removed or bypassed.
+
+Four actual chat notifications arrived in two isolated source seconds, including automated bot responses. No qualifying three-second sequence existed. **Zero chat bookmarks** were created. This is an unsuccessful received-profile check, not proof of successful chat detection. A retry uses only the remaining fourteen authorized messages, with ordinary sentence text, after timeout expiry.
+
+OBS's native status reported **0 network-dropped frames (0.0%)**. Its retained log reports74364 streamed output frames and74424 drawn frames, with no network-drop, skip/lag or RTMP reconnect line in that run. Absence of those lines is corroborated by the actual zero-drop UI counter; differences between output/drawn totals are not relabeled as network drops. One EventSub keepalive timeout recovered: coverage15:42:38.943–15:42:51.375Z (12.432s). Two overlapping gap records describe that single outage. No new `integration_error` was recorded during this broadcast. Overall zero-outage integration stability therefore remains unproven; the historical24.5% failure and unexplained historical error remain retained.
+
+Evidence: before/start/after snapshots, read-only [final persisted session](final-session-evidence.json), [OBS log excerpt](obs-log-extract.txt), [recording hash/path](recording-file.json), exact decoded [recording metadata/clock frames](recording-frames/recording-inspection.json), native screenshots, settings-temporary/restored JSON. No chat text beyond the assistant's public test messages is included in the extracted metadata.
+
+## Retry
+
+Actual Twitch stream `316460892267`, session `twitch:238520082:316460892267`; same temporary minimumChatters=1 profile, rate1/s and all other defaults, AI off. The user started both outputs. OBS streamed **22:24:25.847–22:33:39.614 Asia/Kolkata**, **9m13.767s**, rather than the intended ninety seconds. Native text entry could fill a draft but did not reliably submit it, so the user supplied the remaining fourteen lowercase messages manually.
+
+[Actual retained bucket observations and traffic result](retry/traffic-result.json) show fourteen counted source messages over **35 source seconds**. The maximum five-second rate is **0.8/s**, below the required1/s. A three-second occupied run exists, but it precedes completion of the warm-up restarted by the outage; later buckets have gaps. **Zero bookmarks** were confirmed. Fifteen actual chat notifications include the initial automated stream announcement plus the fourteen-message manual burst. No synthetic event was substituted; no chat-marker EDL or native import was possible.
+
+One EventSub timeout recovered with six subscriptions. The two overlapping gaps describe **16:59:48.287–17:00:00.925Z**, **12.638s**, including handshake; the detector correctly restarted warm-up. No new generic `integration_error` was recorded. OBS reports **16582 output /16598 attempted frames**, **16 network drops(0.1%)**. The recording reports **21/16828 skipped frames due to encoding lag(0.1%)**; this is separate from streaming network drops. These are improved network-drop observations, not a clean overall integration-stability pass, and do not explain the historical24.5% failure or historical generic error.
+
+Both outputs were stopped and their zero timers/Start buttons verified in the native UI. [Exact defaults were restored](retry/settings-restored.json): minimumChatters3, minimumRate1, warmup60; the [final snapshot](retry/after-stop.json) reports offline and captions disabled. Historical session settings remain the temporary test profile. The new recording's original/copy paths, byte size and SHA256 are in [recording-file.json](retry/recording-file.json). No new timestamp-accuracy or successful-chat import claim is made.
+
+Final dashboard screenshot/recheck was blocked because browser access to `http://localhost:4387` was declined. No alternate browser surface or indirect access was used to obtain that screenshot. Native OBS stopped-state evidence and read-only persisted/backend evidence remain available.
+
+**Acceptance remains open:** no received live burst met the documented profile, no actual chat bookmark/recorded corner/native marker was verified, and recurrent EventSub timeouts remain unexplained. The independent code review and existing actual manual-marker Resolve evidence keep their narrower passing scopes.

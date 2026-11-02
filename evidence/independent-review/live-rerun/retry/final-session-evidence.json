@@ -1,0 +1,321 @@
+{
+  "capturedAt": "2026-11-01T17:05:10.387Z",
+  "provenance": "Read-only inspection of actual persisted live session",
+  "session": {
+    "id": "twitch:238520082:316460892267",
+    "mode": "live",
+    "streamId": "316460892267",
+    "streamStartedAtMs": 1793552067000,
+    "startedAtMs": 1793552087477,
+    "settings": {
+      "bucketSeconds": 1,
+      "baselineSeconds": 60,
+      "activitySeconds": 5,
+      "warmupSeconds": 60,
+      "multiplier": 3,
+      "minimumRate": 1,
+      "sustainSeconds": 3,
+      "minimumChatters": 1,
+      "cooldownSeconds": 30,
+      "rearmSeconds": 10,
+      "rearmRatio": 0.6,
+      "allowedLatenessSeconds": 2,
+      "cheerThreshold": 100,
+      "cheerWindowSeconds": 10,
+      "correlationSeconds": 10,
+      "leadInSeconds": 15,
+      "alignmentSeconds": 0,
+      "broadcasterId": "238520082",
+      "excludedUserIds": [],
+      "rewardId": null,
+      "maxUsersPerBucket": 10000,
+      "dedupLimit": 100000
+    },
+    "settingsHistory": [
+      {
+        "revision": 0,
+        "effectiveFromMs": 1793552087477,
+        "settings": {
+          "bucketSeconds": 1,
+          "baselineSeconds": 60,
+          "activitySeconds": 5,
+          "warmupSeconds": 60,
+          "multiplier": 3,
+          "minimumRate": 1,
+          "sustainSeconds": 3,
+          "minimumChatters": 1,
+          "cooldownSeconds": 30,
+          "rearmSeconds": 10,
+          "rearmRatio": 0.6,
+          "allowedLatenessSeconds": 2,
+          "cheerThreshold": 100,
+          "cheerWindowSeconds": 10,
+          "correlationSeconds": 10,
+          "leadInSeconds": 15,
+          "alignmentSeconds": 0,
+          "broadcasterId": "238520082",
+          "excludedUserIds": [],
+          "rewardId": null,
+          "maxUsersPerBucket": 10000,
+          "dedupLimit": 100000
+        }
+      }
+    ]
+  },
+  "bookmarks": [],
+  "gaps": [
+    {
+      "startMs": 1793552388287,
+      "endMs": 1793552398439,
+      "reason": "EventSub keepalive/welcome timeout; coverage incomplete"
+    },
+    {
+      "startMs": 1793552388287,
+      "endMs": 1793552400925,
+      "reason": "unexpected EventSub gap; missed events are not replayed"
+    }
+  ],
+  "events": [
+    {
+      "timeMs": 1793552087483,
+      "provenance": "live",
+      "kind": "live_stream_origin",
+      "streamId": "316460892267",
+      "startedAtMs": 1793552067000,
+      "sessionId": "twitch:238520082:316460892267",
+      "recovered": false
+    },
+    {
+      "timeMs": 1793552088286,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "OtrsohKZMQpsm3BPpAgGoU3dzeiF-MW9nCLgRKqpNy8=",
+      "sourceId": "aefb48f3-206d-44c2-a698-062aa5ec7e20",
+      "sourceTimeMs": 1793552088119,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552398439,
+      "provenance": "live",
+      "kind": "coverage_gap",
+      "startMs": 1793552388287,
+      "endMs": 1793552398439,
+      "reason": "EventSub keepalive/welcome timeout; coverage incomplete"
+    },
+    {
+      "timeMs": 1793552398440,
+      "provenance": "live",
+      "kind": "connection_status",
+      "connection": "EventSub keepalive/welcome timeout"
+    },
+    {
+      "timeMs": 1793552399442,
+      "provenance": "live",
+      "kind": "connection_status",
+      "connection": "connecting"
+    },
+    {
+      "timeMs": 1793552400421,
+      "provenance": "live",
+      "kind": "subscription_result",
+      "type": "channel.subscribe",
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    {
+      "timeMs": 1793552400431,
+      "provenance": "live",
+      "kind": "subscription_result",
+      "type": "channel.raid",
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    {
+      "timeMs": 1793552400508,
+      "provenance": "live",
+      "kind": "subscription_result",
+      "type": "channel.cheer",
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    {
+      "timeMs": 1793552400552,
+      "provenance": "live",
+      "kind": "subscription_result",
+      "type": "channel.chat.message",
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    {
+      "timeMs": 1793552400665,
+      "provenance": "live",
+      "kind": "subscription_result",
+      "type": "channel.subscription.message",
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    {
+      "timeMs": 1793552400924,
+      "provenance": "live",
+      "kind": "subscription_result",
+      "type": "channel.subscription.gift",
+      "state": "enabled",
+      "httpStatus": 202
+    },
+    {
+      "timeMs": 1793552400925,
+      "provenance": "live",
+      "kind": "coverage_gap",
+      "startMs": 1793552388287,
+      "endMs": 1793552400925,
+      "reason": "unexpected EventSub gap; missed events are not replayed"
+    },
+    {
+      "timeMs": 1793552400926,
+      "provenance": "live",
+      "kind": "connection_status",
+      "connection": "connected"
+    },
+    {
+      "timeMs": 1793552449221,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "zrxb_KEkZx1jTVaZkwPxoKNAuN91nA3bFfZso5aHohU=",
+      "sourceId": "db93a21a-768e-407f-b79c-2997e24230c5",
+      "sourceTimeMs": 1793552448976,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552450841,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "1A3WS1UzPo1Wsek0Vl4EZjbBvbBbwpznEm3GxdVgeqw=",
+      "sourceId": "52a40681-05e2-4704-b2df-1b159c045607",
+      "sourceTimeMs": 1793552450683,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552452233,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "em0MXxQ25Oyt-N-ExWrDXq5YpbBauIfw6mqES9BtYDc=",
+      "sourceId": "87c9e1af-e0bc-4eb1-afae-d73396be8c10",
+      "sourceTimeMs": 1793552452079,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552453744,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "m0glAw-j57BNFx3l7QE8jQlp9LH28mqM_6a3SuGWEoc=",
+      "sourceId": "0759fa64-25d9-4931-bfd6-1d15c3e3e8e2",
+      "sourceTimeMs": 1793552453587,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552455234,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "SEv0EAn2gbpY2ip3PnEvE8ifs4po60QpxXXhS9h_mq4=",
+      "sourceId": "946a0ad7-654e-4261-82ab-f88cd8237281",
+      "sourceTimeMs": 1793552455012,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552457252,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "bLmN2OHIL62kw12xfxH_CvG2MBmfffqGzG8BDQ6XEXs=",
+      "sourceId": "1645cba6-8974-4d84-aed8-ef9679028fde",
+      "sourceTimeMs": 1793552457093,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552458489,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "CESv5Q-VgbutAsyMnUtU87jpIEfQLqoYHjzLQhJTocI=",
+      "sourceId": "eea36978-132d-48f5-8332-de5579bfb04b",
+      "sourceTimeMs": 1793552458326,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552459750,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "5Y_8eUTnskwEVKzWYwkulvZfAfDFVS63HcV0APdbFUY=",
+      "sourceId": "6518a279-56e7-42b9-b635-338944aef4da",
+      "sourceTimeMs": 1793552459560,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552461498,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "dhvVbeCAIsNkGq73v9q1CU0zM7dAm8p48EaqxwErMeY=",
+      "sourceId": "11368b81-1ab5-449f-85a5-cb9b7b76f1e1",
+      "sourceTimeMs": 1793552461340,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552463376,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "pMvRYJr__EUCfTHoo8tQ6zZIREo7EYuVL61OL0EvVvA=",
+      "sourceId": "d6f8db41-b967-4c40-b5f9-b7f357c433fc",
+      "sourceTimeMs": 1793552463194,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552467052,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "QJQWojVvxXX9U66SxZd4k6HCEtoKocazfEIYRaG_gLI=",
+      "sourceId": "6dc18d40-3fd9-42ad-9d0a-d9a8a1756d6a",
+      "sourceTimeMs": 1793552466869,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552471251,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "Yre-_vQztc_VFq3S0XLJ4Hoq9n-BMgb1TOb_My4IzBM=",
+      "sourceId": "4eec42bd-5cb5-4bcb-b170-a0b7dca76daf",
+      "sourceTimeMs": 1793552471029,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552475553,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "eAcQNeZUjbWaZBWtHdDUhBpaTWEsvIdeILk9j_BEVVk=",
+      "sourceId": "f180e27a-f492-4730-8f08-095c43130d12",
+      "sourceTimeMs": 1793552475342,
+      "recordedAgainstLiveStream": true
+    },
+    {
+      "timeMs": 1793552483440,
+      "provenance": "live",
+      "kind": "notification_received",
+      "type": "channel.chat.message",
+      "transportId": "QFjSzSZVgAPiYsswkEe25HSaMsae4ujTH7xaxKJ54BM=",
+      "sourceId": "baaf5422-39d0-45a9-a2de-a2049acf11cf",
+      "sourceTimeMs": 1793552483272,
+      "recordedAgainstLiveStream": true
+    }
+  ]
+}

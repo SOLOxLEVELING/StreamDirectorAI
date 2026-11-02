@@ -1,0 +1,8 @@
+{
+  "name": "idle-chat",
+  "streamStartedAtMs": 0,
+  "startedAtMs": 0,
+  "endAtMs": 90000,
+  "events": [],
+  "expected": []
+}

@@ -1,0 +1,22 @@
+✔ probe strips credentials, chat, identities, URLs and arbitrary error text (1.357625ms)
+✔ probe records negotiated timeout and separates wall jumps from monotonic silence (0.150917ms)
+✔ probe distinguishes healthy worker receipt silence, delayed main dispatch and host scheduling ambiguity (0.075333ms)
+✔ synthetic worker receipts remain timely while the main thread is deliberately stalled (582.881ms)
+✔ diagnostic teardown never reconnects a logged-out or changed broadcaster (0.379959ms)
+✔ evidence writer failure rejects safely and runs caller restoration instead of crashing (39.30275ms)
+✔ main timer writer failure also rejects safely and terminates the worker (254.078458ms)
+✔ a lost disconnect response still restores after observing its side effect (0.7085ms)
+✔ changed offline readiness prevents disconnect; revocation during observation prevents restoration (0.504ms)
+✔ observed67ms late receipt can expire the production watchdog without any local processing stall (10.900916ms)
+✔ cleanup outcome is retained even when observation throws after disconnection (0.442666ms)
+✔ internal auth monitor cancellation is retained in the summary outcome (1001.789083ms)
+✔ diagnostic output folder is exclusive and cannot mix a second run with old trace (2.555875ms)
+✔ a failing independent stream guard cannot prevent local restoration after observation (0.244708ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1975.301833

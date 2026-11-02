@@ -1,0 +1,31 @@
+{
+  "capturedAt": "2026-11-01T17:09:55.643192+00:00",
+  "tests": {
+    "passed": 140,
+    "failed": 0,
+    "skipped": 0,
+    "output": "test-results.txt"
+  },
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "independentReview": "docs/independent-review.md; all four material code findings resolved",
+  "endToEndAcceptance": "open",
+  "livePositiveChatTrigger": "unverified; latest actual maximum rate 0.8/s below 1/s",
+  "liveStability": "not a clean continuity pass; recovered EventSub timeout in each new actual run",
+  "defaultsRestored": true,
+  "AIEnabled": false,
+  "OBSStreaming": false,
+  "OBSRecording": false,
+  "backendEventSub": "left connected",
+  "finalDashboardVisualRecheck": "unverified; localhost browser access declined",
+  "sourceSha256": {
+    "src/captions.ts": "d06929c05340db500bffe4b42cd94d8377871ee3bedea61305c005d9cb7184e9",
+    "src/server.ts": "177553768b7878db6d82ecabd1ee9e83f26bfe77decf6af36639468191595e4f",
+    "src/twitch/auth.ts": "412b683b34de4b831fa1f5fb422b0e9b74b9a4d79173f1d83d18416a8fbcd92c",
+    "src/twitch/eventsub.ts": "fdeec6420149c4da9a661636cea1722a9a332cd8b2ca49691e87ac28c12e4ab1",
+    "src/twitch/live.ts": "f723ad3345ab7cf54808e432a8f5ea26410339a79dfb767c412792f293af3767",
+    "src/twitch/diagnostics.ts": "47065e38f91c6558f1f66d59035c0b902756e3de45f82dbe47998684ecf6f15f",
+    "test/twitch.test.ts": "b09ca10c1377b8ba740ca3cba2a3de6bf5487ca0a81b994b4cac7c7d8e714429",
+    "test/captions.test.ts": "334d48c0da36a4a107c858f14dc54614816e87fbeaab5f058173698e93b2ff6d"
+  }
+}

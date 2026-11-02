@@ -1,0 +1,2113 @@
+{
+  "name": "expired-candidate-third-chatter",
+  "streamStartedAtMs": 0,
+  "startedAtMs": 0,
+  "endAtMs": 200000,
+  "events": [
+    {
+      "type": "chat",
+      "transportId": "expiry-1",
+      "sourceId": "expiry-1",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-2",
+      "sourceId": "expiry-2",
+      "sourceTimeMs": 60000,
+      "receivedAtMs": 60000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-3",
+      "sourceId": "expiry-3",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-4",
+      "sourceId": "expiry-4",
+      "sourceTimeMs": 61000,
+      "receivedAtMs": 61000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-5",
+      "sourceId": "expiry-5",
+      "sourceTimeMs": 62000,
+      "receivedAtMs": 62000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-6",
+      "sourceId": "expiry-6",
+      "sourceTimeMs": 62000,
+      "receivedAtMs": 62000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-7",
+      "sourceId": "expiry-7",
+      "sourceTimeMs": 63000,
+      "receivedAtMs": 63000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-8",
+      "sourceId": "expiry-8",
+      "sourceTimeMs": 63000,
+      "receivedAtMs": 63000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-9",
+      "sourceId": "expiry-9",
+      "sourceTimeMs": 64000,
+      "receivedAtMs": 64000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-10",
+      "sourceId": "expiry-10",
+      "sourceTimeMs": 64000,
+      "receivedAtMs": 64000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-11",
+      "sourceId": "expiry-11",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-12",
+      "sourceId": "expiry-12",
+      "sourceTimeMs": 65000,
+      "receivedAtMs": 65000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-13",
+      "sourceId": "expiry-13",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-14",
+      "sourceId": "expiry-14",
+      "sourceTimeMs": 66000,
+      "receivedAtMs": 66000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-15",
+      "sourceId": "expiry-15",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-16",
+      "sourceId": "expiry-16",
+      "sourceTimeMs": 67000,
+      "receivedAtMs": 67000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-17",
+      "sourceId": "expiry-17",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-18",
+      "sourceId": "expiry-18",
+      "sourceTimeMs": 68000,
+      "receivedAtMs": 68000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-19",
+      "sourceId": "expiry-19",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-20",
+      "sourceId": "expiry-20",
+      "sourceTimeMs": 69000,
+      "receivedAtMs": 69000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-21",
+      "sourceId": "expiry-21",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-22",
+      "sourceId": "expiry-22",
+      "sourceTimeMs": 70000,
+      "receivedAtMs": 70000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-23",
+      "sourceId": "expiry-23",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-24",
+      "sourceId": "expiry-24",
+      "sourceTimeMs": 71000,
+      "receivedAtMs": 71000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-25",
+      "sourceId": "expiry-25",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-26",
+      "sourceId": "expiry-26",
+      "sourceTimeMs": 72000,
+      "receivedAtMs": 72000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-27",
+      "sourceId": "expiry-27",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-28",
+      "sourceId": "expiry-28",
+      "sourceTimeMs": 73000,
+      "receivedAtMs": 73000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-29",
+      "sourceId": "expiry-29",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-30",
+      "sourceId": "expiry-30",
+      "sourceTimeMs": 74000,
+      "receivedAtMs": 74000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-31",
+      "sourceId": "expiry-31",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-32",
+      "sourceId": "expiry-32",
+      "sourceTimeMs": 75000,
+      "receivedAtMs": 75000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-33",
+      "sourceId": "expiry-33",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-34",
+      "sourceId": "expiry-34",
+      "sourceTimeMs": 76000,
+      "receivedAtMs": 76000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-35",
+      "sourceId": "expiry-35",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-36",
+      "sourceId": "expiry-36",
+      "sourceTimeMs": 77000,
+      "receivedAtMs": 77000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-37",
+      "sourceId": "expiry-37",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-38",
+      "sourceId": "expiry-38",
+      "sourceTimeMs": 78000,
+      "receivedAtMs": 78000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-39",
+      "sourceId": "expiry-39",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-40",
+      "sourceId": "expiry-40",
+      "sourceTimeMs": 79000,
+      "receivedAtMs": 79000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-41",
+      "sourceId": "expiry-41",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-42",
+      "sourceId": "expiry-42",
+      "sourceTimeMs": 80000,
+      "receivedAtMs": 80000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-43",
+      "sourceId": "expiry-43",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-44",
+      "sourceId": "expiry-44",
+      "sourceTimeMs": 81000,
+      "receivedAtMs": 81000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-45",
+      "sourceId": "expiry-45",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-46",
+      "sourceId": "expiry-46",
+      "sourceTimeMs": 82000,
+      "receivedAtMs": 82000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-47",
+      "sourceId": "expiry-47",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-48",
+      "sourceId": "expiry-48",
+      "sourceTimeMs": 83000,
+      "receivedAtMs": 83000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-49",
+      "sourceId": "expiry-49",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-50",
+      "sourceId": "expiry-50",
+      "sourceTimeMs": 84000,
+      "receivedAtMs": 84000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-51",
+      "sourceId": "expiry-51",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-52",
+      "sourceId": "expiry-52",
+      "sourceTimeMs": 85000,
+      "receivedAtMs": 85000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-53",
+      "sourceId": "expiry-53",
+      "sourceTimeMs": 86000,
+      "receivedAtMs": 86000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-54",
+      "sourceId": "expiry-54",
+      "sourceTimeMs": 86000,
+      "receivedAtMs": 86000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-55",
+      "sourceId": "expiry-55",
+      "sourceTimeMs": 87000,
+      "receivedAtMs": 87000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-56",
+      "sourceId": "expiry-56",
+      "sourceTimeMs": 87000,
+      "receivedAtMs": 87000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-57",
+      "sourceId": "expiry-57",
+      "sourceTimeMs": 88000,
+      "receivedAtMs": 88000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-58",
+      "sourceId": "expiry-58",
+      "sourceTimeMs": 88000,
+      "receivedAtMs": 88000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-59",
+      "sourceId": "expiry-59",
+      "sourceTimeMs": 89000,
+      "receivedAtMs": 89000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-60",
+      "sourceId": "expiry-60",
+      "sourceTimeMs": 89000,
+      "receivedAtMs": 89000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-61",
+      "sourceId": "expiry-61",
+      "sourceTimeMs": 90000,
+      "receivedAtMs": 90000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-62",
+      "sourceId": "expiry-62",
+      "sourceTimeMs": 90000,
+      "receivedAtMs": 90000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-63",
+      "sourceId": "expiry-63",
+      "sourceTimeMs": 91000,
+      "receivedAtMs": 91000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-64",
+      "sourceId": "expiry-64",
+      "sourceTimeMs": 91000,
+      "receivedAtMs": 91000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-65",
+      "sourceId": "expiry-65",
+      "sourceTimeMs": 92000,
+      "receivedAtMs": 92000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-66",
+      "sourceId": "expiry-66",
+      "sourceTimeMs": 92000,
+      "receivedAtMs": 92000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-67",
+      "sourceId": "expiry-67",
+      "sourceTimeMs": 93000,
+      "receivedAtMs": 93000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-68",
+      "sourceId": "expiry-68",
+      "sourceTimeMs": 93000,
+      "receivedAtMs": 93000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-69",
+      "sourceId": "expiry-69",
+      "sourceTimeMs": 94000,
+      "receivedAtMs": 94000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-70",
+      "sourceId": "expiry-70",
+      "sourceTimeMs": 94000,
+      "receivedAtMs": 94000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-71",
+      "sourceId": "expiry-71",
+      "sourceTimeMs": 95000,
+      "receivedAtMs": 95000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-72",
+      "sourceId": "expiry-72",
+      "sourceTimeMs": 95000,
+      "receivedAtMs": 95000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-73",
+      "sourceId": "expiry-73",
+      "sourceTimeMs": 96000,
+      "receivedAtMs": 96000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-74",
+      "sourceId": "expiry-74",
+      "sourceTimeMs": 96000,
+      "receivedAtMs": 96000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-75",
+      "sourceId": "expiry-75",
+      "sourceTimeMs": 97000,
+      "receivedAtMs": 97000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-76",
+      "sourceId": "expiry-76",
+      "sourceTimeMs": 97000,
+      "receivedAtMs": 97000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-77",
+      "sourceId": "expiry-77",
+      "sourceTimeMs": 98000,
+      "receivedAtMs": 98000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-78",
+      "sourceId": "expiry-78",
+      "sourceTimeMs": 98000,
+      "receivedAtMs": 98000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-79",
+      "sourceId": "expiry-79",
+      "sourceTimeMs": 99000,
+      "receivedAtMs": 99000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-80",
+      "sourceId": "expiry-80",
+      "sourceTimeMs": 99000,
+      "receivedAtMs": 99000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-81",
+      "sourceId": "expiry-81",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-82",
+      "sourceId": "expiry-82",
+      "sourceTimeMs": 100000,
+      "receivedAtMs": 100000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-83",
+      "sourceId": "expiry-83",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-84",
+      "sourceId": "expiry-84",
+      "sourceTimeMs": 101000,
+      "receivedAtMs": 101000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-85",
+      "sourceId": "expiry-85",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-86",
+      "sourceId": "expiry-86",
+      "sourceTimeMs": 102000,
+      "receivedAtMs": 102000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-87",
+      "sourceId": "expiry-87",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-88",
+      "sourceId": "expiry-88",
+      "sourceTimeMs": 103000,
+      "receivedAtMs": 103000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-89",
+      "sourceId": "expiry-89",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-90",
+      "sourceId": "expiry-90",
+      "sourceTimeMs": 104000,
+      "receivedAtMs": 104000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-91",
+      "sourceId": "expiry-91",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-92",
+      "sourceId": "expiry-92",
+      "sourceTimeMs": 105000,
+      "receivedAtMs": 105000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-93",
+      "sourceId": "expiry-93",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-94",
+      "sourceId": "expiry-94",
+      "sourceTimeMs": 106000,
+      "receivedAtMs": 106000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-95",
+      "sourceId": "expiry-95",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-96",
+      "sourceId": "expiry-96",
+      "sourceTimeMs": 107000,
+      "receivedAtMs": 107000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-97",
+      "sourceId": "expiry-97",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-98",
+      "sourceId": "expiry-98",
+      "sourceTimeMs": 108000,
+      "receivedAtMs": 108000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-99",
+      "sourceId": "expiry-99",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-100",
+      "sourceId": "expiry-100",
+      "sourceTimeMs": 109000,
+      "receivedAtMs": 109000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-101",
+      "sourceId": "expiry-101",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-102",
+      "sourceId": "expiry-102",
+      "sourceTimeMs": 110000,
+      "receivedAtMs": 110000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-103",
+      "sourceId": "expiry-103",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-104",
+      "sourceId": "expiry-104",
+      "sourceTimeMs": 111000,
+      "receivedAtMs": 111000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-105",
+      "sourceId": "expiry-105",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-106",
+      "sourceId": "expiry-106",
+      "sourceTimeMs": 112000,
+      "receivedAtMs": 112000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-107",
+      "sourceId": "expiry-107",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-108",
+      "sourceId": "expiry-108",
+      "sourceTimeMs": 113000,
+      "receivedAtMs": 113000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-109",
+      "sourceId": "expiry-109",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-110",
+      "sourceId": "expiry-110",
+      "sourceTimeMs": 114000,
+      "receivedAtMs": 114000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-111",
+      "sourceId": "expiry-111",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-112",
+      "sourceId": "expiry-112",
+      "sourceTimeMs": 115000,
+      "receivedAtMs": 115000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-113",
+      "sourceId": "expiry-113",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-114",
+      "sourceId": "expiry-114",
+      "sourceTimeMs": 116000,
+      "receivedAtMs": 116000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-115",
+      "sourceId": "expiry-115",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-116",
+      "sourceId": "expiry-116",
+      "sourceTimeMs": 117000,
+      "receivedAtMs": 117000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-117",
+      "sourceId": "expiry-117",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-118",
+      "sourceId": "expiry-118",
+      "sourceTimeMs": 118000,
+      "receivedAtMs": 118000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-119",
+      "sourceId": "expiry-119",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-120",
+      "sourceId": "expiry-120",
+      "sourceTimeMs": 119000,
+      "receivedAtMs": 119000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-121",
+      "sourceId": "expiry-121",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-122",
+      "sourceId": "expiry-122",
+      "sourceTimeMs": 120000,
+      "receivedAtMs": 120000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-123",
+      "sourceId": "expiry-123",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-124",
+      "sourceId": "expiry-124",
+      "sourceTimeMs": 121000,
+      "receivedAtMs": 121000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-125",
+      "sourceId": "expiry-125",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-126",
+      "sourceId": "expiry-126",
+      "sourceTimeMs": 122000,
+      "receivedAtMs": 122000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-127",
+      "sourceId": "expiry-127",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-128",
+      "sourceId": "expiry-128",
+      "sourceTimeMs": 123000,
+      "receivedAtMs": 123000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-129",
+      "sourceId": "expiry-129",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-130",
+      "sourceId": "expiry-130",
+      "sourceTimeMs": 124000,
+      "receivedAtMs": 124000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-131",
+      "sourceId": "expiry-131",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-132",
+      "sourceId": "expiry-132",
+      "sourceTimeMs": 125000,
+      "receivedAtMs": 125000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-133",
+      "sourceId": "expiry-133",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-134",
+      "sourceId": "expiry-134",
+      "sourceTimeMs": 126000,
+      "receivedAtMs": 126000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-135",
+      "sourceId": "expiry-135",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-136",
+      "sourceId": "expiry-136",
+      "sourceTimeMs": 127000,
+      "receivedAtMs": 127000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-137",
+      "sourceId": "expiry-137",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-138",
+      "sourceId": "expiry-138",
+      "sourceTimeMs": 128000,
+      "receivedAtMs": 128000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-139",
+      "sourceId": "expiry-139",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-140",
+      "sourceId": "expiry-140",
+      "sourceTimeMs": 129000,
+      "receivedAtMs": 129000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-141",
+      "sourceId": "expiry-141",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-142",
+      "sourceId": "expiry-142",
+      "sourceTimeMs": 130000,
+      "receivedAtMs": 130000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-143",
+      "sourceId": "expiry-143",
+      "sourceTimeMs": 131000,
+      "receivedAtMs": 131000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-144",
+      "sourceId": "expiry-144",
+      "sourceTimeMs": 131000,
+      "receivedAtMs": 131000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-145",
+      "sourceId": "expiry-145",
+      "sourceTimeMs": 132000,
+      "receivedAtMs": 132000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-146",
+      "sourceId": "expiry-146",
+      "sourceTimeMs": 132000,
+      "receivedAtMs": 132000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-147",
+      "sourceId": "expiry-147",
+      "sourceTimeMs": 133000,
+      "receivedAtMs": 133000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-148",
+      "sourceId": "expiry-148",
+      "sourceTimeMs": 133000,
+      "receivedAtMs": 133000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-149",
+      "sourceId": "expiry-149",
+      "sourceTimeMs": 134000,
+      "receivedAtMs": 134000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-150",
+      "sourceId": "expiry-150",
+      "sourceTimeMs": 134000,
+      "receivedAtMs": 134000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-151",
+      "sourceId": "expiry-151",
+      "sourceTimeMs": 135000,
+      "receivedAtMs": 135000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-152",
+      "sourceId": "expiry-152",
+      "sourceTimeMs": 135000,
+      "receivedAtMs": 135000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-153",
+      "sourceId": "expiry-153",
+      "sourceTimeMs": 136000,
+      "receivedAtMs": 136000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-154",
+      "sourceId": "expiry-154",
+      "sourceTimeMs": 136000,
+      "receivedAtMs": 136000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-155",
+      "sourceId": "expiry-155",
+      "sourceTimeMs": 137000,
+      "receivedAtMs": 137000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-156",
+      "sourceId": "expiry-156",
+      "sourceTimeMs": 137000,
+      "receivedAtMs": 137000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-157",
+      "sourceId": "expiry-157",
+      "sourceTimeMs": 138000,
+      "receivedAtMs": 138000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-158",
+      "sourceId": "expiry-158",
+      "sourceTimeMs": 138000,
+      "receivedAtMs": 138000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-159",
+      "sourceId": "expiry-159",
+      "sourceTimeMs": 139000,
+      "receivedAtMs": 139000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-160",
+      "sourceId": "expiry-160",
+      "sourceTimeMs": 139000,
+      "receivedAtMs": 139000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-161",
+      "sourceId": "expiry-161",
+      "sourceTimeMs": 140000,
+      "receivedAtMs": 140000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-162",
+      "sourceId": "expiry-162",
+      "sourceTimeMs": 140000,
+      "receivedAtMs": 140000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-163",
+      "sourceId": "expiry-163",
+      "sourceTimeMs": 141000,
+      "receivedAtMs": 141000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-164",
+      "sourceId": "expiry-164",
+      "sourceTimeMs": 141000,
+      "receivedAtMs": 141000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-165",
+      "sourceId": "expiry-165",
+      "sourceTimeMs": 142000,
+      "receivedAtMs": 142000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-166",
+      "sourceId": "expiry-166",
+      "sourceTimeMs": 142000,
+      "receivedAtMs": 142000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-167",
+      "sourceId": "expiry-167",
+      "sourceTimeMs": 143000,
+      "receivedAtMs": 143000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-168",
+      "sourceId": "expiry-168",
+      "sourceTimeMs": 143000,
+      "receivedAtMs": 143000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-169",
+      "sourceId": "expiry-169",
+      "sourceTimeMs": 144000,
+      "receivedAtMs": 144000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-170",
+      "sourceId": "expiry-170",
+      "sourceTimeMs": 144000,
+      "receivedAtMs": 144000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-171",
+      "sourceId": "expiry-171",
+      "sourceTimeMs": 145000,
+      "receivedAtMs": 145000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-172",
+      "sourceId": "expiry-172",
+      "sourceTimeMs": 145000,
+      "receivedAtMs": 145000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-173",
+      "sourceId": "expiry-173",
+      "sourceTimeMs": 146000,
+      "receivedAtMs": 146000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-174",
+      "sourceId": "expiry-174",
+      "sourceTimeMs": 146000,
+      "receivedAtMs": 146000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-175",
+      "sourceId": "expiry-175",
+      "sourceTimeMs": 147000,
+      "receivedAtMs": 147000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-176",
+      "sourceId": "expiry-176",
+      "sourceTimeMs": 147000,
+      "receivedAtMs": 147000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-177",
+      "sourceId": "expiry-177",
+      "sourceTimeMs": 148000,
+      "receivedAtMs": 148000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-178",
+      "sourceId": "expiry-178",
+      "sourceTimeMs": 148000,
+      "receivedAtMs": 148000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-179",
+      "sourceId": "expiry-179",
+      "sourceTimeMs": 149000,
+      "receivedAtMs": 149000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-180",
+      "sourceId": "expiry-180",
+      "sourceTimeMs": 149000,
+      "receivedAtMs": 149000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-181",
+      "sourceId": "expiry-181",
+      "sourceTimeMs": 150000,
+      "receivedAtMs": 150000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-182",
+      "sourceId": "expiry-182",
+      "sourceTimeMs": 150000,
+      "receivedAtMs": 150000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-183",
+      "sourceId": "expiry-183",
+      "sourceTimeMs": 151000,
+      "receivedAtMs": 151000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-184",
+      "sourceId": "expiry-184",
+      "sourceTimeMs": 151000,
+      "receivedAtMs": 151000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-185",
+      "sourceId": "expiry-185",
+      "sourceTimeMs": 152000,
+      "receivedAtMs": 152000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-186",
+      "sourceId": "expiry-186",
+      "sourceTimeMs": 152000,
+      "receivedAtMs": 152000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-187",
+      "sourceId": "expiry-187",
+      "sourceTimeMs": 153000,
+      "receivedAtMs": 153000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-188",
+      "sourceId": "expiry-188",
+      "sourceTimeMs": 153000,
+      "receivedAtMs": 153000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-189",
+      "sourceId": "expiry-189",
+      "sourceTimeMs": 154000,
+      "receivedAtMs": 154000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-190",
+      "sourceId": "expiry-190",
+      "sourceTimeMs": 154000,
+      "receivedAtMs": 154000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-191",
+      "sourceId": "expiry-191",
+      "sourceTimeMs": 155000,
+      "receivedAtMs": 155000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-192",
+      "sourceId": "expiry-192",
+      "sourceTimeMs": 155000,
+      "receivedAtMs": 155000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-193",
+      "sourceId": "expiry-193",
+      "sourceTimeMs": 156000,
+      "receivedAtMs": 156000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-194",
+      "sourceId": "expiry-194",
+      "sourceTimeMs": 156000,
+      "receivedAtMs": 156000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-195",
+      "sourceId": "expiry-195",
+      "sourceTimeMs": 157000,
+      "receivedAtMs": 157000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-196",
+      "sourceId": "expiry-196",
+      "sourceTimeMs": 157000,
+      "receivedAtMs": 157000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-197",
+      "sourceId": "expiry-197",
+      "sourceTimeMs": 158000,
+      "receivedAtMs": 158000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-198",
+      "sourceId": "expiry-198",
+      "sourceTimeMs": 158000,
+      "receivedAtMs": 158000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-199",
+      "sourceId": "expiry-199",
+      "sourceTimeMs": 159000,
+      "receivedAtMs": 159000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-200",
+      "sourceId": "expiry-200",
+      "sourceTimeMs": 159000,
+      "receivedAtMs": 159000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-201",
+      "sourceId": "expiry-201",
+      "sourceTimeMs": 160000,
+      "receivedAtMs": 160000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-202",
+      "sourceId": "expiry-202",
+      "sourceTimeMs": 160000,
+      "receivedAtMs": 160000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-203",
+      "sourceId": "expiry-203",
+      "sourceTimeMs": 161000,
+      "receivedAtMs": 161000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-204",
+      "sourceId": "expiry-204",
+      "sourceTimeMs": 161000,
+      "receivedAtMs": 161000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-205",
+      "sourceId": "expiry-205",
+      "sourceTimeMs": 162000,
+      "receivedAtMs": 162000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-206",
+      "sourceId": "expiry-206",
+      "sourceTimeMs": 162000,
+      "receivedAtMs": 162000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-207",
+      "sourceId": "expiry-207",
+      "sourceTimeMs": 163000,
+      "receivedAtMs": 163000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-208",
+      "sourceId": "expiry-208",
+      "sourceTimeMs": 163000,
+      "receivedAtMs": 163000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-209",
+      "sourceId": "expiry-209",
+      "sourceTimeMs": 164000,
+      "receivedAtMs": 164000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-210",
+      "sourceId": "expiry-210",
+      "sourceTimeMs": 164000,
+      "receivedAtMs": 164000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-211",
+      "sourceId": "expiry-211",
+      "sourceTimeMs": 165000,
+      "receivedAtMs": 165000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-212",
+      "sourceId": "expiry-212",
+      "sourceTimeMs": 165000,
+      "receivedAtMs": 165000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-213",
+      "sourceId": "expiry-213",
+      "sourceTimeMs": 166000,
+      "receivedAtMs": 166000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-214",
+      "sourceId": "expiry-214",
+      "sourceTimeMs": 166000,
+      "receivedAtMs": 166000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-215",
+      "sourceId": "expiry-215",
+      "sourceTimeMs": 167000,
+      "receivedAtMs": 167000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-216",
+      "sourceId": "expiry-216",
+      "sourceTimeMs": 167000,
+      "receivedAtMs": 167000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-217",
+      "sourceId": "expiry-217",
+      "sourceTimeMs": 168000,
+      "receivedAtMs": 168000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-218",
+      "sourceId": "expiry-218",
+      "sourceTimeMs": 168000,
+      "receivedAtMs": 168000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-219",
+      "sourceId": "expiry-219",
+      "sourceTimeMs": 169000,
+      "receivedAtMs": 169000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-220",
+      "sourceId": "expiry-220",
+      "sourceTimeMs": 169000,
+      "receivedAtMs": 169000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-221",
+      "sourceId": "expiry-221",
+      "sourceTimeMs": 170000,
+      "receivedAtMs": 170000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-222",
+      "sourceId": "expiry-222",
+      "sourceTimeMs": 170000,
+      "receivedAtMs": 170000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-223",
+      "sourceId": "expiry-223",
+      "sourceTimeMs": 171000,
+      "receivedAtMs": 171000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-224",
+      "sourceId": "expiry-224",
+      "sourceTimeMs": 171000,
+      "receivedAtMs": 171000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-225",
+      "sourceId": "expiry-225",
+      "sourceTimeMs": 172000,
+      "receivedAtMs": 172000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-226",
+      "sourceId": "expiry-226",
+      "sourceTimeMs": 172000,
+      "receivedAtMs": 172000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-227",
+      "sourceId": "expiry-227",
+      "sourceTimeMs": 173000,
+      "receivedAtMs": 173000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-228",
+      "sourceId": "expiry-228",
+      "sourceTimeMs": 173000,
+      "receivedAtMs": 173000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-229",
+      "sourceId": "expiry-229",
+      "sourceTimeMs": 174000,
+      "receivedAtMs": 174000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-230",
+      "sourceId": "expiry-230",
+      "sourceTimeMs": 174000,
+      "receivedAtMs": 174000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-231",
+      "sourceId": "expiry-231",
+      "sourceTimeMs": 175000,
+      "receivedAtMs": 175000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-232",
+      "sourceId": "expiry-232",
+      "sourceTimeMs": 175000,
+      "receivedAtMs": 175000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-233",
+      "sourceId": "expiry-233",
+      "sourceTimeMs": 176000,
+      "receivedAtMs": 176000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-234",
+      "sourceId": "expiry-234",
+      "sourceTimeMs": 176000,
+      "receivedAtMs": 176000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-235",
+      "sourceId": "expiry-235",
+      "sourceTimeMs": 177000,
+      "receivedAtMs": 177000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-236",
+      "sourceId": "expiry-236",
+      "sourceTimeMs": 177000,
+      "receivedAtMs": 177000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-237",
+      "sourceId": "expiry-237",
+      "sourceTimeMs": 178000,
+      "receivedAtMs": 178000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-238",
+      "sourceId": "expiry-238",
+      "sourceTimeMs": 178000,
+      "receivedAtMs": 178000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-239",
+      "sourceId": "expiry-239",
+      "sourceTimeMs": 179000,
+      "receivedAtMs": 179000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-240",
+      "sourceId": "expiry-240",
+      "sourceTimeMs": 179000,
+      "receivedAtMs": 179000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-241",
+      "sourceId": "expiry-241",
+      "sourceTimeMs": 180000,
+      "receivedAtMs": 180000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-242",
+      "sourceId": "expiry-242",
+      "sourceTimeMs": 180000,
+      "receivedAtMs": 180000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-243",
+      "sourceId": "expiry-243",
+      "sourceTimeMs": 180000,
+      "receivedAtMs": 180000,
+      "userId": "additional-chatter"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-244",
+      "sourceId": "expiry-244",
+      "sourceTimeMs": 181000,
+      "receivedAtMs": 181000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-245",
+      "sourceId": "expiry-245",
+      "sourceTimeMs": 181000,
+      "receivedAtMs": 181000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-246",
+      "sourceId": "expiry-246",
+      "sourceTimeMs": 182000,
+      "receivedAtMs": 182000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-247",
+      "sourceId": "expiry-247",
+      "sourceTimeMs": 182000,
+      "receivedAtMs": 182000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-248",
+      "sourceId": "expiry-248",
+      "sourceTimeMs": 183000,
+      "receivedAtMs": 183000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-249",
+      "sourceId": "expiry-249",
+      "sourceTimeMs": 183000,
+      "receivedAtMs": 183000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-250",
+      "sourceId": "expiry-250",
+      "sourceTimeMs": 184000,
+      "receivedAtMs": 184000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-251",
+      "sourceId": "expiry-251",
+      "sourceTimeMs": 184000,
+      "receivedAtMs": 184000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-252",
+      "sourceId": "expiry-252",
+      "sourceTimeMs": 185000,
+      "receivedAtMs": 185000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-253",
+      "sourceId": "expiry-253",
+      "sourceTimeMs": 185000,
+      "receivedAtMs": 185000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-254",
+      "sourceId": "expiry-254",
+      "sourceTimeMs": 186000,
+      "receivedAtMs": 186000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-255",
+      "sourceId": "expiry-255",
+      "sourceTimeMs": 186000,
+      "receivedAtMs": 186000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-256",
+      "sourceId": "expiry-256",
+      "sourceTimeMs": 187000,
+      "receivedAtMs": 187000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-257",
+      "sourceId": "expiry-257",
+      "sourceTimeMs": 187000,
+      "receivedAtMs": 187000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-258",
+      "sourceId": "expiry-258",
+      "sourceTimeMs": 188000,
+      "receivedAtMs": 188000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-259",
+      "sourceId": "expiry-259",
+      "sourceTimeMs": 188000,
+      "receivedAtMs": 188000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-260",
+      "sourceId": "expiry-260",
+      "sourceTimeMs": 189000,
+      "receivedAtMs": 189000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-261",
+      "sourceId": "expiry-261",
+      "sourceTimeMs": 189000,
+      "receivedAtMs": 189000,
+      "userId": "viewer-1"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-262",
+      "sourceId": "expiry-262",
+      "sourceTimeMs": 190000,
+      "receivedAtMs": 190000,
+      "userId": "viewer-0"
+    },
+    {
+      "type": "chat",
+      "transportId": "expiry-263",
+      "sourceId": "expiry-263",
+      "sourceTimeMs": 190000,
+      "receivedAtMs": 190000,
+      "userId": "viewer-1"
+    }
+  ],
+  "expected": []
+}

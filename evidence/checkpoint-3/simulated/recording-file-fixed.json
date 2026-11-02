@@ -1,0 +1,7 @@
+{
+  "provenance": "actual local OBS recording of explicitly simulated replay after frame-aware fix; no external broadcast",
+  "originalPath": "/Users/adnan/Movies/2026-11-01 02-57-24.mov",
+  "workspacePath": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/checkpoint-3/simulated-corner-fixed.mov",
+  "bytes": 8273773,
+  "sha256": "8f409f26430e589d54dc637532476468da629cd59bd57ceb14ea6bec8b82f79c"
+}

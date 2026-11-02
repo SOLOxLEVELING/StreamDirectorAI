@@ -1,0 +1,2 @@
+"id","signal","tier","source_timestamp","received_at","burst_onset","confirmed_at","detected_seconds","suggested_seconds","editor_seconds","caption","reason","caption_status"
+"surge-after-candidate-expiry:1793459057909:1","chat","corner","1970-01-01T00:03:10.000Z","1970-01-01T00:03:12.000Z","1970-01-01T00:03:10.000Z","1970-01-01T00:03:15.000Z","190","175","175","Chat activity reached 6.8 messages/s","Consecutive completed chat buckets and rolling rate met threshold","disabled"

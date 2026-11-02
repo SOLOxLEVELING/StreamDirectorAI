@@ -1,0 +1,169 @@
+{
+  "provenance": "simulated known test footage; requires real Resolve import",
+  "cases": [
+    {
+      "file": "generated-30-zero.edl",
+      "fps": 30,
+      "timelineStartTimecode": "00:00:00:00",
+      "timelineStartFrame": 0,
+      "footage": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-30.mov",
+      "markers": [
+        {
+          "frame": 0,
+          "name": "First Frame",
+          "note": "chat: Known fixture 1 [native-test-0]",
+          "duration": 1,
+          "color": "Blue",
+          "idealFrame": 0
+        },
+        {
+          "frame": 15,
+          "name": "Half Second",
+          "note": "manual: Known fixture 2 [native-test-1]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 15
+        },
+        {
+          "frame": 91,
+          "name": "Frame Boundary",
+          "note": "manual: Known fixture 3 [native-test-2]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 91
+        },
+        {
+          "frame": 300,
+          "name": "Final Marker",
+          "note": "manual: Known fixture 4 [native-test-3]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 300.49
+        }
+      ]
+    },
+    {
+      "file": "generated-30-one-hour.edl",
+      "fps": 30,
+      "timelineStartTimecode": "01:00:00:00",
+      "timelineStartFrame": 108000,
+      "footage": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-30.mov",
+      "markers": [
+        {
+          "frame": 0,
+          "name": "First Frame",
+          "note": "chat: Known fixture 1 [native-test-0]",
+          "duration": 1,
+          "color": "Blue",
+          "idealFrame": 0
+        },
+        {
+          "frame": 15,
+          "name": "Half Second",
+          "note": "manual: Known fixture 2 [native-test-1]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 15
+        },
+        {
+          "frame": 91,
+          "name": "Frame Boundary",
+          "note": "manual: Known fixture 3 [native-test-2]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 91
+        },
+        {
+          "frame": 300,
+          "name": "Final Marker",
+          "note": "manual: Known fixture 4 [native-test-3]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 300.49
+        }
+      ]
+    },
+    {
+      "file": "generated-60-zero.edl",
+      "fps": 60,
+      "timelineStartTimecode": "00:00:00:00",
+      "timelineStartFrame": 0,
+      "footage": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-60.mov",
+      "markers": [
+        {
+          "frame": 0,
+          "name": "First Frame",
+          "note": "chat: Known fixture 1 [native-test-0]",
+          "duration": 1,
+          "color": "Blue",
+          "idealFrame": 0
+        },
+        {
+          "frame": 30,
+          "name": "Half Second",
+          "note": "manual: Known fixture 2 [native-test-1]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 30
+        },
+        {
+          "frame": 181,
+          "name": "Frame Boundary",
+          "note": "manual: Known fixture 3 [native-test-2]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 181
+        },
+        {
+          "frame": 600,
+          "name": "Final Marker",
+          "note": "manual: Known fixture 4 [native-test-3]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 600.49
+        }
+      ]
+    },
+    {
+      "file": "generated-60-one-hour.edl",
+      "fps": 60,
+      "timelineStartTimecode": "01:00:00:00",
+      "timelineStartFrame": 216000,
+      "footage": "/Users/adnan/Developer/Hack/Projects/StreamDirectorAI /output/test-60.mov",
+      "markers": [
+        {
+          "frame": 0,
+          "name": "First Frame",
+          "note": "chat: Known fixture 1 [native-test-0]",
+          "duration": 1,
+          "color": "Blue",
+          "idealFrame": 0
+        },
+        {
+          "frame": 30,
+          "name": "Half Second",
+          "note": "manual: Known fixture 2 [native-test-1]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 30
+        },
+        {
+          "frame": 181,
+          "name": "Frame Boundary",
+          "note": "manual: Known fixture 3 [native-test-2]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 181
+        },
+        {
+          "frame": 600,
+          "name": "Final Marker",
+          "note": "manual: Known fixture 4 [native-test-3]",
+          "duration": 1,
+          "color": "Green",
+          "idealFrame": 600.49
+        }
+      ]
+    }
+  ]
+}

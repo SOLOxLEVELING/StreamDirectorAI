@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "editorCompatibility": "unverified",
+  "session": {
+    "id": "large-single-second-impulse:1793459057551",
+    "mode": "simulated",
+    "streamId": "replay:large-single-second-impulse",
+    "streamStartedAtMs": 0,
+    "startedAtMs": 0,
+    "settings": {
+      "bucketSeconds": 1,
+      "baselineSeconds": 60,
+      "activitySeconds": 5,
+      "warmupSeconds": 60,
+      "multiplier": 3,
+      "minimumRate": 1,
+      "sustainSeconds": 3,
+      "minimumChatters": 3,
+      "cooldownSeconds": 30,
+      "rearmSeconds": 10,
+      "rearmRatio": 0.6,
+      "allowedLatenessSeconds": 2,
+      "cheerThreshold": 100,
+      "cheerWindowSeconds": 10,
+      "correlationSeconds": 10,
+      "leadInSeconds": 15,
+      "alignmentSeconds": 0,
+      "broadcasterId": "broadcaster",
+      "excludedUserIds": [],
+      "rewardId": null,
+      "maxUsersPerBucket": 10000,
+      "dedupLimit": 100000
+    }
+  },
+  "coverageGaps": [],
+  "bookmarks": []
+}
